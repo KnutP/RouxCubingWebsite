@@ -29,7 +29,7 @@ function TabPanel(props: TabPanelProps) {
 }
 
 
-export default function Tutorial() {
+export default function Rouxtorials() {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -45,6 +45,7 @@ export default function Tutorial() {
                 </Box>
             </Paper>
 
+            <Paper elevation={1}>
             <Tabs value={value} onChange={handleChange} centered variant="fullWidth">
                 <Tab label={(<Typography variant="h6">Roux for Beginners</Typography>)} />
                 <Tab label={(<Typography variant="h6">Roux for CFOP Solvers</Typography>)} />
@@ -77,6 +78,7 @@ export default function Tutorial() {
                 https://www.youtube.com/watch?v=ESYJ-DFx0Qo&list=PL754ADDA2E38A21AA
 
             </TabPanel>
+            </Paper>
         </Box>
     );
 }

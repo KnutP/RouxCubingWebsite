@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Rouxsources from './pages/Rouxsources';
 import Layout from './components/Layout';
-import Tutorial from './pages/Tutorial';
+import Rouxtorials from './pages/Rouxtorials';
 import Roadmap from './pages/Roadmap';
 import NoPage from './pages/NoPage';
 import Navbar from './components/Navbar';
@@ -18,7 +18,7 @@ export default function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="rouxsources" element={<Rouxsources />} />
-        <Route path="tutorial" element={<Tutorial />} />
+        <Route path="rouxtorials" element={<Rouxtorials />} />
         <Route path="roadmap" element={<Roadmap />} />
         <Route path="*" element={<NoPage />} />
       </Route>

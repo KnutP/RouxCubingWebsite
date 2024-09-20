@@ -3,16 +3,6 @@ import { styled } from '@mui/material/styles';
 import { Box, Typography, Paper } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-    ...theme.applyStyles('dark', {
-        backgroundColor: '#1A2027',
-    }),
-}));
 
 export default function Home() {
 
@@ -30,7 +20,7 @@ export default function Home() {
                     <Grid container spacing={2}>
                         <Grid size={8}>
                             <Box sx={{ width: '100%' }}>
-                                <Typography variant="h3" gutterBottom>
+                                <Typography variant="h4" gutterBottom>
                                     What is Roux?
                                 </Typography>
                                 <Typography gutterBottom>
@@ -43,35 +33,66 @@ export default function Home() {
                                     + Rotationless
                                 </Typography>
                                 <Typography gutterBottom>
-                                    Roux is a method for solving the Rubik's Cube and is named after its creator, Gilles Roux.
+                                    + Last step is completely rotationless
+                                </Typography>
+                                <Typography gutterBottom>
+                                    - Less algorithmic and requires more planning, so TPS tends to be lower
+                                </Typography>
+                                <Typography gutterBottom>
+                                    Really good for OH!
+                                </Typography>
+                                <Typography gutterBottom>
+                                    card with discord and FB invites
                                 </Typography>
                             </Box>
                         </Grid>
                         <Grid size={4}>
-                            <Item>size=4</Item>
-                        </Grid>
-                        <Grid size={4}>
-                            <Item>size=4</Item>
-                        </Grid>
-                        <Grid size={8}>
-                            <Item>size=8</Item>
+                            Roux news and photos
                         </Grid>
                     </Grid>
                 </Box>
             </Paper>
-            What is ROUX?
-            + Blockbuilding method, invented by Gilles Roux
-            + Lower movecount than many other methods, such as CFOP
-            + Rotationless
-            + Last step is completely 2-gen
-            - Less algorithmic and requires more planning, so TPS tends to be lower
-            + AMAZING for OH!
-            Rouxer rankings - include google form for WCA ID + OH only or both, auto email me on submission
-            Discord and FB invites
-            Weekly Competition embed
-            Roux News
-            Rouxer photos
 
+            <Paper elevation={1}>
+                <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
+                    <Grid container spacing={2}>
+                        <Grid size={8}>
+                            <Box sx={{ width: '100%' }}>
+                                <Typography variant="h4" gutterBottom>
+                                    Roux Weekly Competition
+                                </Typography>
+                                <Typography gutterBottom>
+                                    Results image
+                                </Typography>
+                            </Box>
+                        </Grid>
+                        <Grid size={4}>
+                            card with info on how to participate
+                        </Grid>
+                    </Grid>
+                </Box>
+            </Paper>
+
+            <Paper elevation={1}>
+                <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
+                    <Grid container spacing={2}>
+                        <Grid size={8}>
+                            <Box sx={{ width: '100%' }}>
+                                <Typography variant="h4" gutterBottom>
+                                    Rouxer Rankings
+                                </Typography>
+                                <Typography gutterBottom>
+                                    table of rouxer rankings, sortable
+                                </Typography>
+                            </Box>
+                        </Grid>
+                        <Grid size={4}>
+                            card with info on how to get added to list, 
+                            form with WCA id and OH only or both, auto email me on submission
+                        </Grid>
+                    </Grid>
+                </Box>
+            </Paper>
 
         </Box>
     );

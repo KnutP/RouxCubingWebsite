@@ -43,9 +43,9 @@ export default function RouxsourcesTabs() {
       <Paper elevation={1}>
         <Box sx={{ width: '100%', mx: '15px', my: '20px' }}>
           <Typography variant="h3">Rouxsources</Typography>
-          TODO: add big cubes, other websites, youtube channels
         </Box>
       </Paper>
+      TODO: add big cubes, other websites, youtube channels
       <Paper elevation={1}>
         <Tabs value={value} onChange={handleChange} centered variant="fullWidth">
           <Tab label={(<Typography variant="h6">F2B</Typography>)} />

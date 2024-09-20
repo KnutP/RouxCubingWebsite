@@ -16,6 +16,7 @@ export default function Layout() {
 
   function Copyright() {
     return (
+      <Box sx={{my: '10px' }}>
       <Typography variant="body2" color="text.secondary" align="center">
         {'Copyright © '}
         <Link color="inherit" to="https://RouxCubing.com/">
@@ -24,6 +25,7 @@ export default function Layout() {
         {new Date().getFullYear()}.
         TODO: add contact info
       </Typography>
+      </Box>
     );
   }
   

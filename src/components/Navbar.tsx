@@ -24,8 +24,8 @@ export default function Navbar() {
             <Button key={'home'} sx={{ color: '#fff' }}>
               <Link href="/">Home</Link>
             </Button>
-            <Button key={'tutorial'} sx={{ color: '#fff' }}>
-              <Link href="/tutorial">Rouxtorials</Link>
+            <Button key={'rouxtorials'} sx={{ color: '#fff' }}>
+              <Link href="/rouxtorials">Rouxtorials</Link>
             </Button>
             <Button key={'rouxsources'} sx={{ color: '#fff' }}>
               <Link href="/rouxsources">Rouxsources</Link>
