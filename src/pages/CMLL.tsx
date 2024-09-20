@@ -34,7 +34,7 @@ function a11yProps(index: number) {
     };
 }
 
-export default function LSETabs() {
+export default function CMLLTabs() {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -50,33 +50,33 @@ export default function LSETabs() {
                 value={value}
                 onChange={handleChange}
                 aria-label="Vertical tabs example"
-                sx={{ borderRight: 1, borderColor: 'divider' }}
+                sx={{ borderRight: 1, borderColor: 'divider'}}
             >
-                <Tab label="EOLR" {...a11yProps(0)} />
-                <Tab label="Misoriented Centers" {...a11yProps(1)} />
-                <Tab label="Dots Skipping/UFUB" {...a11yProps(2)} />
-                <Tab label="4c Recognition" {...a11yProps(3)} />
-                <Tab label="BU Recognition" {...a11yProps(4)} />
-                <Tab label="EOLRb" {...a11yProps(5)} />
-                <Tab label="CPFB" {...a11yProps(6)} />
+                <Tab label="2-Look CMLL Algs" {...a11yProps(0)} />
+                <Tab label="2H CMLL Algs" {...a11yProps(1)} />
+                <Tab label="OH CMLL Algs" {...a11yProps(2)} />
+                <Tab label="CMLL Recognition" {...a11yProps(3)} />
+                <Tab label="Pinkie Pie" {...a11yProps(4)} />
+                <Tab label="NMCMLL/ACMLL/TCMLL" {...a11yProps(5)} />
+                <Tab label="CMLL Trainers" {...a11yProps(6)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                Item One
+                2-look cmll
             </TabPanel>
             <TabPanel value={value} index={1}>
-                Item Two
+                2h cmll
             </TabPanel>
             <TabPanel value={value} index={2}>
-                Item Three
+                oh cmll
             </TabPanel>
             <TabPanel value={value} index={3}>
-                Item Four
+                cmll recog - multi angle, ATCRM, etc
             </TabPanel>
             <TabPanel value={value} index={4}>
-                Item Five
+                Pinkie Pie
             </TabPanel>
             <TabPanel value={value} index={5}>
-                Item Six
+                NMCMLL/ACMLL/TCMLL
             </TabPanel>
             <TabPanel value={value} index={6}>
                 Item Seven

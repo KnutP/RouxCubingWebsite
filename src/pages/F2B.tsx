@@ -1,8 +1,5 @@
 import * as React from 'react';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import { Box, Tabs, Tab, Typography } from '@mui/material';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -46,7 +43,7 @@ export default function F2BTabs() {
 
   return (
     <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex' }}
+      sx={{ flexGrow: 1, display: 'flex', px: 0 }}
     >
       <Tabs
         orientation="vertical"
@@ -61,13 +58,17 @@ export default function F2BTabs() {
         <Tab label="Nonmatching Centers" {...a11yProps(3)} />
         <Tab label="Nonlinear Blocks" {...a11yProps(4)} />
         <Tab label="Nonmatching Blocks" {...a11yProps(5)} />
-        <Tab label="CPFB" {...a11yProps(6)} />
+        <Tab label="Block Trainers" {...a11yProps(6)} />
+        <Tab label="CPFB" {...a11yProps(7)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        Item One
+        Inspection
+        - finding efficient FB in inspection <video src=""></video>
+        - Zhouheng's FB+DR guide
+        - general inspection tips
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        FB tips and tricks
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three
@@ -83,6 +84,9 @@ export default function F2BTabs() {
       </TabPanel>
       <TabPanel value={value} index={6}>
         Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={7}>
+        Item Eight
       </TabPanel>
     </Box>
   );
