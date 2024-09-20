@@ -37,7 +37,7 @@ function a11yProps(index: number) {
   };
 }
 
-export default function F2BTabs() {
+export default function LSETabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -55,11 +55,13 @@ export default function F2BTabs() {
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: 'divider' }}
       >
-        <Tab label="First Block Tips and Tricks" {...a11yProps(0)} />
-        <Tab label="Second Block Tips and Tricks" {...a11yProps(1)} />
-        <Tab label="Nonmatching Centers" {...a11yProps(2)} />
-        <Tab label="Nonlinear Blocks" {...a11yProps(3)} />
-        <Tab label="Nonmatching Blocks" {...a11yProps(4)} />
+        <Tab label="EOLR" {...a11yProps(0)} />
+        <Tab label="Misoriented Centers" {...a11yProps(1)} />
+        <Tab label="Dots Skipping/UFUB" {...a11yProps(2)} />
+        <Tab label="4c Recognition" {...a11yProps(3)} />
+        <Tab label="BU Recognition" {...a11yProps(4)} />
+        <Tab label="EOLRb" {...a11yProps(5)} />
+        <Tab label="CPFB" {...a11yProps(6)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         Item One
@@ -75,6 +77,12 @@ export default function F2BTabs() {
       </TabPanel>
       <TabPanel value={value} index={4}>
         Item Five
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+        Item Six
+      </TabPanel>
+      <TabPanel value={value} index={6}>
+        Item Seven
       </TabPanel>
     </Box>
   );

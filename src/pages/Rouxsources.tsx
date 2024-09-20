@@ -4,6 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import F2BTabs from './F2B';
+import LSETabs from './LSE';
 
 
 interface TabPanelProps {
@@ -32,7 +33,7 @@ interface TabPanelProps {
     );
   }
 
-export default function AdvancedTechniqueTabs() {
+export default function RouxsourcesTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -41,7 +42,7 @@ export default function AdvancedTechniqueTabs() {
 
   return (
     <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-      <Typography variant="h6">Advanced Techniques</Typography>
+      <Typography variant="h6">Rouxsources</Typography>
       <Tabs value={value} onChange={handleChange} centered variant="fullWidth">
         <Tab label={(<Typography variant="h6">F2B</Typography>)} />
         <Tab label={(<Typography variant="h6">CMLL</Typography>)} />
@@ -51,7 +52,7 @@ export default function AdvancedTechniqueTabs() {
         <F2BTabs/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <LSETabs/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three

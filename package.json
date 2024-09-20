@@ -10,8 +10,8 @@
     "@types/react-dom": "latest",
     "react": "^18.2.0",
     "react-dom": "latest",
-    "react-scripts": "latest",
-    "react-swipeable-views": "^0.14.0",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
     "typescript": "latest"
   },
   "scripts": {
