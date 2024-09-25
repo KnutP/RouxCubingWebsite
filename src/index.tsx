@@ -33,7 +33,7 @@ root.render(
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Navbar />
-      <Box sx={{ mx: '25px', mt: '15px' }}>
+      <Box sx={{ mx: 1.5, mt: 1.5 }}>
         <App />
       </Box>
     </ThemeProvider>

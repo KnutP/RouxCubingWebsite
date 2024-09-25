@@ -8,6 +8,7 @@ interface TabPanelProps {
     value: number;
 }
 
+
 function a11yProps(index: number) {
     return {
         id: `vertical-tab-${index}`,
@@ -15,7 +16,7 @@ function a11yProps(index: number) {
     };
 }
 
-export default function CMLLTabs() {
+export default function BigCubesTabs() {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -33,34 +34,26 @@ export default function CMLLTabs() {
                 aria-label="Vertical tabs example"
                 sx={{ borderRight: 1, borderColor: 'divider'}}
             >
-                <Tab label="2-Look CMLL Algs" {...a11yProps(0)} />
-                <Tab label="2H CMLL Algs" {...a11yProps(1)} />
-                <Tab label="OH CMLL Algs" {...a11yProps(2)} />
-                <Tab label="CMLL Recognition" {...a11yProps(3)} />
-                <Tab label="Pinkie Pie" {...a11yProps(4)} />
-                <Tab label="NMCMLL/ACMLL/TCMLL" {...a11yProps(5)} />
-                <Tab label="CMLL Trainers" {...a11yProps(6)} />
+                <Tab label="Meyer Overview" {...a11yProps(0)} />
+                <Tab label="M-slice Edge Pairing" {...a11yProps(1)} />
+                <Tab label="Parity Algs" {...a11yProps(2)} />
+                <Tab label="..." {...a11yProps(3)} />
+                <Tab label="..." {...a11yProps(4)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                2-look cmll
+                Meyer overview
             </TabPanel>
             <TabPanel value={value} index={1}>
-                2h cmll
+                M-slice edge pairing
             </TabPanel>
             <TabPanel value={value} index={2}>
-                oh cmll
+                Parity algs
             </TabPanel>
             <TabPanel value={value} index={3}>
-                cmll recog - multi angle, ATCRM, etc
+                Item Four
             </TabPanel>
             <TabPanel value={value} index={4}>
-                Pinkie Pie
-            </TabPanel>
-            <TabPanel value={value} index={5}>
-                NMCMLL/ACMLL/TCMLL
-            </TabPanel>
-            <TabPanel value={value} index={6}>
-                Item Seven
+                Item Five
             </TabPanel>
         </Box>
     );

@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <Box sx={{ width: '100%' }}>
             <Paper elevation={1}>
-                <Box sx={{ width: '100%', mx: '15px', my: '20px' }}>
+                <Box sx={{ width: '100%', mx: 1.5, my: 2 }}>
                     <Typography variant="h3">Home</Typography>
                 </Box>
             </Paper>
@@ -18,36 +18,38 @@ export default function Home() {
             <Paper elevation={1}>
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
-                        <Grid size={8}>
+                        <Grid size={{ xs: 12, md: 8 }}>
                             <Box sx={{ width: '100%' }}>
                                 <Typography variant="h4" gutterBottom>
                                     What is Roux?
                                 </Typography>
                                 <Typography gutterBottom>
-                                    Roux is a method for solving the Rubik's Cube and is named after its creator, Gilles Roux.
+                                    Roux is a Rubik's Cube speed-solving method that is known for its use of block building and slice moves.
+                                    It is named after its creator, Gilles Roux. Some quick info about the method:
+                                </Typography>
+                                <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
+                                    + Roux has a lower movecount than many other methods, such as CFOP
+                                </Typography>
+                                <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
+                                    + Roux doesn't use any cube rotations
+                                </Typography>
+                                <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
+                                    + The last step of Roux is completely 2-gen (only uses M and U moves)
+                                </Typography>
+                                <Typography gutterBottom sx={{ml: '15px'}}>
+                                    - Roux is requires more planning than algorithm-heavy methods, so TPS tends to be lower
                                 </Typography>
                                 <Typography gutterBottom>
-                                    + Lower movecount than many other methods, such as CFOP
-                                </Typography>
-                                <Typography gutterBottom>
-                                    + Rotationless
-                                </Typography>
-                                <Typography gutterBottom>
-                                    + Last step is completely rotationless
-                                </Typography>
-                                <Typography gutterBottom>
-                                    - Less algorithmic and requires more planning, so TPS tends to be lower
-                                </Typography>
-                                <Typography gutterBottom>
-                                    Really good for OH!
+                                    Those features make Roux extremely good for One-Handed solving.
                                 </Typography>
                                 <Typography gutterBottom>
                                     card with discord and FB invites
                                 </Typography>
                             </Box>
                         </Grid>
-                        <Grid size={4}>
+                        <Grid size={{ xs: 12, md: 4 }}>
                             Roux news and photos
+                            <img src={require("../img/roux_worlds_2023.jpg")} style={{ width: '100%'}} />
                         </Grid>
                     </Grid>
                 </Box>
@@ -56,17 +58,15 @@ export default function Home() {
             <Paper elevation={1}>
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
-                        <Grid size={8}>
+                        <Grid size={{ xs: 12, md: 8 }}>
                             <Box sx={{ width: '100%' }}>
                                 <Typography variant="h4" gutterBottom>
                                     Roux Weekly Competition
                                 </Typography>
-                                <Typography gutterBottom>
-                                    Results image
-                                </Typography>
+                                <img src={require("../img/Week 496 Results.png")} style={{ width: '100%'}} />
                             </Box>
                         </Grid>
-                        <Grid size={4}>
+                        <Grid size={{ xs: 12, md: 4 }}>
                             card with info on how to participate
                         </Grid>
                     </Grid>
@@ -76,7 +76,7 @@ export default function Home() {
             <Paper elevation={1}>
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
-                        <Grid size={8}>
+                        <Grid size={{ xs: 12, md: 8 }}>
                             <Box sx={{ width: '100%' }}>
                                 <Typography variant="h4" gutterBottom>
                                     Rouxer Rankings
@@ -86,7 +86,7 @@ export default function Home() {
                                 </Typography>
                             </Box>
                         </Grid>
-                        <Grid size={4}>
+                        <Grid size={{ xs: 12, md: 4 }}>
                             card with info on how to get added to list, 
                             form with WCA id and OH only or both, auto email me on submission
                         </Grid>

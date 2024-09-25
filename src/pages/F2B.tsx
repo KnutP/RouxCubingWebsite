@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Box, Tabs, Tab, Typography } from '@mui/material';
+import { TabPanel } from './Rouxsources';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -7,25 +8,6 @@ interface TabPanelProps {
   value: number;
 }
 
-function TabPanel(props: TabPanelProps) {
-  const { children, value, index, ...other } = props;
-
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`vertical-tabpanel-${index}`}
-      aria-labelledby={`vertical-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
 
 function a11yProps(index: number) {
   return {
@@ -58,8 +40,8 @@ export default function F2BTabs() {
         <Tab label="Nonmatching Centers" {...a11yProps(3)} />
         <Tab label="Nonlinear Blocks" {...a11yProps(4)} />
         <Tab label="Nonmatching Blocks" {...a11yProps(5)} />
-        <Tab label="Block Trainers" {...a11yProps(6)} />
-        <Tab label="CPFB" {...a11yProps(7)} />
+        <Tab label="CPFB" {...a11yProps(6)} />
+        <Tab label="Block Trainers" {...a11yProps(7)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         Inspection
@@ -71,22 +53,22 @@ export default function F2BTabs() {
         FB tips and tricks
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        SB tips and tricks
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        NMC
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+        Nonlinear blocks
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Item Six
+        Nonmatching blocks
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Item Seven
+        CPFB
       </TabPanel>
       <TabPanel value={value} index={7}>
-        Item Eight
+        Block Trainers
       </TabPanel>
     </Box>
   );
