@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/RouxCubingWebsite/static/js/main.70cda416.js",
+    "main.js": "/RouxCubingWebsite/static/js/main.5ee264a9.js",
     "static/media/roux_worlds_2023.jpg": "/RouxCubingWebsite/static/media/roux_worlds_2023.9e9f52243f3934176a64.jpg",
     "static/media/Week 496 Results.png": "/RouxCubingWebsite/static/media/Week 496 Results.cc65a75cbb37f8adf21b.png",
     "index.html": "/RouxCubingWebsite/index.html",
-    "main.70cda416.js.map": "/RouxCubingWebsite/static/js/main.70cda416.js.map"
+    "main.5ee264a9.js.map": "/RouxCubingWebsite/static/js/main.5ee264a9.js.map"
   },
   "entrypoints": [
-    "static/js/main.70cda416.js"
+    "static/js/main.5ee264a9.js"
   ]
 }
