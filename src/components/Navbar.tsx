@@ -27,17 +27,17 @@ export default function NavBar() {
         </ListItem>
         <ListItem key={'rouxtorials'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/rouxtorials">Rouxtorials</Link>
+            <Link href="/#/rouxtorials">Rouxtorials</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'rouxsources'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/rouxsources">Rouxsources</Link>
+            <Link href="/#/rouxsources">Rouxsources</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'roadmap'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/roadmap">Roadmap to Sub-X</Link>
+            <Link href="/#/roadmap">Roadmap to Sub-X</Link>
           </ListItemButton>
         </ListItem>
       </List>
@@ -71,13 +71,13 @@ export default function NavBar() {
                <Link href="/">Home</Link>
              </Button>
              <Button key={'rouxtorials'} sx={{ color: '#fff' }} size="large">
-               <Link href="/rouxtorials">Rouxtorials</Link>
+               <Link href="/#/rouxtorials">Rouxtorials</Link>
              </Button>
              <Button key={'rouxsources'} sx={{ color: '#fff' }} size="large">
-               <Link href="/rouxsources">Rouxsources</Link>
+               <Link href="/#/rouxsources">Rouxsources</Link>
              </Button>
              <Button key={'roadmap'} sx={{ color: '#fff' }} size="large">
-               <Link href="/roadmap">Roadmap to Sub-X</Link>
+               <Link href="/#/roadmap">Roadmap to Sub-X</Link>
              </Button>
            </Box>
 
