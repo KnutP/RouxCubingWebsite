@@ -14,8 +14,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-
-    <HashRouter>
+    
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Navbar />
@@ -31,7 +30,6 @@ const App = () => {
       </Routes>
       </Box>
     </ThemeProvider>
-  </HashRouter>
     
   );
 }
@@ -40,6 +38,8 @@ export default App;
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
-  <App />
+  <HashRouter>
+    <App />
+  </HashRouter>
 );
 

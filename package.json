@@ -1,7 +1,7 @@
 {
   "name": "rouxcubing",
-  "version": "5.0.0",
-  "homepage": "https://KnutP.github.io/RouxCubingWebsite",
+  "version": "0.1.0",
+  "homepage": "https://KnutP.github.io/RouxCubingWebsite/",
   "private": true,
   "dependencies": {
     "@emotion/react": "latest",

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Link, Icon, List, ListItem, ListItemButton, Box, Button, Toolbar, AppBar} from "@mui/material";
+import { Icon, List, ListItem, ListItemButton, Box, Button, Toolbar, AppBar} from "@mui/material";
+import { Link } from "react-router-dom";
 import { Typography, CssBaseline, Divider, Drawer, IconButton, ListItemText } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -16,28 +17,28 @@ export default function NavBar() {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" component="div"
              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
-             <Link href="/">RouxCubing.com</Link>
+             <Link className="nav-link" to="/">RouxCubing.com</Link>
           </Typography>
       <Divider />
       <List>
         <ListItem key={'home'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/">Home</Link>
+            <Link className="nav-link" to="/">Home</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'rouxtorials'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/#/rouxtorials">Rouxtorials</Link>
+            <Link className="nav-link" to="/rouxtorials">Rouxtorials</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'rouxsources'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/#/rouxsources">Rouxsources</Link>
+            <Link className="nav-link" to="/rouxsources">Rouxsources</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'roadmap'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link href="/#/roadmap">Roadmap to Sub-X</Link>
+            <Link className="nav-link" to="/roadmap">Roadmap to Sub-X</Link>
           </ListItemButton>
         </ListItem>
       </List>
@@ -54,7 +55,7 @@ export default function NavBar() {
           </Icon>
           <Typography variant="h6" component="div"
              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
-             <Link href="/">RouxCubing.com</Link>
+             <Link className="nav-link" to="/">RouxCubing.com</Link>
           </Typography>
           <IconButton
             color="inherit"
@@ -68,16 +69,16 @@ export default function NavBar() {
 
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} >
              <Button key={'home'} sx={{ color: '#fff' }} size="large">
-               <Link href="/">Home</Link>
+               <Link className="nav-link" to="/">Home</Link>
              </Button>
              <Button key={'rouxtorials'} sx={{ color: '#fff' }} size="large">
-               <Link href="/#/rouxtorials">Rouxtorials</Link>
+               <Link className="nav-link" to="/rouxtorials">Rouxtorials</Link>
              </Button>
              <Button key={'rouxsources'} sx={{ color: '#fff' }} size="large">
-               <Link href="/#/rouxsources">Rouxsources</Link>
+               <Link className="nav-link" to="/rouxsources">Rouxsources</Link>
              </Button>
              <Button key={'roadmap'} sx={{ color: '#fff' }} size="large">
-               <Link href="/#/roadmap">Roadmap to Sub-X</Link>
+               <Link className="nav-link" to="/roadmap">Roadmap to Sub-X</Link>
              </Button>
            </Box>
 

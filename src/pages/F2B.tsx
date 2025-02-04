@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography } from '@mui/material';
+import { Box, Tabs, Tab, Typography, Link } from '@mui/material';
 import { TabPanel } from './Rouxsources';
 
 interface TabPanelProps {
@@ -68,7 +68,27 @@ export default function F2BTabs() {
         CPFB
       </TabPanel>
       <TabPanel value={value} index={7}>
-        Block Trainers
+      <Box sx={{ padding: 2 }}>
+        <Typography variant="h6">Block Trainers</Typography>
+        <ul>
+        <li>
+        <Typography variant="body1">
+            Onionhoney's Trainer:{" "}
+            <Link href="https://onionhoney.github.io/roux-trainers/#fb" target="_blank" rel="noopener">
+            onionhoney.github.io/roux-trainers/#fb
+            </Link>
+        </Typography>
+        </li>
+        <li>
+        <Typography variant="body1">
+            Cubegrass:{" "}
+            <Link href="https://cubegrass.appspot.com/block_trainer/" target="_blank" rel="noopener">
+            cubegrass.appspot.com/block_trainer/
+            </Link>
+        </Typography>
+        </li>
+        </ul>
+        </Box>
       </TabPanel>
     </Box>
   );
