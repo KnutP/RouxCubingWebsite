@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography, Paper } from '@mui/material';
+import { Box, Tabs, Tab, Typography, Paper, useMediaQuery, useTheme } from '@mui/material';
 import F2BTabs from './F2B';
 import LSETabs from './LSE';
 import CMLLTabs from './CMLL';
@@ -35,6 +35,8 @@ export function TabPanel(props: TabPanelProps) {
 
 export default function RouxsourcesTabs() {
   const [value, setValue] = React.useState(0);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -48,7 +50,7 @@ export default function RouxsourcesTabs() {
         </Box>
       </Paper>
       <Paper elevation={1}>
-        <Tabs value={value} onChange={handleChange} centered variant="fullWidth">
+        <Tabs value={value} onChange={handleChange} centered variant={isMobile ? "scrollable" : "fullWidth"}>
           <Tab label={(<Typography variant="h6">F2B</Typography>)} />
           <Tab label={(<Typography variant="h6">CMLL</Typography>)} />
           <Tab label={(<Typography variant="h6">LSE</Typography>)} />

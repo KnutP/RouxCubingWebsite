@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography, Link } from '@mui/material';
+import { Box, Tabs, Tab, Typography, Link, useMediaQuery, useTheme  } from '@mui/material';
 import { TabPanel } from './Rouxsources';
 
 interface TabPanelProps {
@@ -18,6 +18,8 @@ function a11yProps(index: number) {
 
 export default function F2BTabs() {
   const [value, setValue] = React.useState(0);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -25,14 +27,27 @@ export default function F2BTabs() {
 
   return (
     <Box
-      sx={{ flexGrow: 1, display: 'flex', px: 0 }}
-    >
+      sx={{
+          display: "flex",
+          flexDirection: isMobile ? "column" : "row", // Vertical on large screens, horizontal on small screens
+          overflowX: isMobile ? "auto" : "unset", // Enable horizontal scrolling on small screens
+          maxWidth: "100%", // Prevent overflow on small screens
+      }}
+      >
       <Tabs
-        orientation="vertical"
-        value={value}
-        onChange={handleChange}
-        aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: 'divider' }}
+          orientation={isMobile ? "horizontal" : "vertical"}
+          value={value}
+          onChange={handleChange}
+          aria-label="Vertical tabs example"
+          variant={isMobile ? "scrollable" : "standard"} // Scrollable when horizontal
+          scrollButtons={isMobile ? "auto" : false} // Show scroll buttons if needed
+          sx={{
+              borderRight: isMobile ? "none" : 1,
+              borderBottom: isMobile ? 1 : "none",
+              borderColor: "divider",
+              width: "100%", // Set a fixed width for vertical mode
+              whiteSpace: "nowrap", // Prevent tab text from wrapping
+            }}
       >
         <Tab label="Inspection" {...a11yProps(0)} />
         <Tab label="FB Tips and Tricks" {...a11yProps(1)} />
@@ -44,31 +59,45 @@ export default function F2BTabs() {
         <Tab label="Block Trainers" {...a11yProps(7)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        Inspection
-        - finding efficient FB in inspection <video src=""></video>
-        - Zhouheng's FB+DR guide
-        - general inspection tips
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+          Inspection
+          - finding efficient FB in inspection <video src=""></video>
+          - Zhouheng's FB+DR guide
+          - general inspection tips
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        FB tips and tricks
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+          FB tips and tricks
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        SB tips and tricks
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+          SB tips and tricks
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        NMC
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+          NMC
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={4}>
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
         Nonlinear blocks
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Nonmatching blocks
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+          Nonmatching blocks
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={6}>
-        CPFB
+        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+          CPFB
+        </Box>
       </TabPanel>
       <TabPanel value={value} index={7}>
-      <Box sx={{ padding: 2 }}>
+      <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
         <Typography variant="h6">Block Trainers</Typography>
         <ul>
         <li>

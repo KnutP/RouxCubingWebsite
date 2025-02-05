@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography } from '@mui/material';
+import { Box, Tabs, Tab, Typography, useMediaQuery, useTheme  } from '@mui/material';
 import { TabPanel } from './Rouxsources';
 
 interface TabPanelProps {
@@ -18,6 +18,8 @@ function a11yProps(index: number) {
 
 export default function LSETabs() {
     const [value, setValue] = React.useState(0);
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
@@ -25,14 +27,27 @@ export default function LSETabs() {
 
     return (
         <Box
-            sx={{ flexGrow: 1, display: 'flex' }}
-        >
+            sx={{
+                display: "flex",
+                flexDirection: isMobile ? "column" : "row", // Vertical on large screens, horizontal on small screens
+                overflowX: isMobile ? "auto" : "unset", // Enable horizontal scrolling on small screens
+                maxWidth: "100%", // Prevent overflow on small screens
+            }}
+            >
             <Tabs
-                orientation="vertical"
+                orientation={isMobile ? "horizontal" : "vertical"}
                 value={value}
                 onChange={handleChange}
                 aria-label="Vertical tabs example"
-                sx={{ borderRight: 1, borderColor: 'divider' }}
+                variant={isMobile ? "scrollable" : "standard"} // Scrollable when horizontal
+                scrollButtons={isMobile ? "auto" : false} // Show scroll buttons if needed
+                sx={{
+                    borderRight: isMobile ? "none" : 1,
+                    borderBottom: isMobile ? 1 : "none",
+                    borderColor: "divider",
+                    width: "100%", // Set a fixed width for vertical mode
+                    whiteSpace: "nowrap", // Prevent tab text from wrapping
+                    }}
             >
                 <Tab label="EOLR" {...a11yProps(0)} />
                 <Tab label="Misoriented Centers" {...a11yProps(1)} />
@@ -43,25 +58,40 @@ export default function LSETabs() {
                 <Tab label="..." {...a11yProps(6)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                EOLR
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    EOLR
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={1}>
-                Misoriented centers
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    Misoriented centers
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={2}>
-                Dots skipping/UFUB
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    Dots skipping/UFUB
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={3}>
-                DFDB
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    DFDB
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={4}>
                 BU
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    BU
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={5}>
-                EOLRb
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    EOLRb
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={6}>
-                Item Seven
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    Item 7
+                </Box>
             </TabPanel>
         </Box>
     );

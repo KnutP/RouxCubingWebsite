@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography, Link } from '@mui/material';
+import { Box, Tabs, Tab, Typography, Link, useMediaQuery, useTheme } from '@mui/material';
 import { TabPanel } from './Rouxsources';
 import ResponsiveIframe from '../components/ResponsiveIframe';
 
@@ -18,6 +18,8 @@ function a11yProps(index: number) {
 
 export default function CMLLTabs() {
     const [value, setValue] = React.useState(0);
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
@@ -25,14 +27,27 @@ export default function CMLLTabs() {
 
     return (
         <Box
-            sx={{ flexGrow: 1, display: 'flex' }}
-        >
+            sx={{
+                display: "flex",
+                flexDirection: isMobile ? "column" : "row", // Vertical on large screens, horizontal on small screens
+                overflowX: isMobile ? "auto" : "unset", // Enable horizontal scrolling on small screens
+                maxWidth: "100%", // Prevent overflow on small screens
+            }}
+            >
             <Tabs
-                orientation="vertical"
+                orientation={isMobile ? "horizontal" : "vertical"}
                 value={value}
                 onChange={handleChange}
                 aria-label="Vertical tabs example"
-                sx={{ borderRight: 1, borderColor: 'divider'}}
+                variant={isMobile ? "scrollable" : "standard"} // Scrollable when horizontal
+                scrollButtons={isMobile ? "auto" : false} // Show scroll buttons if needed
+                sx={{
+                    borderRight: isMobile ? "none" : 1,
+                    borderBottom: isMobile ? 1 : "none",
+                    borderColor: "divider",
+                    width: "100%", // Set a fixed width for vertical mode
+                    whiteSpace: "nowrap", // Prevent tab text from wrapping
+                  }}
             >
                 <Tab label="2-Look CMLL Algs" {...a11yProps(0)} />
                 <Tab label="2H CMLL Algs" {...a11yProps(1)} />
@@ -43,36 +58,40 @@ export default function CMLLTabs() {
                 <Tab label="CMLL Trainers" {...a11yProps(6)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                <Box sx={{ width: 'calc(100vw - 200px)' }}>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1EdCeGlotJ76MyVw02_N1El_SXXSIMJRhYvZn4gZkQk8/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box> 
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <Box sx={{ width: 'calc(100vw - 200px)' }}>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box> 
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <Box sx={{ width: 'calc(100vw - 200px)' }}>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box>
             </TabPanel>
             <TabPanel value={value} index={3}>
-                cmll recog - multi angle, ATCRM, etc
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    cmll recog - multi angle, ATCRM, etc  
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={4}>
-                Pinkie Pie
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    Pinkie Pie 
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={5}>
                 <Typography variant="h6">NMCMLL</Typography>
-                <Box sx={{ width: 'calc(100vw - 200px)' }}>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1BUt299RvoSDdtUEEMnGALo7jVqHnuhZS64-KZZ6TEKI/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box>
                 <Typography variant="h6">ACMLL</Typography>
                 <Typography variant="h6">TCMLL</Typography>
             </TabPanel>
             <TabPanel value={value} index={6}>
-                <Box sx={{ padding: 2 }}>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
                 <Typography variant="h6">CMLL Trainers</Typography>
                 <Typography variant="body1">
                     (Includes some COLL/ZBLL trainers which can also be used for CMLL)

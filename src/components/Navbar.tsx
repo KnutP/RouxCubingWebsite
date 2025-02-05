@@ -17,28 +17,28 @@ export default function NavBar() {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" component="div"
              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
-             <Link className="nav-link" to="/" style={{textDecoration: "none", color: "black"}}>RouxCubing.com</Link>
+             <Link className="nav-link" to="/" style={{textDecoration: "none", color: "white"}}>RouxCubing.com</Link>
           </Typography>
       <Divider />
       <List>
         <ListItem key={'home'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link className="nav-link" to="/" style={{textDecoration: "none", color: "black"}}>Home</Link>
+            <Link className="nav-link" to="/" style={{textDecoration: "none", color: "white"}}>Home</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'rouxtorials'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link className="nav-link" to="/rouxtorials" style={{textDecoration: "none", color: "black"}}>Rouxtorials</Link>
+            <Link className="nav-link" to="/rouxtorials" style={{textDecoration: "none", color: "white"}}>Rouxtorials</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'rouxsources'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "black"}}>Rouxsources</Link>
+            <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "white"}}>Rouxsources</Link>
           </ListItemButton>
         </ListItem>
         <ListItem key={'roadmap'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link className="nav-link" to="/roadmap" style={{textDecoration: "none", color: "black"}}>Roadmap to Sub-X</Link>
+            <Link className="nav-link" to="/roadmap" style={{textDecoration: "none", color: "white"}}>Roadmap to Sub-X</Link>
           </ListItemButton>
         </ListItem>
       </List>
@@ -55,7 +55,7 @@ export default function NavBar() {
           </Icon>
           <Typography variant="h6" component="div"
              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
-             <Link className="nav-link" to="/" style={{textDecoration: "none", color: "black"}}>RouxCubing.com</Link>
+             <Link className="nav-link" to="/" style={{textDecoration: "none", color: "white"}}>RouxCubing.com</Link>
           </Typography>
           <IconButton
             color="inherit"
@@ -69,16 +69,16 @@ export default function NavBar() {
 
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} >
              <Button key={'home'} sx={{ color: '#fff' }} size="large">
-               <Link className="nav-link" to="/" style={{textDecoration: "none", color: "black"}}>Home</Link>
+               <Link className="nav-link" to="/" style={{textDecoration: "none", color: "white"}}>Home</Link>
              </Button>
              <Button key={'rouxtorials'} sx={{ color: '#fff' }} size="large">
-               <Link className="nav-link" to="/rouxtorials" style={{textDecoration: "none", color: "black"}}>Rouxtorials</Link>
+               <Link className="nav-link" to="/rouxtorials" style={{textDecoration: "none", color: "white"}}>Rouxtorials</Link>
              </Button>
              <Button key={'rouxsources'} sx={{ color: '#fff' }} size="large">
-               <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "black"}}>Rouxsources</Link>
+               <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "white"}}>Rouxsources</Link>
              </Button>
              <Button key={'roadmap'} sx={{ color: '#fff' }} size="large">
-               <Link className="nav-link" to="/roadmap" style={{textDecoration: "none", color: "black"}}>Roadmap to Sub-X</Link>
+               <Link className="nav-link" to="/roadmap" style={{textDecoration: "none", color: "white"}}>Roadmap to Sub-X</Link>
              </Button>
            </Box>
 
