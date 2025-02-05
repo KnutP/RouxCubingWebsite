@@ -19,9 +19,9 @@ export default function Rouxtorials() {
 
     return (
 
-        <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%'}}>
             <Paper elevation={1}>
-                <Box sx={{ width: '100%', mx: 1.5, my: 2 }}>
+                <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1}}>
                     <Typography variant="h3">Rouxtorials</Typography>
                 </Box>
             </Paper>
@@ -32,6 +32,7 @@ export default function Rouxtorials() {
                 <Tab label={(<Typography variant="h6">Roux for CFOP Solvers</Typography>)} />
             </Tabs>
             <TabPanel value={value} index={0}>
+                <Box sx={{ width: '100%', padding: 2}}>
                 <Typography gutterBottom>
                     Want to learn how to solve a Rubik's Cube for the first time, or move on from the Layer-by-Layer method?
                     This is the place for you!
@@ -89,8 +90,10 @@ export default function Rouxtorials() {
                 </Typography>
                 How to get faster
                 https://www.youtube.com/watch?v=mB-y0XQiN0M&list=PLajHGvYF36nSsL1r_DqrpDY07TnJwqEpn
+                </Box>
             </TabPanel>
             <TabPanel value={value} index={1}>
+                <Box sx={{ width: '100%', padding: 2}}>
                 <Typography variant="h4" gutterBottom>
                     Step 1: First Block
                 </Typography>
@@ -137,7 +140,7 @@ export default function Rouxtorials() {
                 <Typography gutterBottom>
                     roadmap, Kian's videos
                 </Typography>
-
+                </Box>
             </TabPanel>
             </Paper>
         </Box>

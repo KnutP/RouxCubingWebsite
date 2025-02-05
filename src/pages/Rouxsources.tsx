@@ -43,7 +43,7 @@ export default function RouxsourcesTabs() {
   return (
     <Box sx={{ width: '100%' }}>
       <Paper elevation={1}>
-        <Box sx={{ width: '100%', mx: 1.5, my: 2 }}>
+        <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
           <Typography variant="h3">Rouxsources</Typography>
         </Box>
       </Paper>

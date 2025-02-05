@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <Box sx={{ width: '100%' }}>
             <Paper elevation={1}>
-                <Box sx={{ width: '100%', mx: 1.5, my: 2 }}>
+                <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
                     <Typography variant="h3">Home</Typography>
                 </Box>
             </Paper>
@@ -19,7 +19,7 @@ export default function Home() {
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
                         <Grid size={{ xs: 12, md: 8 }}>
-                            <Box sx={{ width: '100%' }}>
+                            <Box sx={{ width: '100%', padding: 1 }}>
                                 <Typography variant="h4" gutterBottom>
                                     What is Roux?
                                 </Typography>
@@ -48,8 +48,10 @@ export default function Home() {
                             </Box>
                         </Grid>
                         <Grid size={{ xs: 12, md: 4 }}>
-                            Roux news and photos
-                            <img src={require("../img/roux_worlds_2023.jpg")} style={{ width: '100%'}} />
+                            <Box sx={{ width: '100%', padding: 1 }}>
+                                Roux news and photos
+                                <img src={require("../img/roux_worlds_2023.jpg")} style={{ width: '100%'}} />
+                            </Box>
                         </Grid>
                     </Grid>
                 </Box>
@@ -59,7 +61,7 @@ export default function Home() {
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
                         <Grid size={{ xs: 12, md: 8 }}>
-                            <Box sx={{ width: '100%' }}>
+                            <Box sx={{ width: '100%', padding: 1 }}>
                                 <Typography variant="h4" gutterBottom>
                                     Roux Weekly Competition
                                 </Typography>
@@ -67,7 +69,9 @@ export default function Home() {
                             </Box>
                         </Grid>
                         <Grid size={{ xs: 12, md: 4 }}>
+                            <Box sx={{ width: '100%', padding: 1 }}>
                             card with info on how to participate
+                            </Box>
                         </Grid>
                     </Grid>
                 </Box>
@@ -77,7 +81,7 @@ export default function Home() {
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
                         <Grid size={{ xs: 12, md: 8 }}>
-                            <Box sx={{ width: '100%' }}>
+                            <Box sx={{ width: '100%', padding: 1 }}>
                                 <Typography variant="h4" gutterBottom>
                                     Rouxer Rankings
                                 </Typography>
@@ -87,8 +91,10 @@ export default function Home() {
                             </Box>
                         </Grid>
                         <Grid size={{ xs: 12, md: 4 }}>
+                            <Box sx={{ width: '100%', padding: 1 }}>
                             card with info on how to get added to list, 
                             form with WCA id and OH only or both, auto email me on submission
+                            </Box>
                         </Grid>
                     </Grid>
                 </Box>

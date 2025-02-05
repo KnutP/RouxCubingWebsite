@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
             <Paper elevation={1}>
-                <Box sx={{ width: '100%', mx: 1.5, my: 2 }}>
+                <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
                     <Typography variant="h3">Roadmap to Sub-X</Typography>
                 </Box>
             </Paper>
