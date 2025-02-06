@@ -4,22 +4,8 @@ import { Link as LinkIcon } from "@mui/icons-material";
 import { TabPanel } from './Rouxsources';
 import { useSearchParams } from "react-router-dom";
 
-interface TabPanelProps {
-  children?: React.ReactNode;
-  index: number;
-  value: number;
-}
-
-
-function a11yProps(index: number) {
-  return {
-    id: `vertical-tab-${index}`,
-    'aria-controls': `vertical-tabpanel-${index}`,
-  };
-}
 
 export default function F2BTabs() {
-  const [value, setValue] = React.useState(0);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
   const [searchParams, setSearchParams] = useSearchParams();
@@ -27,7 +13,6 @@ export default function F2BTabs() {
   const subTab = Number(searchParams.get("subTab")) || 0;
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
     searchParams.set('subTab', newValue.toString());
     setSearchParams(searchParams);
   };
@@ -35,13 +20,11 @@ export default function F2BTabs() {
   const copyLink = (value: number) => {
     const baseUrl = window.location.origin;
     const hashRoute = window.location.hash.split("?")[0]; // Ensure only the route is used
-    // const queryParams = searchParams.toString();
     const queryParams = "mainTab=0&subTab="+value.toString();
     
     const fullUrl = `${baseUrl}/${hashRoute}?${queryParams}`;
     
     navigator.clipboard.writeText(fullUrl);
-    //alert("Link copied!");
   };
 
   return (
@@ -69,125 +52,125 @@ export default function F2BTabs() {
             }}
       >
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }} >
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>Inspection</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(0);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }} >
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Inspection</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(0);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>FB Tips and Tricks</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(1);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>FB Tips and Tricks</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(1);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>SB Tips and Tricks</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(2);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>SB Tips and Tricks</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(2);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Centers</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(3);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Centers</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(3);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonlinear Blocks</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(4);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonlinear Blocks</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(4);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Blocks</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(5);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Blocks</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(5);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>CPFB</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(6);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>CPFB</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(6);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
         <Tab component="span" label={
-              <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                <Box sx={{ flexGrow: 1, textAlign: "center" }}>Block Trainers</Box>
-                <IconButton 
-                  size="small"
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevent tab switch on click
-                    copyLink(7);
-                  }}
-                  sx={{ ml: 1 }} // Add left margin for spacing
-                >
-                  <LinkIcon fontSize="small" />
-                </IconButton>
-              </Box>
-            }/>
+          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Block Trainers</Box>
+            <IconButton 
+              size="small"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent tab switch on click
+                copyLink(7);
+              }}
+              sx={{ ml: 1 }} // Add left margin for spacing
+            >
+              <LinkIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        }/>
       </Tabs>
       <TabPanel value={subTab} index={0}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>

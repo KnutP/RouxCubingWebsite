@@ -36,7 +36,6 @@ export function TabPanel(props: TabPanelProps) {
 }
 
 export default function RouxsourcesTabs() {
-  const [value, setValue] = React.useState(0);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
   const [searchParams, setSearchParams] = useSearchParams();
@@ -61,8 +60,8 @@ export default function RouxsourcesTabs() {
   }, [searchParams, setSearchParams]);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
     searchParams.set('mainTab', newValue.toString());
+    searchParams.set('subTab', "0");
     setSearchParams(searchParams);
   };
 
@@ -81,19 +80,19 @@ export default function RouxsourcesTabs() {
           <Tab label={(<Typography variant="h6">Big Cubes</Typography>)} />
           <Tab label={(<Typography variant="h6">Misc</Typography>)} />
         </Tabs>
-        <TabPanel value={value} index={0}>
+        <TabPanel value={mainTab} index={0}>
           <F2BTabs />
         </TabPanel>
-        <TabPanel value={value} index={1}>
+        <TabPanel value={mainTab} index={1}>
           <CMLLTabs />
         </TabPanel>
-        <TabPanel value={value} index={2}>
+        <TabPanel value={mainTab} index={2}>
           <LSETabs />
         </TabPanel>
-        <TabPanel value={value} index={3}>
+        <TabPanel value={mainTab} index={3}>
           <BigCubesTabs />
         </TabPanel>
-        <TabPanel value={value} index={4}>
+        <TabPanel value={mainTab} index={4}>
           <MiscTabs />
         </TabPanel>
       </Paper>
