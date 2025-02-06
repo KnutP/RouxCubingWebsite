@@ -31,7 +31,7 @@ export default function Rouxtorials() {
                 <Tab label={(<Typography variant="h6">Roux for Beginners</Typography>)} />
                 <Tab label={(<Typography variant="h6">Roux for CFOP Solvers</Typography>)} />
             </Tabs>
-            <TabPanel value={value} index={0}>
+            <TabPanel  value={value} index={0}>
                 <Box sx={{ width: '100%', padding: 2}}>
                 <Typography gutterBottom>
                     Want to learn how to solve a Rubik's Cube for the first time, or move on from the Layer-by-Layer method?

@@ -5,6 +5,8 @@ import LSETabs from './LSE';
 import CMLLTabs from './CMLL';
 import BigCubesTabs from './BigCubes';
 import MiscTabs from './Misc';
+import { useSearchParams } from "react-router-dom";
+import { useEffect } from "react";
 
 
 interface TabPanelProps {
@@ -26,7 +28,7 @@ export function TabPanel(props: TabPanelProps) {
     >
       {value === index && (
         <Box sx={{ p: 0 }}>
-          <Typography>{children}</Typography>
+          {children}
         </Box>
       )}
     </div>
@@ -37,9 +39,31 @@ export default function RouxsourcesTabs() {
   const [value, setValue] = React.useState(0);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const mainTab = Number(searchParams.get("mainTab")) || 0;
+
+  useEffect(() => {
+    let updated = false;
+
+    if (!searchParams.has("mainTab")) {
+      searchParams.set("mainTab", "0");
+      updated = true;
+    }
+    if (!searchParams.has("subTab")) {
+      searchParams.set("subTab", "0");
+      updated = true;
+    }
+
+    if (updated) {
+      setSearchParams(searchParams);
+    }
+  }, [searchParams, setSearchParams]);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
+    searchParams.set('mainTab', newValue.toString());
+    setSearchParams(searchParams);
   };
 
   return (
@@ -50,7 +74,7 @@ export default function RouxsourcesTabs() {
         </Box>
       </Paper>
       <Paper elevation={1}>
-        <Tabs value={value} onChange={handleChange} centered variant={isMobile ? "scrollable" : "fullWidth"}>
+        <Tabs value={mainTab} onChange={handleChange} centered variant={isMobile ? "scrollable" : "fullWidth"}>
           <Tab label={(<Typography variant="h6">F2B</Typography>)} />
           <Tab label={(<Typography variant="h6">CMLL</Typography>)} />
           <Tab label={(<Typography variant="h6">LSE</Typography>)} />
