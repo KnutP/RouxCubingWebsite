@@ -53,7 +53,7 @@ export default function F2BTabs() {
       >
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }} >
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Inspection</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Inspection/FB</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -68,7 +68,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>FB Tips and Tricks</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Second Block</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -83,7 +83,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>SB Tips and Tricks</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Centers</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -98,7 +98,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Centers</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonlinear Blocks</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -113,7 +113,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonlinear Blocks</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Blocks</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -128,7 +128,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Blocks</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>CPFB</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -143,7 +143,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>CPFB</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Block Trainers</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -156,61 +156,66 @@ export default function F2BTabs() {
             </IconButton>
           </Box>
         }/>
-        <Tab component="span" label={
-          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Block Trainers</Box>
-            <IconButton 
-              size="small"
-              onClick={(e) => {
-                e.stopPropagation(); // Prevent tab switch on click
-                copyLink(7);
-              }}
-              sx={{ ml: 1 }} // Add left margin for spacing
-            >
-              <LinkIcon fontSize="small" />
-            </IconButton>
-          </Box>
-        }/>
       </Tabs>
       <TabPanel value={subTab} index={0}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-          Inspection
-          - finding efficient FB in inspection <video src=""></video>
-          - Zhouheng's FB+DR guide
-          - general inspection tips
+          <Typography variant="h6">Inspection/First Block</Typography>
+          <ul>
+          <li>
+              FB Inspection Guide:{" "}
+              <Link href="https://youtu.be/0Cq3YDud1dA" target="_blank" rel="noopener">
+              Teoidus' Finding a Good FB in Inspection - YouTube
+              </Link>
+          </li>
+          <li>
+              FB+DR Guide:{" "}
+              <Link href="https://github.com/Rouxles/roux-tutorial/blob/master/fbdr/Zhouheng's%20FBDR%20Guide.pdf" target="_blank" rel="noopener">
+              Zhouheng's FB+DR Guide - Github
+              </Link>
+          </li>
+          </ul>
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={1}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-          FB tips and tricks
+          <Typography variant="h6">Second Block</Typography>
+          <ul>
+          <li>
+              Second Block Algs:{" "}
+              <Link href="https://docs.google.com/document/d/1bX50jAOM_veHsVJeLYGvSrH4uW9xrubep1zOSLdE4Vk/edit" target="_blank" rel="noopener">
+              SB Algs - Google Docs
+              </Link>
+          </li>
+          <li>
+              Second Block Last Slot Algs:{" "}
+              <Link href="https://docs.google.com/spreadsheets/d/1xd1LMv-0EOlEEOOPODLPzFSDZzFmd4D_KVxpgnkHrJ8/edit#gid=0" target="_blank" rel="noopener">
+              SB Last Slot Algs - Google Sheets
+              </Link>
+          </li>
+          </ul>
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={2}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-          SB tips and tricks
+          NMC
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={3}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-          NMC
+          Nonlinear blocks
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={4}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-        Nonlinear blocks
+          Nonmatching blocks
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={5}>
         <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-          Nonmatching blocks
-        </Box>
-      </TabPanel>
-      <TabPanel value={subTab} index={6}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
           CPFB
         </Box>
       </TabPanel>
-      <TabPanel value={subTab} index={7}>
+      <TabPanel value={subTab} index={6}>
       <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
         <Typography variant="h6">Block Trainers</Typography>
         <ul>
@@ -227,7 +232,7 @@ export default function F2BTabs() {
             </Link>
         </li>
         </ul>
-        </Box>
+      </Box>
       </TabPanel>
     </Box>
   );

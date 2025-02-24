@@ -54,7 +54,7 @@ export default function CMLLTabs() {
             >
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>2-Look CMLL Algs</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>2H CMLL Algs</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -69,7 +69,7 @@ export default function CMLLTabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>2H CMLL Algs</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>OH CMLL Algs</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -84,7 +84,7 @@ export default function CMLLTabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>OH CMLL Algs</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>2-Look CMLL Algs</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -129,7 +129,7 @@ export default function CMLLTabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>NMCMLL/ACMLL/TCMLL</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Other CMLL</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -160,36 +160,169 @@ export default function CMLLTabs() {
             </Tabs>
             <TabPanel value={subTab} index={0}>
                 <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
-                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1EdCeGlotJ76MyVw02_N1El_SXXSIMJRhYvZn4gZkQk8/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
-                </Box> 
+                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
+                </Box>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    <Typography variant="h6">2H CMLL Sheets</Typography>
+                    <ul>
+                    <li>
+                        2H CMLL (embedded above):{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI/edit#gid=1409661599" target="_blank" rel="noopener">
+                        2H CMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Teri's 2H CMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1sGeA4uf-f_hB4Ox7gCybm40SFy_e86_C7vP5LuD7WlE/edit#gid=1288079263" target="_blank" rel="noopener">
+                        Teri's 2H CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Flamepelt's 2H CMLLs:{" "}
+                        <Link href="https://www.youtube.com/watch?v=xHvPxLlfbzQ" target="_blank" rel="noopener">
+                        Roux Method: The Best CMLL Algorithms and Fingertricks - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        CMLL Visualizer (shows EP and EO changes for each CMLL):{" "}
+                        <Link href="https://badochov.github.io/cmll-visualiser/" target="_blank" rel="noopener">
+                        https://badochov.github.io/cmll-visualiser/
+                        </Link>
+                    </li>
+                    </ul>
+                </Box>
             </TabPanel>
             <TabPanel value={subTab} index={1}>
                 <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
-                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
-                </Box> 
+                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
+                </Box>
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    <Typography variant="h6">OH CMLL Sheets</Typography>
+                    <ul>
+                    <li>
+                        OH CMLL (embedded above):{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit#gid=1409661599" target="_blank" rel="noopener">
+                        OH CMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Sevilz OH CMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/13B4247VUgoPhPsoEKktQVHsxiPFGuzAOmAXTxc-IsiY/edit" target="_blank" rel="noopener">
+                        Sevilz OH CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Iuri's OH CMLL execution:{" "}
+                        <Link href="https://drive.google.com/drive/folders/1owfcX3SJSXQr5_Ly9Sex_4rSMLZ-gIEb" target="_blank" rel="noopener">
+                        OH CMLL Execution - Google Drive
+                        </Link>
+                    </li>
+                    </ul>
+                </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
                 <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
-                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
-                </Box>
+                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1EdCeGlotJ76MyVw02_N1El_SXXSIMJRhYvZn4gZkQk8/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
+                </Box> 
             </TabPanel>
             <TabPanel value={subTab} index={3}>
                 <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    cmll recog - multi angle, ATCRM, etc  
+                    <Typography variant="h6">CMLL Recognition/Prediction</Typography>
+                    <ul>
+                    <li>
+                        Athefre's CMLL Prediction Guides:{" "}
+                        <Link href="https://sites.google.com/site/athefre/roux/cmll-prediction" target="_blank" rel="noopener">
+                        CMLL Prediction - Aethefre's Site
+                        </Link>
+                    </li>
+                    <li>
+                        Multi-Angle CMLL Recognition:{" "}
+                        <Link href="https://www.youtube.com/watch?v=vwBR-N29t3k" target="_blank" rel="noopener">
+                        James Macdiarmid's Better CP Recog - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Multi-Angle CMLL Recognition:{" "}
+                        <Link href="https://www.youtube.com/watch?v=MKZ7JX-hW4g" target="_blank" rel="noopener">
+                        Kian's Multi-Angle CMLL Recog - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Multi-Angle CMLL Recognition:{" "}
+                        <Link href="https://drive.google.com/drive/folders/1eysbDbEtKzKpwRBN_oih-xaKRBOjRIKA" target="_blank" rel="noopener">
+                        CMLL Recog - Google Drive
+                        </Link>
+                    </li>
+                    <li>
+                        Iuri's L CMLL Recog:{" "}
+                        <Link href="https://docs.google.com/document/d/1_GJF5lYnAWwxxkxLlBSnaHFayjEVd8-PG7tnDUwk71o/edit?tab=t.0#heading=h.oa3c40cij0jg" target="_blank" rel="noopener">
+                        L CMLL Recog - Google Docs
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={4}>
                 <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    Pinkie Pie 
+                    <Typography variant="h6">Pinkie Pie - IN PROGRESS</Typography>
+                    <ul>
+                    <li>
+                        Pinkie Pie Overview:{" "}
+                        <Link href="" target="_blank" rel="noopener">
+                        overview - ???
+                        </Link>
+                    </li>
+                    <li>
+                        OLLCP Algs:{" "}
+                        <Link href="" target="_blank" rel="noopener">
+                        algs- ???
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={5}>
-                <Typography variant="h6">NMCMLL</Typography>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
-                    <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1BUt299RvoSDdtUEEMnGALo7jVqHnuhZS64-KZZ6TEKI/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
+                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                    <Typography variant="h6">NMCMLL/ACMLL/TCMLL</Typography>
+                    <ul>
+                    <li>
+                        NMCMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1BUt299RvoSDdtUEEMnGALo7jVqHnuhZS64-KZZ6TEKI/edit#gid=0" target="_blank" rel="noopener">
+                        NMCMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        NMCMLL Recognition:{" "}
+                        <Link href="https://sites.google.com/site/athefre/roux/roux" target="_blank" rel="noopener">
+                        NMCMLL - Athefre's Site
+                        </Link>
+                    </li>
+                    <li>
+                        ACMLL Tutorial:{" "}
+                        <Link href="https://sites.google.com/site/athefre/roux/acmll" target="_blank" rel="noopener">
+                        ACMLL - Athefre's Site
+                        </Link>
+                    </li>
+                    <li>
+                        ACMLL Algs:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1z3GGqY9_J4124mWYgYjH_QuwaqMiGVB1WHxL8IemVeU/edit#gid=933355716" target="_blank" rel="noopener">
+                        ACMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        TCMLL:{" "}
+                        <Link href="https://docs.google.com/document/d/10wenyuYdJhJd70lka0m01SdCK1OK2OgHGuaPCFMCQc4/edit?tab=t.0" target="_blank" rel="noopener">
+                        Montu's TCMLL Algs - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        TCMLL Explanation:{" "}
+                        <Link href="https://www.youtube.com/watch?v=nJhj1uhtRvw" target="_blank" rel="noopener">
+                        Kian's TCMLL Explanation - YouTube
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
-                <Typography variant="h6">ACMLL</Typography>
-                <Typography variant="h6">TCMLL</Typography>
             </TabPanel>
             <TabPanel value={subTab} index={6}>
                 <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>

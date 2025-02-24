@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography, Paper } from '@mui/material';
+import { Box, Tabs, Tab, Typography, Paper, Link } from '@mui/material';
 import { TabPanel } from './Rouxsources';
 
 
@@ -29,7 +29,7 @@ export default function Rouxtorials() {
             <Paper elevation={1}>
             <Tabs value={value} onChange={handleChange} centered variant="fullWidth">
                 <Tab label={(<Typography variant="h6">Roux for Beginners</Typography>)} />
-                <Tab label={(<Typography variant="h6">Roux for CFOP Solvers</Typography>)} />
+                <Tab label={(<Typography variant="h6">Roux for Experienced Cubers</Typography>)} />
             </Tabs>
             <TabPanel  value={value} index={0}>
                 <Box sx={{ width: '100%', padding: 2}}>
@@ -37,31 +37,45 @@ export default function Rouxtorials() {
                     Want to learn how to solve a Rubik's Cube for the first time, or move on from the Layer-by-Layer method?
                     This is the place for you!
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h4">Video Tutorials</Typography>
+                <ul>
+                <li>
+                    <Link href="" target="_blank" rel="noopener">
+                    Kian's Beginner Roux Tutorial - YouTube
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://www.youtube.com/watch?v=mB-y0XQiN0M&list=PLajHGvYF36nSsL1r_DqrpDY07TnJwqEpn" target="_blank" rel="noopener">
+                    DeeDubb's Beginner Roux Tutorial - YouTube
+                    </Link>
+                </li>
+                </ul>
+                <Typography variant="h4">Text Tutorial</Typography>
+                <Typography variant="h5" gutterBottom>
                     Notation
                 </Typography>
                 <Typography gutterBottom>
                     notation info
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Step 1: First Block
                 </Typography>
                 <Typography gutterBottom>
                     first block info
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Step 2: Second Block
                 </Typography>
                 <Typography gutterBottom>
                     second block info
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Step 3: CMLL
                 </Typography>
                 <Typography gutterBottom>
                     sune+j-perm, links to 2-look cmll algs
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Step 4: Last Six Edges
                 </Typography>
                 <Typography variant="h5" gutterBottom>
@@ -70,19 +84,19 @@ export default function Rouxtorials() {
                 <Typography gutterBottom>
                     recognizing bad edges, M U M', EO flowchart
                 </Typography>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     4b: Solving L and R Edges
                 </Typography>
                 <Typography gutterBottom>
                     solving LR
                 </Typography>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     4c: Solving the M-Slice
                 </Typography>
                 <Typography gutterBottom>
                     4c
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Getting Faster
                 </Typography>
                 <Typography gutterBottom>
@@ -92,49 +106,65 @@ export default function Rouxtorials() {
                 https://www.youtube.com/watch?v=mB-y0XQiN0M&list=PLajHGvYF36nSsL1r_DqrpDY07TnJwqEpn
                 </Box>
             </TabPanel>
+
+
             <TabPanel value={value} index={1}>
                 <Box sx={{ width: '100%', padding: 2}}>
-                <Typography variant="h4" gutterBottom>
+                <Typography gutterBottom>
+                    Already know how to solve the cube using CFOP/ZZ/etc? This is a faster paced Roux tutorial for people who know what they're doing. 
+                </Typography>
+                <Typography variant="h4">Video Tutorials</Typography>
+                <ul>
+                <li>
+                    <Link href="https://www.youtube.com/watch?v=ESYJ-DFx0Qo&list=PL754ADDA2E38A21AA" target="_blank" rel="noopener">
+                    Donovan's Roux Tutorial - YouTube
+                    </Link>
+                </li>
+                </ul>
+                <Typography variant="h4">Text Tutorial</Typography>
+                <Typography variant="h5" gutterBottom>
                     Step 1: First Block
                 </Typography>
                 <Typography gutterBottom>
                     first block info 
                     https://www.youtube.com/watch?v=ESYJ-DFx0Qo&list=PL754ADDA2E38A21AA
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Step 2: Second Block
                 </Typography>
                 <Typography gutterBottom>
-                    SB, treat like f2l except with M and r pairing
+                    You can treat second block much like F2L, with one key exception. DON'T ROTATE. Whenever you would normally rotate, 
+                    instead use either an M or r move. Also, if pieces are in the bottom layer, take advantage of M and r moves to pair them up.
+                    examples
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Step 3: CMLL
                 </Typography>
                 <Typography gutterBottom>
-                    CMLL, use CFOP algs, links to 2-look and regular cmll alg sheets
-                </Typography>
-                <Typography variant="h4" gutterBottom>
-                    Step 4: Last Six Edges
+                    CMLL, use CFOP algs, link to regular cmll alg sheets
                 </Typography>
                 <Typography variant="h5" gutterBottom>
+                    Step 4: Last Six Edges
+                </Typography>
+                <Typography variant="h6" gutterBottom>
                     4a: Edge Orientation
                 </Typography>
                 <Typography gutterBottom>
-                    recognizing bad edges (like OLL), M U M', EO flowchart
+                    recognizing bad edges (like OLL), M' U M', EO flowchart
                 </Typography>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     4b: Solving L and R Edges
                 </Typography>
                 <Typography gutterBottom>
                     solving LR
                 </Typography>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     4c: Solving the M-Slice
                 </Typography>
                 <Typography gutterBottom>
                     4c
                 </Typography>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Getting Faster
                 </Typography>
                 <Typography gutterBottom>
