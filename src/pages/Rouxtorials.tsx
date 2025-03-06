@@ -18,8 +18,8 @@ export default function Rouxtorials() {
     };
 
     return (
-
-        <Box sx={{ width: '100%'}}>
+        <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', maxWidth:'1440px' }}>
             <Paper elevation={1}>
                 <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1}}>
                     <Typography variant="h3">Rouxtorials</Typography>
@@ -173,6 +173,7 @@ export default function Rouxtorials() {
                 </Box>
             </TabPanel>
             </Paper>
+        </Box>
         </Box>
     );
 }

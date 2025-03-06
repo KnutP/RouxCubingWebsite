@@ -48,8 +48,9 @@ export default function NavBar() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav" position="sticky">
-        <Toolbar>
+      <AppBar component="nav" position="sticky" >
+        <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
+        <Toolbar sx={{ width: '100%', maxWidth:'1440px'}}>
           <Icon sx={{ fontSize: 50, mr: '5px', display: 'flex'}}>
             <img src={require("../img/cmll.png")} style={{ width: '100%'}} />
           </Icon>
@@ -83,6 +84,7 @@ export default function NavBar() {
            </Box>
 
         </Toolbar>
+        </Box>
       </AppBar>
 
       <nav>

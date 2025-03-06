@@ -18,7 +18,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Navbar />
-      <Box sx={{ mx: 1.5, mt: 1.5 }}>
+      <Box sx={{ mx: 1, mt: 1 }}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

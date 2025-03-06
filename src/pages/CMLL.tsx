@@ -4,10 +4,12 @@ import { Link as LinkIcon } from "@mui/icons-material";
 import { TabPanel } from './Rouxsources';
 import ResponsiveIframe from '../components/ResponsiveIframe';
 import { useSearchParams } from "react-router-dom";
+import useWindowDimensions from '../components/WindowDimensions'
 
 
 export default function CMLLTabs() {
     const theme = useTheme();
+    const { height, width } = useWindowDimensions();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
     const [searchParams, setSearchParams] = useSearchParams();
 
@@ -27,6 +29,8 @@ export default function CMLLTabs() {
         
         navigator.clipboard.writeText(fullUrl);
     };
+
+    const tabWidth = isMobile ? '100vw' : `calc(${Math.min(width, 1440)}px - 220px)`;
 
     return (
         <Box
@@ -159,10 +163,10 @@ export default function CMLLTabs() {
                 }/>
             </Tabs>
             <TabPanel value={subTab} index={0}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
+                <Box sx={{ width: tabWidth }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">2H CMLL Sheets</Typography>
                     <ul>
                     <li>
@@ -193,10 +197,10 @@ export default function CMLLTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={1}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
+                <Box sx={{ width: tabWidth }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">OH CMLL Sheets</Typography>
                     <ul>
                     <li>
@@ -221,12 +225,12 @@ export default function CMLLTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)' }}>
+                <Box sx={{ width: tabWidth }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1EdCeGlotJ76MyVw02_N1El_SXXSIMJRhYvZn4gZkQk8/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box> 
             </TabPanel>
             <TabPanel value={subTab} index={3}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">CMLL Recognition/Prediction</Typography>
                     <ul>
                     <li>
@@ -263,27 +267,27 @@ export default function CMLLTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={4}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Pinkie Pie - IN PROGRESS</Typography>
                     <ul>
                     <li>
                         Pinkie Pie Overview:{" "}
-                        <Link href="" target="_blank" rel="noopener">
-                        overview - ???
+                        <Link href="https://www.youtube.com/watch?v=TPpZ-wzsZe4" target="_blank" rel="noopener">
+                        Kian's Pinkie Pie Explanation - YouTube
                         </Link>
                     </li>
                     <li>
                         OLLCP Algs:{" "}
-                        <Link href="" target="_blank" rel="noopener">
-                        algs- ???
+                        <Link href="https://speedcubedb.com/a/3x3/OLLCP" target="_blank" rel="noopener">
+                        OLLCP - SCDB
                         </Link>
                     </li>
                     </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={5}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    <Typography variant="h6">NMCMLL/ACMLL/TCMLL</Typography>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">Other CMLL</Typography>
                     <ul>
                     <li>
                         NMCMLL:{" "}
@@ -316,7 +320,7 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
-                        TCMLL Explanation:{" "}
+                        TCMLL +  Tyrannical Caterpillar Explanation:{" "}
                         <Link href="https://www.youtube.com/watch?v=nJhj1uhtRvw" target="_blank" rel="noopener">
                         Kian's TCMLL Explanation - YouTube
                         </Link>
@@ -325,7 +329,7 @@ export default function CMLLTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={6}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                 <Typography variant="h6">CMLL Trainers</Typography>
                 <Typography variant="body1">
                     (Includes some COLL/ZBLL trainers which can also be used for CMLL)

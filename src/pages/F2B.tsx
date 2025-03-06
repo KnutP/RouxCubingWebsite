@@ -3,10 +3,12 @@ import { Box, Tabs, Tab, Typography, Link, useMediaQuery, useTheme, IconButton  
 import { Link as LinkIcon } from "@mui/icons-material";
 import { TabPanel } from './Rouxsources';
 import { useSearchParams } from "react-router-dom";
+import useWindowDimensions from '../components/WindowDimensions'
 
 
 export default function F2BTabs() {
   const theme = useTheme();
+  const { height, width } = useWindowDimensions();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -26,6 +28,8 @@ export default function F2BTabs() {
     
     navigator.clipboard.writeText(fullUrl);
   };
+
+  const tabWidth = isMobile ? '100vw' : `calc(${Math.min(width, 1440)}px - 220px)`;
 
   return (
     <Box
@@ -158,13 +162,43 @@ export default function F2BTabs() {
         }/>
       </Tabs>
       <TabPanel value={subTab} index={0}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+        <Box sx={{ width: tabWidth, padding: 2 }}>
           <Typography variant="h6">Inspection/First Block</Typography>
           <ul>
           <li>
               FB Inspection Guide:{" "}
               <Link href="https://youtu.be/0Cq3YDud1dA" target="_blank" rel="noopener">
               Teoidus' Finding a Good FB in Inspection - YouTube
+              </Link>
+          </li>
+          <li>
+              Blockbuilding:{" "}
+              <Link href="https://www.youtube.com/watch?v=b9rNvrVUsv0" target="_blank" rel="noopener">
+              Critical Cubing's First Block Tips - YouTube
+              </Link>
+          </li>
+          <li>
+              Blockbuilding:{" "}
+              <Link href="https://www.youtube.com/watch?v=4sEnfMMMJyE" target="_blank" rel="noopener">
+              Alex Lau's First Block - YouTube
+              </Link>
+          </li>
+          <li>
+              Blockbuilding:{" "}
+              <Link href="https://www.youtube.com/watch?v=i9zxR5mkgQs" target="_blank" rel="noopener">
+              Iuri's Line Blockbuilding - YouTube
+              </Link>
+          </li>
+          <li>
+              Blockbuilding:{" "}
+              <Link href="https://www.youtube.com/watch?v=4KLFyN6ZDwk" target="_blank" rel="noopener">
+              Kian's First Block SpeedBLD - YouTube
+              </Link>
+          </li>
+          <li>
+              Blockbuilding:{" "}
+              <Link href="https://www.youtube.com/watch?v=LgIoz-Thh4k" target="_blank" rel="noopener">
+              Kian's Beginner to Intermediate Blockbuilding - YouTube
               </Link>
           </li>
           <li>
@@ -177,7 +211,7 @@ export default function F2BTabs() {
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={1}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+        <Box sx={{ width: tabWidth, padding: 2 }}>
           <Typography variant="h6">Second Block</Typography>
           <ul>
           <li>
@@ -192,31 +226,69 @@ export default function F2BTabs() {
               SB Last Slot Algs - Google Sheets
               </Link>
           </li>
+          <li>
+              Second Block Last Slot Algs:{" "}
+              <Link href="https://sites.google.com/view/kianroux/second-block" target="_blank" rel="noopener">
+              Kian's SB Last Slot Algs - Kian's Site
+              </Link>
+          </li>
+          <li>
+              Second Block Last Slot Algs:{" "}
+              <Link href="https://speedcubedb.com/a/3x3/SBLS" target="_blank" rel="noopener">
+              SCDB SB Last Slot Algs - SCDB
+              </Link>
+          </li>
+          <li>
+              Second Block Efficiency:{" "}
+              <Link href="https://www.youtube.com/watch?v=_A7wDUisLDs" target="_blank" rel="noopener">
+              Critical Cubing's SB efficiency tips - YouTube
+              </Link>
+          </li>
+          <li>
+              Second Block Multislotting:{" "}
+              <Link href="https://www.youtube.com/watch?v=izeYpYLl3-A" target="_blank" rel="noopener">
+              Kian's SB Multislotting - YouTube
+              </Link>
+          </li>
+          <li>
+              Second Block Pair Choice:{" "}
+              <Link href="https://www.youtube.com/watch?v=naip-4TSgdw" target="_blank" rel="noopener">
+              Kian's SB Pair Choice - YouTube
+              </Link>
+          </li>
           </ul>
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={2}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-          NMC
+        <Box sx={{ width: tabWidth, padding: 2 }}>
+          <Typography variant="h6">Non-Matching Centers</Typography>
+          <ul>
+          <li>
+              NMC Tutorial:{" "}
+              <Link href="https://www.youtube.com/watch?v=_jE-V7P7kIY" target="_blank" rel="noopener">
+              Mr.Roux's NMC Tutorial - YouTube
+              </Link>
+          </li>
+          </ul>
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={3}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+        <Box sx={{ width: tabWidth, padding: 2 }}>
           Nonlinear blocks
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={4}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+        <Box sx={{ width: tabWidth, padding: 2 }}>
           Nonmatching blocks
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={5}>
-        <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+        <Box sx={{ width: tabWidth, padding: 2 }}>
           CPFB
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={6}>
-      <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+      <Box sx={{ width: tabWidth, padding: 2 }}>
         <Typography variant="h6">Block Trainers</Typography>
         <ul>
         <li>

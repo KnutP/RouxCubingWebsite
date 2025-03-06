@@ -1,12 +1,14 @@
 import * as React from 'react';
-import { Box, Tabs, Tab, Typography, useMediaQuery, useTheme, IconButton  } from '@mui/material';
+import { Box, Tabs, Tab, Typography, useMediaQuery, useTheme, IconButton, Link } from '@mui/material';
 import { Link as LinkIcon } from "@mui/icons-material";
 import { TabPanel } from './Rouxsources';
 import { useSearchParams } from "react-router-dom";
+import useWindowDimensions from '../components/WindowDimensions'
 
 
 export default function BigCubesTabs() {
     const theme = useTheme();
+    const { height, width } = useWindowDimensions();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
     const [searchParams, setSearchParams] = useSearchParams();
 
@@ -26,6 +28,8 @@ export default function BigCubesTabs() {
         
         navigator.clipboard.writeText(fullUrl);
     };
+
+    const tabWidth = isMobile ? '100vw' : `calc(${Math.min(width, 1440)}px - 220px)`;
 
     return (
         <Box
@@ -53,7 +57,7 @@ export default function BigCubesTabs() {
             >
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Meyer Overview</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Big Cube Tutorials</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -83,7 +87,7 @@ export default function BigCubesTabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Parity Algs</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Parity</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -96,60 +100,74 @@ export default function BigCubesTabs() {
                     </IconButton>
                     </Box>
                 }/>
-                <Tab component="span" label={
-                    <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>...</Box>
-                    <IconButton 
-                        size="small"
-                        onClick={(e) => {
-                        e.stopPropagation(); // Prevent tab switch on click
-                        copyLink(3);
-                        }}
-                        sx={{ ml: 1 }} // Add left margin for spacing
-                    >
-                        <LinkIcon fontSize="small" />
-                    </IconButton>
-                    </Box>
-                }/>
-                <Tab component="span" label={
-                    <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>...</Box>
-                    <IconButton 
-                        size="small"
-                        onClick={(e) => {
-                        e.stopPropagation(); // Prevent tab switch on click
-                        copyLink(4);
-                        }}
-                        sx={{ ml: 1 }} // Add left margin for spacing
-                    >
-                        <LinkIcon fontSize="small" />
-                    </IconButton>
-                    </Box>
-                }/>
             </Tabs>
             <TabPanel value={subTab} index={0}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    Meyer overview
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">Big Cube Tutorials</Typography>
+                    <ul>
+                    <li>
+                        Meyer Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=-L86AodUUzE" target="_blank" rel="noopener">
+                        Kian's Meyer Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Meyer and Lewis Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=g8ct_J3RRPc" target="_blank" rel="noopener">
+                        Blobinati's Meyer and Lewis Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        CR4:{" "}
+                        <Link href="https://docs.google.com/document/d/150UxosBFn5Trhi16wa4qv2u06mTweXHSsDH6iv5JeRc/edit" target="_blank" rel="noopener">
+                        CriticalCubing's CR4 Tutorial - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        Stadler:{" "}
+                        <Link href="https://www.speedcubing.ch/l%C3%B6sungsanleitungen/4x4-stadler-methode/" target="_blank" rel="noopener">
+                        Original Stadler Method Site (German)
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={1}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    M-slice edge pairing
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">M-Slice Edge Pairing</Typography>
+                    <ul>
+                    <li>
+                        Example Solves:{" "}
+                        <Link href="https://www.youtube.com/watch?v=UtxCyOa4-6A" target="_blank" rel="noopener">
+                        Michal's 5x5 M-slice example solve - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Example Solves:{" "}
+                        <Link href="https://youtu.be/HjRBCxYdckE?si=gBROfBDLwEWBwo3u" target="_blank" rel="noopener">
+                        Knut's 4x4 M-slice example solves - YouTube
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    Parity algs
-                </Box>
-            </TabPanel>
-            <TabPanel value={subTab} index={3}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    Item four
-                </Box>
-            </TabPanel>
-            <TabPanel value={subTab} index={4}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    Item five
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">Parity</Typography>
+                    <ul>
+                    <li>
+                        Parity CMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1KY3DT86JLpPUDb98km4ck_hrpdRooC8vg2U8Y1zJipk/edit#gid=2015768980" target="_blank" rel="noopener">
+                        TDM's Parity CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Parity 4c:{" "}
+                        <Link href="https://docs.google.com/document/d/1iT22CcA3wGJHfoAQPriFbNNaTYJoUKYUOskYINH5Ypw/edit?tab=t.0" target="_blank" rel="noopener">
+                        TDM's Parity 4c - Google Docs
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
         </Box>

@@ -66,14 +66,15 @@ export default function RouxsourcesTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', maxWidth:'1440px' }}>
       <Paper elevation={1}>
         <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
           <Typography variant="h3">Rouxsources</Typography>
         </Box>
       </Paper>
       <Paper elevation={1}>
-        <Tabs value={mainTab} onChange={handleChange} centered variant={isMobile ? "scrollable" : "fullWidth"}>
+        <Tabs value={mainTab} onChange={handleChange} centered={!isMobile} variant={isMobile ? "scrollable" : "fullWidth"}>
           <Tab label={(<Typography variant="h6">F2B</Typography>)} />
           <Tab label={(<Typography variant="h6">CMLL</Typography>)} />
           <Tab label={(<Typography variant="h6">LSE</Typography>)} />
@@ -96,6 +97,7 @@ export default function RouxsourcesTabs() {
           <MiscTabs />
         </TabPanel>
       </Paper>
+    </Box>
     </Box>
   );
 }

@@ -3,10 +3,12 @@ import { Box, Tabs, Tab, Typography, useMediaQuery, useTheme, IconButton, Link  
 import { Link as LinkIcon } from "@mui/icons-material";
 import { TabPanel } from './Rouxsources';
 import { useSearchParams } from "react-router-dom";
+import useWindowDimensions from '../components/WindowDimensions'
 
 
 export default function LSETabs() {
     const theme = useTheme();
+    const { height, width } = useWindowDimensions();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
     const [searchParams, setSearchParams] = useSearchParams();
 
@@ -26,6 +28,8 @@ export default function LSETabs() {
         
         navigator.clipboard.writeText(fullUrl);
     };
+
+    const tabWidth = isMobile ? '100vw' : `calc(${Math.min(width, 1440)}px - 220px)`;
 
     return (
         <Box
@@ -143,7 +147,7 @@ export default function LSETabs() {
                 }/>
             </Tabs>
             <TabPanel value={subTab} index={0}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">EOLR</Typography>
                     <ul>
                     <li>
@@ -161,35 +165,73 @@ export default function LSETabs() {
                     <li>
                         EOLR Algs(righty M):{" "}
                         <Link href="https://docs.google.com/document/d/1CV3DEwIZYn0g4bnXDN6-2bxNpc7I0woFL1tnslhYQr4/edit" target="_blank" rel="noopener">
-                        Louis' full 2H EOLR (RH M moves) - Google Docs
+                        TDM's full 2H EOLR (RH M moves) - Google Docs
                         </Link>
                     </li>
                     <li>
                         EOLR Algs(lefty M):{" "}
                         <Link href="https://docs.google.com/document/d/15At5K7N1Yg1Qfh0_KZyUJZhBqLJVmXdPvLN1hmrRYoc/edit" target="_blank" rel="noopener">
-                        Louis' full 2H EOLR (LH M moves) - Google Docs
+                        TDM's full 2H EOLR (LH M moves) - Google Docs
                         </Link>
                     </li>
                     </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={1}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     Misoriented centers
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     Dots skipping/UFUB
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={3}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
-                    Recognition - DFDB, BU
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">DFDB and BU Recognition</Typography>
+                    <ul>
+                    <li>
+                        BU and DFDB Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=AwTJ5-ZDaew" target="_blank" rel="noopener">
+                        Kian's BU and DFDB - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        DFDB Doc:{" "}
+                        <Link href="https://docs.google.com/document/d/1L9v-iWOKkdnymCYud0IWmAT50cEWwWtxU443I4b21AA/edit" target="_blank" rel="noopener">
+                        Anto's DFDB - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        DFDB Flowchart:{" "}
+                        <Link href="https://rouxl.es/images/DFDB.png" target="_blank" rel="noopener">
+                        Anto's DFDB - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        BU Guide:{" "}
+                        <Link href="https://www.reddit.com/r/Cubers/comments/69rubn/made_a_roux_4c_cycle_bu_recog_guide/" target="_blank" rel="noopener">
+                        Alex's BU Guide - Reddit
+                        </Link>
+                    </li>
+                    <li>
+                        EZ4c Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=pWCTCA9ZM-A" target="_blank" rel="noopener">
+                        GodCubing's EZ4c Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        BU Diagram:{" "}
+                        <Link href="https://drive.google.com/file/d/1Z_oF4Sv1A9YvTzHFD78wp_kGHGmO4Hrm/view" target="_blank" rel="noopener">
+                        GodCubing's EZ4c Diagram- Google Drive
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={4}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">6-Flips</Typography>
                     <ul>
                     <li>
@@ -208,7 +250,7 @@ export default function LSETabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={5}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     EOLRb
                 </Box>
             </TabPanel>

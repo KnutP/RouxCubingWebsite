@@ -1,16 +1,18 @@
 import * as React from 'react';
 // import { useState, useEffect } from "react";
-import { Box, Typography, Paper, Card, CardActions, CardContent, CardMedia, Button} from '@mui/material';
+import { Box, Typography, Paper, Card, CardActions, CardContent, CardMedia, Button, IconButton, Link} from '@mui/material';
 import { Accordion, AccordionSummary, AccordionDetails} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Grid from '@mui/material/Grid2';
 import CompPost from './CompPost';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReddit, faDiscord, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
 
     return (
-        <Box sx={{ width: '100%' }}>
+        <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', maxWidth:'1440px' }}>
             <Paper elevation={1}>
                 <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
                     <Typography variant="h3">Home</Typography>
@@ -26,8 +28,11 @@ export default function Home() {
                                     What is Roux?
                                 </Typography>
                                 <Typography gutterBottom>
-                                    Roux is a Rubik's Cube speed-solving method that is known for its use of block building and slice moves.
-                                    It is named after its creator, Gilles Roux. Some quick info about the method:
+                                    According to the {" "}
+                                    <Link href="https://www.speedsolving.com/wiki/index.php/Roux_method" target="_blank" rel="noopener">
+                                    Speedsolving Wiki
+                                    </Link>, Roux (French: [ʁu], English: [ɹuː] ROO) is a Rubik's cube speedsolving method invented by Gilles Roux, and is based on Blockbuilding and Corners First methods. 
+                                    Some quick info about the method:
                                 </Typography>
                                 <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
                                     + Roux has a lower movecount than many other methods, such as CFOP
@@ -42,11 +47,29 @@ export default function Home() {
                                     - Roux is requires more planning than algorithm-heavy methods, so TPS tends to be lower
                                 </Typography>
                                 <Typography gutterBottom>
-                                    Those features make Roux extremely good for One-Handed solving.
+                                    Those features make Roux competetive with other speedsolving methods, and make it arguably the best method for One-Handed solving.
                                 </Typography>
                                 <Typography gutterBottom>
-                                    card with discord and FB invites
+                                    Want to join the Roux community? Join our Discord, Facebook Group, and/or subreddit!
                                 </Typography>
+                                <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
+                                    <IconButton
+                                        color="primary" aria-label="discord" size="large"
+                                        onClick={() => window.open('https://discord.gg/VJunGCZBGZ')}
+                                    >
+                                        <FontAwesomeIcon icon={faDiscord} />
+                                    </IconButton>
+                                    <IconButton
+                                        color="primary" aria-label="facebook" size="large"
+                                        onClick={() => window.open('https://www.facebook.com/groups/1482303418674425/')}>
+                                        <FontAwesomeIcon icon={faFacebook} />
+                                    </IconButton>
+                                    <IconButton
+                                        color="primary" aria-label="reddit" size="large"
+                                        onClick={() => window.open('https://www.reddit.com/r/rouxcubing/')}>
+                                        <FontAwesomeIcon icon={faReddit} />
+                                    </IconButton>
+                                </Box>
                             </Box>
                         </Grid>
                         <Grid size={{ xs: 12, md: 4 }}>
@@ -83,7 +106,7 @@ export default function Home() {
                         </Box>
                     </Box>
                     <Box sx={{ width: '100%', padding: 1 }}>
-                        <Accordion>
+                        <Accordion sx={{ bgcolor: 'palette.background.paper' }}>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography variant="h5" component="span">Scrambles for this week:</Typography>
                             </AccordionSummary>
@@ -117,7 +140,7 @@ export default function Home() {
                     </Grid>
                 </Box>
             </Paper>
-
+        </Box>
         </Box>
     );
 }

@@ -6,8 +6,8 @@ export default function Roadmap() {
 
 
     return (
-        <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-
+        <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', maxWidth:'1440px' }}>
 
             <Paper elevation={1}>
                 <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
@@ -28,7 +28,7 @@ export default function Roadmap() {
                 
             </Paper>
 
-
+        </Box>
         </Box>
     );
 }

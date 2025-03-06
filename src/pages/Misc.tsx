@@ -3,10 +3,12 @@ import { Box, Tabs, Tab, Typography, useMediaQuery, useTheme, IconButton, Link  
 import { Link as LinkIcon } from "@mui/icons-material";
 import { TabPanel } from './Rouxsources';
 import { useSearchParams } from "react-router-dom";
+import useWindowDimensions from '../components/WindowDimensions'
 
 
 export default function MiscTabs() {
     const theme = useTheme();
+    const { height, width } = useWindowDimensions();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm")); // Detect if screen is small
     const [searchParams, setSearchParams] = useSearchParams();
 
@@ -26,6 +28,8 @@ export default function MiscTabs() {
         
         navigator.clipboard.writeText(fullUrl);
     };
+
+    const tabWidth = isMobile ? '100vw' : `calc(${Math.min(width, 1440)}px - 220px)`;
 
     return (
         <Box
@@ -113,7 +117,7 @@ export default function MiscTabs() {
                 }/>
             </Tabs>
             <TabPanel value={subTab} index={0}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Rouxer Websites</Typography>
                     <ul>
                     <li>
@@ -150,7 +154,7 @@ export default function MiscTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={1}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Rouxer Youtube Channels</Typography>
                     <ul>
                     <li>
@@ -163,7 +167,7 @@ export default function MiscTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Social Media</Typography>
                     <ul>
                     <li>
@@ -188,7 +192,7 @@ export default function MiscTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={3}>
-                <Box sx={{ width: isMobile ? '100vw' : 'calc(100vw - 220px)', padding: 2 }}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Roux Acronyms and Definitions</Typography>
                     <ul>
                     <li>
