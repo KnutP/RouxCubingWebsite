@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/RouxCubingWebsite/static/js/main.b582f549.js",
+    "main.js": "/RouxCubingWebsite/static/js/main.1ebc1e6d.js",
     "static/media/roux_worlds_2023.jpg": "/RouxCubingWebsite/static/media/roux_worlds_2023.9e9f52243f3934176a64.jpg",
-    "static/media/Week 496 Results.png": "/RouxCubingWebsite/static/media/Week 496 Results.cc65a75cbb37f8adf21b.png",
-    "static/media/post.md": "/RouxCubingWebsite/static/media/post.50b155a94d1a349344e4.md",
+    "static/media/results.png": "/RouxCubingWebsite/static/media/results.2564a72670b3d7c1f879.png",
+    "static/media/post.md": "/RouxCubingWebsite/static/media/post.75a4b725fbf809da2206.md",
     "index.html": "/RouxCubingWebsite/index.html",
-    "main.b582f549.js.map": "/RouxCubingWebsite/static/js/main.b582f549.js.map"
+    "main.1ebc1e6d.js.map": "/RouxCubingWebsite/static/js/main.1ebc1e6d.js.map"
   },
   "entrypoints": [
-    "static/js/main.b582f549.js"
+    "static/js/main.1ebc1e6d.js"
   ]
 }
