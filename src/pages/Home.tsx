@@ -101,8 +101,8 @@ export default function Home() {
                         <Typography variant="h4" gutterBottom>
                             Roux Weekly Competition
                         </Typography>
-                        <Box sx={{ display: 'flex', width: '100%', justifyContent: 'left',}}>
-                            <img src={require("../img/Week 496 Results.png")} style={{ maxWidth: '1080px', width: '100%'}} />
+                        <Box sx={{ display: 'flex', width: '100%', justifyContent: 'center',}}>
+                            <img src={require("../weeklycomp/results.png")} style={{ maxWidth: '1080px', width: '100%'}} />
                         </Box>
                     </Box>
                     <Box sx={{ width: '100%', padding: 1 }}>
