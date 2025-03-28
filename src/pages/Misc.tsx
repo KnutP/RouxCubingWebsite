@@ -150,6 +150,12 @@ export default function MiscTabs() {
                         http://www.markfiend.com/roux.html
                         </Link>
                     </li>
+                    <li>
+                        Speedsolving Wiki Page:{" "}
+                        <Link href="https://www.speedsolving.com/wiki/index.php/Roux_method" target="_blank" rel="noopener">
+                        https://www.speedsolving.com/wiki/index.php/Roux_method
+                        </Link>
+                    </li>
                     </ul>
                 </Box>
             </TabPanel>

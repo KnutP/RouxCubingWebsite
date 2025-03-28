@@ -62,6 +62,7 @@ export default function Rouxtorials() {
                 </Typography>
                 <Typography gutterBottom>
                     first block info
+                    
                 </Typography>
                 <Typography variant="h5" gutterBottom>
                     Step 2: Second Block
