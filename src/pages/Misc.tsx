@@ -115,6 +115,21 @@ export default function MiscTabs() {
                     </IconButton>
                     </Box>
                 }/>
+                <Tab component="span" label={
+                    <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>OH Fingertricks</Box>
+                    <IconButton 
+                        size="small"
+                        onClick={(e) => {
+                        e.stopPropagation(); // Prevent tab switch on click
+                        copyLink(4);
+                        }}
+                        sx={{ ml: 1 }} // Add left margin for spacing
+                    >
+                        <LinkIcon fontSize="small" />
+                    </IconButton>
+                    </Box>
+                }/>
             </Tabs>
             <TabPanel value={subTab} index={0}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
@@ -280,6 +295,43 @@ export default function MiscTabs() {
                     </li>
                     <li>
                         <b>ULUR</b> - Up-Left Up-Right (edges). Solved during step 4b of LSE.
+                    </li>
+                    </ul>
+                </Box>
+            </TabPanel>
+            <TabPanel value={subTab} index={4}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">OH Fingertricks</Typography>
+                    <ul>
+                    <li>
+                        Anto's OH fingertricks:{" "}
+                        <Link href="https://youtu.be/4WK0cORg6CQ?si=Ia-tSyYTZCN1JhvB" target="_blank" rel="noopener">
+                        https://youtu.be/4WK0cORg6CQ?si=Ia-tSyYTZCN1JhvB
+                        </Link>
+                    </li>
+                    <li>
+                        Kavin's OH LSE fingertricks:{" "}
+                        <Link href="https://www.youtube.com/watch?v=5xJCt4VQYFo" target="_blank" rel="noopener">
+                        https://www.youtube.com/watch?v=5xJCt4VQYFo
+                        </Link>
+                    </li>
+                    <li>
+                        Kian's OH fingertricks:{" "}
+                        <Link href="https://www.youtube.com/watch?v=ggNmk4mv6Y0" target="_blank" rel="noopener">
+                        https://www.youtube.com/watch?v=ggNmk4mv6Y0
+                        </Link>
+                    </li>
+                    <li>
+                        Kian's OH dots execution:{" "}
+                        <Link href="https://www.youtube.com/watch?v=hwXX6GYIHq4" target="_blank" rel="noopener">
+                        https://www.youtube.com/watch?v=hwXX6GYIHq4
+                        </Link>
+                    </li>
+                    <li>
+                        Patrick Ponce's OH fingertricks:{" "}
+                        <Link href="https://youtu.be/36ohLrCmWV8" target="_blank" rel="noopener">
+                        https://youtu.be/36ohLrCmWV8
+                        </Link>
                     </li>
                     </ul>
                 </Box>

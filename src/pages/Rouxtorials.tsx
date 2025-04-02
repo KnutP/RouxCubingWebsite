@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Box, Tabs, Tab, Typography, Paper, Link } from '@mui/material';
+import Grid from '@mui/material/Grid2';
 import { TabPanel } from './Rouxsources';
 
 
@@ -55,14 +56,30 @@ export default function Rouxtorials() {
                     Notation
                 </Typography>
                 <Typography gutterBottom>
-                    notation info
+                    notation info: 
+                    https://ruwix.com/the-rubiks-cube/notation/
                 </Typography>
                 <Typography variant="h5" gutterBottom>
                     Step 1: First Block
                 </Typography>
                 <Typography gutterBottom>
                     first block info
-                    
+
+                    <Grid container spacing={2}>
+                        <Grid size={{ xs: 12, md: 8 }}>
+                            <Typography variant="h6" gutterBottom>
+                                First Square
+                            </Typography>
+                            <Typography gutterBottom>
+                                how to make a square - examples
+                            </Typography>
+                        </Grid>
+                        <Grid size={{ xs: 12, md: 4 }}>
+                            <iframe width="250" height="380" style={{width: '250px', height: '380px', overflow: 'hidden', border: 0}} 
+                                src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20D2&colored=DL%20FL%20BL%20DFL%20DBL%20L/m&flags=showalg&pov=Ufl" scrolling="no"></iframe>
+                        </Grid>
+                    </Grid>
+
                 </Typography>
                 <Typography variant="h5" gutterBottom>
                     Step 2: Second Block

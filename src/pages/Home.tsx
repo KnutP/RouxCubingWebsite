@@ -100,7 +100,7 @@ export default function Home() {
                     </Typography>
                     <Typography gutterBottom>
                         According to the last couple <Link href="https://basilio.dev/cubing/megasurvey6/" target="_blank" rel="noopener">r/cubers megasurveys
-                        </Link> (thank you Bas for the amazing analysis!), Roux solvers make up ~6% of the speedcubing population (who also fill out surveys on reddit)
+                        </Link> (thank you Bas for the amazing analysis!), Roux solvers make up ~6% of the speedcubing population (or at least of those that fill out surveys on reddit)
                         . Based on that, if Roux is keeping pace competetively, we should expect to see a similar percentage of Roux solvers in the top rankings.
                     </Typography>
                     <Grid container spacing={2}>
@@ -190,7 +190,7 @@ export default function Home() {
                         </Box>
                     </Box>
                     <Box sx={{ width: '100%', padding: 1 }}>
-                        <Accordion sx={{ bgcolor: 'palette.background.paper' }}>
+                        <Accordion sx={{ border: 1, bgcolor: 'palette.background.paper' }}>
                             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography variant="h5" component="span">Scrambles for this week:</Typography>
                             </AccordionSummary>
