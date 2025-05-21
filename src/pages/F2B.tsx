@@ -87,7 +87,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Centers</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Misc Blockbuilding</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -102,7 +102,7 @@ export default function F2BTabs() {
         }/>
         <Tab component="span" label={
           <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonlinear Blocks</Box>
+            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Block Trainers</Box>
             <IconButton 
               size="small"
               onClick={(e) => {
@@ -115,52 +115,8 @@ export default function F2BTabs() {
             </IconButton>
           </Box>
         }/>
-        <Tab component="span" label={
-          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Nonmatching Blocks</Box>
-            <IconButton 
-              size="small"
-              onClick={(e) => {
-                e.stopPropagation(); // Prevent tab switch on click
-                copyLink(4);
-              }}
-              sx={{ ml: 1 }} // Add left margin for spacing
-            >
-              <LinkIcon fontSize="small" />
-            </IconButton>
-          </Box>
-        }/>
-        <Tab component="span" label={
-          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>CPFB</Box>
-            <IconButton 
-              size="small"
-              onClick={(e) => {
-                e.stopPropagation(); // Prevent tab switch on click
-                copyLink(5);
-              }}
-              sx={{ ml: 1 }} // Add left margin for spacing
-            >
-              <LinkIcon fontSize="small" />
-            </IconButton>
-          </Box>
-        }/>
-        <Tab component="span" label={
-          <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-            <Box sx={{ flexGrow: 1, textAlign: "center" }}>Block Trainers</Box>
-            <IconButton 
-              size="small"
-              onClick={(e) => {
-                e.stopPropagation(); // Prevent tab switch on click
-                copyLink(6);
-              }}
-              sx={{ ml: 1 }} // Add left margin for spacing
-            >
-              <LinkIcon fontSize="small" />
-            </IconButton>
-          </Box>
-        }/>
       </Tabs>
+      
       <TabPanel value={subTab} index={0}>
         <Box sx={{ width: tabWidth, padding: 2 }}>
           <Typography variant="h6">Inspection/First Block</Typography>
@@ -261,33 +217,27 @@ export default function F2BTabs() {
       </TabPanel>
       <TabPanel value={subTab} index={2}>
         <Box sx={{ width: tabWidth, padding: 2 }}>
-          <Typography variant="h6">Non-Matching Centers</Typography>
+          <Typography variant="h6">Misc Blockbuilding</Typography>
           <ul>
           <li>
-              NMC Tutorial:{" "}
+              Misc Blockbuilding Tips:{" "}
+              <Link href="https://youtu.be/L7pIPmSo24c?si=l_w3lasZgqWgBu2X" target="_blank" rel="noopener">
+              Kian's NMC + Nonlinear Blocks + Non-Matching Blocks Tutorial - YouTube
+              </Link>
+          </li>
+          <li>
+              Non-Matching Centers Tutorial:{" "}
               <Link href="https://www.youtube.com/watch?v=_jE-V7P7kIY" target="_blank" rel="noopener">
               Mr.Roux's NMC Tutorial - YouTube
               </Link>
+          </li>
+          <li>
+              CPFB:{" "} (TODO: find a resource)
           </li>
           </ul>
         </Box>
       </TabPanel>
       <TabPanel value={subTab} index={3}>
-        <Box sx={{ width: tabWidth, padding: 2 }}>
-          Nonlinear blocks
-        </Box>
-      </TabPanel>
-      <TabPanel value={subTab} index={4}>
-        <Box sx={{ width: tabWidth, padding: 2 }}>
-          Nonmatching blocks
-        </Box>
-      </TabPanel>
-      <TabPanel value={subTab} index={5}>
-        <Box sx={{ width: tabWidth, padding: 2 }}>
-          CPFB
-        </Box>
-      </TabPanel>
-      <TabPanel value={subTab} index={6}>
       <Box sx={{ width: tabWidth, padding: 2 }}>
         <Typography variant="h6">Block Trainers</Typography>
         <ul>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Typography, Paper, Step, Stepper, StepButton, Button } from '@mui/material';
+import { Box, Typography, Paper, Step, Stepper, StepButton, Button, Link } from '@mui/material';
 
 
 export default function Roadmap() {
@@ -11,20 +11,38 @@ export default function Roadmap() {
 
             <Paper elevation={1}>
                 <Box sx={{ width: '100%', mx: 1.5, my: 2, padding: 1 }}>
-                    <Typography variant="h3">Roadmap to Sub-X</Typography>
+                    <Typography variant="h3">Rouxdmap to Sub-X</Typography>
                 </Box>
             </Paper>
 
             <Paper elevation={1}>
-                <Box sx={{ width: '100%', padding: 1}}>
-                <Typography variant="h6">TODO: make roadmap</Typography>
-                20, 15, 12, 10, 8
-                https://www.youtube.com/playlist?list=PLBHocHmPzgIh_ioQur_FmQ8vdRykjQJbn  
-                </Box>
 
-                <Box sx={{ width: '100%', padding: 4}}>
-                    <HorizontalRoadmapStepper></HorizontalRoadmapStepper>
-                </Box>
+            <Box sx={{ width: '100%', padding: 2}}>
+                <Typography variant="h4">Video Roadmap:</Typography>
+                <ul>
+                <li>
+                    <Link href="https://www.youtube.com/playlist?list=PLBHocHmPzgIh_ioQur_FmQ8vdRykjQJbn" target="_blank" rel="noopener">
+                    Kian's "Why You're Not Sub-X With Roux" series - YouTube
+                    </Link>
+                </li>
+                </ul>
+                <Typography variant="h4">Text Roadmap</Typography>
+                <Typography variant="h5" gutterBottom>
+                    Coming soon!
+                </Typography>
+
+                
+            </Box>
+
+
+            {/* <Box sx={{ width: '100%', padding: 1}}>
+            <Typography variant="h6">TODO: make roadmap</Typography>
+            20, 15, 12, 10, 8
+            </Box>
+
+            <Box sx={{ width: '100%', padding: 4}}>
+                <HorizontalRoadmapStepper></HorizontalRoadmapStepper>
+            </Box> */}
                 
             </Paper>
 

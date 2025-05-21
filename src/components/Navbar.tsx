@@ -79,7 +79,7 @@ export default function NavBar() {
                <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "white"}}>Rouxsources</Link>
              </Button>
              <Button key={'roadmap'} sx={{ color: '#fff' }} size="large">
-               <Link className="nav-link" to="/roadmap" style={{textDecoration: "none", color: "white"}}>Roadmap to Sub-X</Link>
+               <Link className="nav-link" to="/rouxdmap" style={{textDecoration: "none", color: "white"}}>Rouxdmap to Sub-X</Link>
              </Button>
            </Box>
 
@@ -96,8 +96,14 @@ export default function NavBar() {
           ModalProps={{
             keepMounted: true, // Better open performance on mobile.
           }}
+          PaperProps={{
+            sx: {
+              width: drawerWidth,
+              maxWidth: '100vw',
+            },
+          }}
           sx={{
-            display: { xs: 'block', sm: 'none' },
+            display: mobileOpen ? { xs: 'block', sm: 'none' } : 'none',
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
         >

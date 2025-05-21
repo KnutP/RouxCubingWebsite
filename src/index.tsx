@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { Box, CssBaseline } from '@mui/material';
+import { Box, CssBaseline, GlobalStyles } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
 import { HashRouter, Routes, Route } from "react-router-dom";
@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Rouxsources from './pages/Rouxsources';
 import Layout from './components/Layout';
 import Rouxtorials from './pages/Rouxtorials';
-import Roadmap from './pages/Roadmap';
+import Rouxdmap from './pages/Rouxdmap';
 import NoPage from './pages/NoPage';
 import Navbar from './components/Navbar';
 
@@ -17,6 +17,20 @@ const App = () => {
     
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <GlobalStyles
+        styles={{
+          a: {
+            color: theme.palette.primary.main,
+            textDecoration: 'none',
+            '&:hover': {
+              textDecoration: 'underline',
+            },
+            '&:visited': {
+              color: theme.palette.primary.main,
+            },
+          },
+        }}
+      />
       <Navbar />
       <Box sx={{ mx: 1, mt: 1 }}>
       <Routes>
@@ -24,7 +38,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/rouxsources" element={<Rouxsources />} />
           <Route path="/rouxtorials" element={<Rouxtorials />} />
-          <Route path="/roadmap" element={<Roadmap />} />
+          <Route path="/rouxdmap" element={<Rouxdmap />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

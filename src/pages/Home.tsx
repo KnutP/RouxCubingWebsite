@@ -46,9 +46,9 @@ export default function Home() {
                                     - Roux is requires more planning than algorithm-heavy methods, so TPS tends to be lower
                                 </Typography>
                                 <Typography gutterBottom>
-                                    Want to learn more? The Rouxtorials page has tutorials on how to solve the Rubik's cube using the Roux method
-                                    , the Rouxsources page is a compilation of various resources for improving at Roux
-                                    , and the Roadmap To Sub-X has info on how to get faster.
+                                    Want to learn more? Check out the "Rouxtorials" page for tutorials on how to solve the Rubik's cube using the Roux method,
+                                    the "Rouxsources" page for a compilation of various resources for improving at Roux,
+                                    and the "Rouxdmap To Sub-X" for info on how to get faster.
                                 </Typography>
                                 <Typography gutterBottom>
                                     Have questions or want to join the Roux community? Join our Discord, Facebook Group, and/or subreddit!
@@ -95,13 +95,13 @@ export default function Home() {
                         Is Roux a Competitive Method?
                     </Typography>
                     <Typography gutterBottom>
-                        Since the Roux method's inception, there has been debate over how it compares to other methods, and if it is competitive as a 3x3 speedsolving method.
+                        Since the inception of the Roux method, there has been debate over how it compares to other methods, and if it is competitive as a 3x3 speedsolving method.
                         Qualitative comparisons are difficult, so what if we look at how Roux keeps pace with other methods statistically?
                     </Typography>
                     <Typography gutterBottom>
                         According to the last couple <Link href="https://basilio.dev/cubing/megasurvey6/" target="_blank" rel="noopener">r/cubers megasurveys
-                        </Link> (thank you Bas for the amazing analysis!), Roux solvers make up ~6% of the speedcubing population (or at least of those that fill out surveys on reddit)
-                        . Based on that, if Roux is keeping pace competetively, we should expect to see a similar percentage of Roux solvers in the top rankings.
+                        </Link> (thank you Bas for the amazing analysis!), Roux solvers make up ~6% of the speedcubing population (or at least of those that fill out surveys on reddit).
+                        Based on that, if Roux is keeping pace competetively, we should expect to see a similar percentage of Roux solvers in the top rankings.
                     </Typography>
                     <Grid container spacing={2}>
                         <Grid size={{ xs: 12, md: 4 }}>
@@ -123,8 +123,8 @@ export default function Home() {
                                     },
                                 ]}
                                 colors={[indigo[500], deepPurple[500], indigo[900], indigo[700], indigo[300], indigo[100]]}
-                                width={400}
-                                height={220}
+                                width={280}
+                                height={200}
                                 />
                             </Box>
                         </Grid>
@@ -140,11 +140,12 @@ export default function Home() {
                                         { id: 0, value: 5, label: 'Roux Solvers' },
                                         { id: 1, value: 95, label: 'Other' },
                                     ],
+                                    startAngle: -18,
                                     },
                                 ]}
                                 colors={[deepPurple[500], indigo[500]]}
-                                width={400}
-                                height={220}
+                                width={280}
+                                height={200}
                                 />
                             </Box>
                         </Grid>
@@ -160,18 +161,19 @@ export default function Home() {
                                         { id: 0, value: 24, label: 'Roux Solvers' },
                                         { id: 1, value: 76, label: 'Other' },
                                     ],
+                                    startAngle: -86.4,
                                     },
                                 ]}
                                 colors={[deepPurple[500], indigo[500]]}
-                                width={400}
-                                height={220}
+                                width={280}
+                                height={200}
                                 />
                             </Box>
                         </Grid>
                     </Grid>
                     <Typography gutterBottom>
-                        Based on the current top 3x3 rankings, we see that Roux users are keeping up with other methods. However, for the top One-Handed rankings
-                        , Roux solvers are vastly over-represented. While not conclusive, you can definitely be competitive with Roux for 3x3, and if you want to 
+                        Based on the current top 3x3 rankings, we see that Roux users are keeping up with other methods. However, for the top One-Handed rankings,
+                         Roux solvers are vastly over-represented. While not conclusive, it is certainly possible to be competitive with Roux for 3x3, and if you want to 
                         get good at one-handed, Roux is definitely worth a look!
 
                     </Typography>
@@ -202,6 +204,7 @@ export default function Home() {
                 </Box>
             </Paper>
 
+{/* 
             <Paper elevation={1}>
                 <Box sx={{ width: '100%-15px', mx: '15px', my: '10px' }}>
                     <Grid container spacing={2}>
@@ -223,7 +226,9 @@ export default function Home() {
                         </Grid>
                     </Grid>
                 </Box>
-            </Paper>
+            </Paper> */}
+
+
         </Box>
         </Box>
     );

@@ -179,10 +179,7 @@ export default function MiscTabs() {
                     <Typography variant="h6">Rouxer Youtube Channels</Typography>
                     <ul>
                     <li>
-                        TODO:{" "}
-                        <Link href="https://sites.google.com/view/kianroux/home" target="_blank" rel="noopener">
-                        https://sites.google.com/view/kianroux/home
-                        </Link>
+                        TODO
                     </li>
                     </ul>
                 </Box>

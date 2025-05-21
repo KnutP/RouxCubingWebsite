@@ -53,6 +53,10 @@ export default function Rouxtorials() {
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
                 <Typography variant="h5" gutterBottom>
+                    Coming soon!
+                </Typography>
+
+                {/* <Typography variant="h5" gutterBottom>
                     Notation
                 </Typography>
                 <Typography gutterBottom>
@@ -121,7 +125,7 @@ export default function Rouxtorials() {
                     roadmap, Kian's videos
                 </Typography>
                 How to get faster
-                https://www.youtube.com/watch?v=mB-y0XQiN0M&list=PLajHGvYF36nSsL1r_DqrpDY07TnJwqEpn
+                https://www.youtube.com/watch?v=mB-y0XQiN0M&list=PLajHGvYF36nSsL1r_DqrpDY07TnJwqEpn */}
                 </Box>
             </TabPanel>
 
@@ -141,6 +145,10 @@ export default function Rouxtorials() {
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
                 <Typography variant="h5" gutterBottom>
+                    Coming soon!
+                </Typography>
+
+                {/* <Typography variant="h5" gutterBottom>
                     Step 1: First Block
                 </Typography>
                 <Typography gutterBottom>
@@ -187,7 +195,7 @@ export default function Rouxtorials() {
                 </Typography>
                 <Typography gutterBottom>
                     roadmap, Kian's videos
-                </Typography>
+                </Typography> */}
                 </Box>
             </TabPanel>
             </Paper>
