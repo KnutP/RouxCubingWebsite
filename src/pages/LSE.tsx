@@ -145,6 +145,21 @@ export default function LSETabs() {
                     </IconButton>
                     </Box>
                 }/>
+                <Tab component="span" label={
+                    <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Misc 4c</Box>
+                    <IconButton 
+                        size="small"
+                        onClick={(e) => {
+                        e.stopPropagation(); // Prevent tab switch on click
+                        copyLink(6);
+                        }}
+                        sx={{ ml: 1 }} // Add left margin for spacing
+                    >
+                        <LinkIcon fontSize="small" />
+                    </IconButton>
+                    </Box>
+                }/>
             </Tabs>
             <TabPanel value={subTab} index={0}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
@@ -251,7 +266,40 @@ export default function LSETabs() {
             </TabPanel>
             <TabPanel value={subTab} index={5}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
-                    EOLRb
+                <Typography variant="h6">EOLRb</Typography>
+                    <ul>
+                    <li>
+                        EOLRb doc:{" "}
+                        <Link href="https://docs.google.com/document/d/1OQ7hcB06bYbr8eH9SLTW2W5tozk9_nJ5MzqNgxHOnUk/edit?tab=t.0" target="_blank" rel="noopener">
+                        EOLR & EOLRb - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        EOLRb Trainer:{" "}
+                        <Link href="https://onionhoney.github.io/roux-trainers/#eopair" target="_blank" rel="noopener">
+                        EOLRb Trainer - onionhoney
+                        </Link>
+                    </li>
+                    </ul>
+                </Box>
+            </TabPanel>
+            <TabPanel value={subTab} index={6}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                <Typography variant="h6">Misc 4c</Typography>
+                    <ul>
+                    <li>
+                        LRb Backtracking:{" "}
+                        <Link href="https://www.youtube.com/watch?v=4zIAXfUr5vM" target="_blank" rel="noopener">
+                        Dylan's LRb Backtracking - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        4c^3:{" "}
+                        <Link href="https://www.youtube.com/watch?v=BpkkDfBrD9A" target="_blank" rel="noopener">
+                        Dylan's 4c^3 - YouTube
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
         </Box>

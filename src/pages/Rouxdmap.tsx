@@ -27,7 +27,7 @@ export default function Roadmap() {
                 </li>
                 </ul>
                 <Typography variant="h4">Text Roadmap</Typography>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Coming soon!
                 </Typography>
 

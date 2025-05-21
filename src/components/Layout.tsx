@@ -23,7 +23,6 @@ export default function Layout() {
           RouxCubing.com
         </Link>{' '}
         {new Date().getFullYear()}.
-        TODO: add contact info
       </Typography>
       </Box>
     );

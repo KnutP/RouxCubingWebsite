@@ -36,9 +36,9 @@ export default function NavBar() {
             <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "white"}}>Rouxsources</Link>
           </ListItemButton>
         </ListItem>
-        <ListItem key={'roadmap'} disablePadding>
+        <ListItem key={'rouxdmap'} disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link className="nav-link" to="/roadmap" style={{textDecoration: "none", color: "white"}}>Roadmap to Sub-X</Link>
+            <Link className="nav-link" to="/rouxdmap" style={{textDecoration: "none", color: "white"}}>Roadmap to Sub-X</Link>
           </ListItemButton>
         </ListItem>
       </List>
@@ -78,7 +78,7 @@ export default function NavBar() {
              <Button key={'rouxsources'} sx={{ color: '#fff' }} size="large">
                <Link className="nav-link" to="/rouxsources" style={{textDecoration: "none", color: "white"}}>Rouxsources</Link>
              </Button>
-             <Button key={'roadmap'} sx={{ color: '#fff' }} size="large">
+             <Button key={'rouxdmap'} sx={{ color: '#fff' }} size="large">
                <Link className="nav-link" to="/rouxdmap" style={{textDecoration: "none", color: "white"}}>Rouxdmap to Sub-X</Link>
              </Button>
            </Box>

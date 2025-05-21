@@ -116,7 +116,7 @@ export default function F2BTabs() {
           </Box>
         }/>
       </Tabs>
-      
+
       <TabPanel value={subTab} index={0}>
         <Box sx={{ width: tabWidth, padding: 2 }}>
           <Typography variant="h6">Inspection/First Block</Typography>
@@ -220,9 +220,9 @@ export default function F2BTabs() {
           <Typography variant="h6">Misc Blockbuilding</Typography>
           <ul>
           <li>
-              Misc Blockbuilding Tips:{" "}
+              NMC + Nonlinear Blocks + Non-Matching Blocks:{" "}
               <Link href="https://youtu.be/L7pIPmSo24c?si=l_w3lasZgqWgBu2X" target="_blank" rel="noopener">
-              Kian's NMC + Nonlinear Blocks + Non-Matching Blocks Tutorial - YouTube
+              Kian's Advanced Roux Techniques - YouTube
               </Link>
           </li>
           <li>

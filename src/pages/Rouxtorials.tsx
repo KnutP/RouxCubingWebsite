@@ -144,7 +144,7 @@ export default function Rouxtorials() {
                 </li>
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Coming soon!
                 </Typography>
 
