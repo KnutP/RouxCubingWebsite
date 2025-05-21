@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.cf15964d.js",
+    "main.js": "/static/js/main.30a5a1bc.js",
     "static/media/roux_worlds_2023.jpg": "/static/media/roux_worlds_2023.9e9f52243f3934176a64.jpg",
     "static/media/results.png": "/static/media/results.a78221ceae8eb52cfaca.png",
     "static/media/post.md": "/static/media/post.9db87d8153b8b6bd6174.md",
     "index.html": "/index.html",
-    "main.cf15964d.js.map": "/static/js/main.cf15964d.js.map"
+    "main.30a5a1bc.js.map": "/static/js/main.30a5a1bc.js.map"
   },
   "entrypoints": [
-    "static/js/main.cf15964d.js"
+    "static/js/main.30a5a1bc.js"
   ]
 }
