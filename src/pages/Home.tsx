@@ -92,16 +92,6 @@ export default function Home() {
                             </Box>
                         </Grid>
                         <Grid container direction="row" justifyContent="flex-end" alignItems="center" size={{ xs: 12, md: 4 }}>
-                            {/* <Box sx={{ width: '100%', padding: 1 }}>
-                                <img src={require("../img/roux_worlds_2023.jpg")} style={{ width: '100%'}} />
-                                <Card sx={{ width: '100%' }}>
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
-                                        World Championship 2023 Roux Group Photo
-                                        </Typography>
-                                    </CardContent>
-                                </Card>
-                            </Box> */}
                             <Box sx={{ width: '100%', maxWidth: 800, mx: 'auto' }}>
                                 <Slider {...sliderSettings}>
                                 {carousel_slides.map((slide, idx) => (
@@ -172,10 +162,10 @@ export default function Home() {
                                 series={[
                                     {
                                     data: [
-                                        { id: 0, value: 5, label: 'Roux Solvers' },
-                                        { id: 1, value: 95, label: 'Other' },
+                                        { id: 0, value: 6, label: 'Roux Solvers' },
+                                        { id: 1, value: 94, label: 'Other' },
                                     ],
-                                    startAngle: -18,
+                                    startAngle: -21.6,
                                     },
                                 ]}
                                 colors={[deepPurple[500], indigo[500]]}
@@ -193,10 +183,10 @@ export default function Home() {
                                 series={[
                                     {
                                     data: [
-                                        { id: 0, value: 24, label: 'Roux Solvers' },
-                                        { id: 1, value: 76, label: 'Other' },
+                                        { id: 0, value: 34, label: 'Roux Solvers' },
+                                        { id: 1, value: 66, label: 'Other' },
                                     ],
-                                    startAngle: -86.4,
+                                    startAngle: -122.4,
                                     },
                                 ]}
                                 colors={[deepPurple[500], indigo[500]]}
