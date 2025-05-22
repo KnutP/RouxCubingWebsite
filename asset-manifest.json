@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0c1ae41.css",
-    "main.js": "/static/js/main.a293e762.js",
+    "main.js": "/static/js/main.1708608c.js",
     "static/media/roux_worlds_2023.jpg": "/static/media/roux_worlds_2023.bc18ff851dc825d7c935.jpg",
     "static/media/roux_euros_2024.jpg": "/static/media/roux_euros_2024.6e35b8f022692c33ef5d.jpg",
     "static/media/roux_worlds_2019.jpg": "/static/media/roux_worlds_2019.a7cc5e7fd6de387befd1.jpg",
@@ -13,10 +13,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c0c1ae41.css.map": "/static/css/main.c0c1ae41.css.map",
-    "main.a293e762.js.map": "/static/js/main.a293e762.js.map"
+    "main.1708608c.js.map": "/static/js/main.1708608c.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c1ae41.css",
-    "static/js/main.a293e762.js"
+    "static/js/main.1708608c.js"
   ]
 }
