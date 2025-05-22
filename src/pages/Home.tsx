@@ -9,8 +9,26 @@ import CompPost from './CompPost';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReddit, faDiscord, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { indigo, deepPurple} from '@mui/material/colors';
+import Slider from 'react-slick';
 
 export default function Home() {
+
+    const carousel_slides = [
+    { src: require('../img/roux_worlds_2023.jpg'), caption: 'Worlds 2023 Roux Group Photo' },
+    { src: require('../img/roux_euros_2024.jpg'), caption: 'Euros 2024 Roux Group Photo' },
+    { src: require('../img/roux_worlds_2019.jpg'), caption: 'Worlds 2019 Roux Group Photo' },
+    ];
+
+    const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    autoplaySpeed: 5000,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    };
 
     return (
         <Box display="flex" justifyContent="center" alignItems="center" sx={{ width: '100%' }}>
@@ -34,7 +52,7 @@ export default function Home() {
                                     Some quick info about the method:
                                 </Typography>
                                 <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
-                                    + Roux has a lower movecount than many other methods, such as CFOP
+                                    + Roux has a lower movecount than many other methods, such as CFOP or ZZ
                                 </Typography>
                                 <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
                                     + Roux doesn't use any cube rotations
@@ -73,8 +91,8 @@ export default function Home() {
                                 </Box>
                             </Box>
                         </Grid>
-                        <Grid size={{ xs: 12, md: 4 }}>
-                            <Box sx={{ width: '100%', padding: 1 }}>
+                        <Grid container direction="row" justifyContent="flex-end" alignItems="center" size={{ xs: 12, md: 4 }}>
+                            {/* <Box sx={{ width: '100%', padding: 1 }}>
                                 <img src={require("../img/roux_worlds_2023.jpg")} style={{ width: '100%'}} />
                                 <Card sx={{ width: '100%' }}>
                                     <CardContent>
@@ -83,6 +101,23 @@ export default function Home() {
                                         </Typography>
                                     </CardContent>
                                 </Card>
+                            </Box> */}
+                            <Box sx={{ width: '100%', maxWidth: 800, mx: 'auto' }}>
+                                <Slider {...sliderSettings}>
+                                {carousel_slides.map((slide, idx) => (
+                                    <Box key={idx} sx={{ textAlign: 'center' }}>
+                                        <Box
+                                        component="img"
+                                        src={slide.src}
+                                        alt={`slide-${idx}`}
+                                        sx={{ width: '100%', borderRadius: 0 }}
+                                        />
+                                        <Typography variant="subtitle1" sx={{ mt: 1 }}>
+                                        {slide.caption}
+                                        </Typography>
+                                    </Box>
+                                    ))}
+                                </Slider>
                             </Box>
                         </Grid>
                     </Grid>

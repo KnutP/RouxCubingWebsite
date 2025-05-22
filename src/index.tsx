@@ -11,6 +11,8 @@ import Rouxtorials from './pages/Rouxtorials';
 import Rouxdmap from './pages/Rouxdmap';
 import NoPage from './pages/NoPage';
 import Navbar from './components/Navbar';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const App = () => {
   return (

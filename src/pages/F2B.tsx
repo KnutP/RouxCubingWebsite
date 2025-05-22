@@ -232,7 +232,16 @@ export default function F2BTabs() {
               </Link>
           </li>
           <li>
-              CPFB:{" "} (TODO: find a resource)
+              CPFB:{" "}
+              <Link href="https://devagio.github.io/YruRU/index.html" target="_blank" rel="noopener">
+              YruRU CPFB
+              </Link>
+          </li>
+          <li>
+              CEOR:{" "}
+              <Link href="https://www.speedsolving.com/wiki/index.php?title=CEOR" target="_blank" rel="noopener">
+              CEOR Wiki Page
+              </Link>
           </li>
           </ul>
         </Box>

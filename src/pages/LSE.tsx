@@ -194,12 +194,34 @@ export default function LSETabs() {
             </TabPanel>
             <TabPanel value={subTab} index={1}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
-                    Misoriented centers
+                    <Typography variant="h6">Misoriented Centers</Typography>
+                    <ul>
+                    <li>
+                        Misoriented Centers:{" "}
+                        <Link href="https://youtu.be/L7pIPmSo24c?si=66twIiBpBtOHzUjI&t=351" target="_blank" rel="noopener">
+                        Kian's Misoriented Centers Overview - YouTube
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
-                    Dots skipping/UFUB
+                    <Typography variant="h6">Dots Skipping/UFUB</Typography>
+                    <ul>
+                    <li>
+                        Dots Skipping Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=2juB7PEeTQw" target="_blank" rel="noopener">
+                        Kian's Dots Skipping Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        UFUB Overview:{" "}
+                        <Link href="https://youtu.be/L7pIPmSo24c?si=Ht7T_7EzELgJIg8f&t=486" target="_blank" rel="noopener">
+                        Kian's UFUB - YouTube
+                        </Link>
+                    </li>
+                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={3}>
