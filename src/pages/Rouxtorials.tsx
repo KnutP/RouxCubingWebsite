@@ -2,6 +2,11 @@ import * as React from 'react';
 import { Box, Tabs, Tab, Typography, Paper, Link } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { TabPanel } from './Rouxsources';
+import { useState, useEffect } from "react";
+import ReactMarkdown from "react-markdown";
+import rehypeRaw from 'rehype-raw';
+import beginnerTutorial from '../markdown/beginnerTutorial.md';
+import advancedTutorial from '../markdown/advancedTutorial.md';
 
 
 interface TabPanelProps {
@@ -13,6 +18,14 @@ interface TabPanelProps {
 
 export default function Rouxtorials() {
     const [value, setValue] = React.useState(0);
+    const [beginnerMarkdown, setBeginnerMarkdown] = useState("");
+    const [advancedMarkdown, setAdvancedMarkdown] = useState("");
+      
+        useEffect(() => {
+          fetch(beginnerTutorial)
+            .then((res) => res.text())
+            .then((text) => setBeginnerMarkdown(text));
+        }, []);
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
@@ -56,76 +69,9 @@ export default function Rouxtorials() {
                     Coming soon!
                 </Typography>
 
-                {/* <Typography variant="h5" gutterBottom>
-                    Notation
-                </Typography>
-                <Typography gutterBottom>
-                    notation info: 
-                    https://ruwix.com/the-rubiks-cube/notation/
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    Step 1: First Block
-                </Typography>
-                <Typography gutterBottom>
-                    first block info
+                {/* <ReactMarkdown rehypePlugins={[rehypeRaw]}>{beginnerMarkdown}</ReactMarkdown> */}
 
-                    <Grid container spacing={2}>
-                        <Grid size={{ xs: 12, md: 8 }}>
-                            <Typography variant="h6" gutterBottom>
-                                First Square
-                            </Typography>
-                            <Typography gutterBottom>
-                                how to make a square - examples
-                            </Typography>
-                        </Grid>
-                        <Grid size={{ xs: 12, md: 4 }}>
-                            <iframe width="250" height="380" style={{width: '250px', height: '380px', overflow: 'hidden', border: 0}} 
-                                src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20D2&colored=DL%20FL%20BL%20DFL%20DBL%20L/m&flags=showalg&pov=Ufl" scrolling="no"></iframe>
-                        </Grid>
-                    </Grid>
-
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    Step 2: Second Block
-                </Typography>
-                <Typography gutterBottom>
-                    second block info
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    Step 3: CMLL
-                </Typography>
-                <Typography gutterBottom>
-                    sune+j-perm, links to 2-look cmll algs
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    Step 4: Last Six Edges
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    4a: Edge Orientation
-                </Typography>
-                <Typography gutterBottom>
-                    recognizing bad edges, M U M', EO flowchart
-                </Typography>
-                <Typography variant="h6" gutterBottom>
-                    4b: Solving L and R Edges
-                </Typography>
-                <Typography gutterBottom>
-                    solving LR
-                </Typography>
-                <Typography variant="h6" gutterBottom>
-                    4c: Solving the M-Slice
-                </Typography>
-                <Typography gutterBottom>
-                    4c
-                </Typography>
-                <Typography variant="h6" gutterBottom>
-                    Getting Faster
-                </Typography>
-                <Typography gutterBottom>
-                    roadmap, Kian's videos
-                </Typography>
-                How to get faster
-                https://www.youtube.com/watch?v=mB-y0XQiN0M&list=PLajHGvYF36nSsL1r_DqrpDY07TnJwqEpn */}
+                
                 </Box>
             </TabPanel>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from 'rehype-raw';
 import file from '../weeklycomp/post.md';
 
 
@@ -15,7 +16,7 @@ export default function () {
   
     return (
         <div>
-          <ReactMarkdown>{markdown}</ReactMarkdown>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
         </div>
       );
   }
