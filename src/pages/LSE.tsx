@@ -132,27 +132,12 @@ export default function LSETabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>EOLRb</Box>
-                    <IconButton 
-                        size="small"
-                        onClick={(e) => {
-                        e.stopPropagation(); // Prevent tab switch on click
-                        copyLink(5);
-                        }}
-                        sx={{ ml: 1 }} // Add left margin for spacing
-                    >
-                        <LinkIcon fontSize="small" />
-                    </IconButton>
-                    </Box>
-                }/>
-                <Tab component="span" label={
-                    <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
                     <Box sx={{ flexGrow: 1, textAlign: "center" }}>Misc 4c</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
                         e.stopPropagation(); // Prevent tab switch on click
-                        copyLink(6);
+                        copyLink(5);
                         }}
                         sx={{ ml: 1 }} // Add left margin for spacing
                     >
@@ -187,6 +172,21 @@ export default function LSETabs() {
                         EOLR Algs(lefty M):{" "}
                         <Link href="https://docs.google.com/document/d/15At5K7N1Yg1Qfh0_KZyUJZhBqLJVmXdPvLN1hmrRYoc/edit" target="_blank" rel="noopener">
                         TDM's full 2H EOLR (LH M moves) - Google Docs
+                        </Link>
+                    </li>
+                    </ul>
+                    <Typography variant="h6">EOLRb</Typography>
+                    <ul>
+                    <li>
+                        EOLRb doc:{" "}
+                        <Link href="https://docs.google.com/document/d/1OQ7hcB06bYbr8eH9SLTW2W5tozk9_nJ5MzqNgxHOnUk/edit?tab=t.0" target="_blank" rel="noopener">
+                        EOLR & EOLRb - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        EOLRb Trainer:{" "}
+                        <Link href="https://onionhoney.github.io/roux-trainers/#eopair" target="_blank" rel="noopener">
+                        EOLRb Trainer - onionhoney
                         </Link>
                     </li>
                     </ul>
@@ -287,25 +287,6 @@ export default function LSETabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={5}>
-                <Box sx={{ width: tabWidth, padding: 2 }}>
-                <Typography variant="h6">EOLRb</Typography>
-                    <ul>
-                    <li>
-                        EOLRb doc:{" "}
-                        <Link href="https://docs.google.com/document/d/1OQ7hcB06bYbr8eH9SLTW2W5tozk9_nJ5MzqNgxHOnUk/edit?tab=t.0" target="_blank" rel="noopener">
-                        EOLR & EOLRb - Google Docs
-                        </Link>
-                    </li>
-                    <li>
-                        EOLRb Trainer:{" "}
-                        <Link href="https://onionhoney.github.io/roux-trainers/#eopair" target="_blank" rel="noopener">
-                        EOLRb Trainer - onionhoney
-                        </Link>
-                    </li>
-                    </ul>
-                </Box>
-            </TabPanel>
-            <TabPanel value={subTab} index={6}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
                 <Typography variant="h6">Misc 4c</Typography>
                     <ul>
