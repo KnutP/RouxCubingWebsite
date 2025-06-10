@@ -133,42 +133,63 @@ export default function MiscTabs() {
             </Tabs>
             <TabPanel value={subTab} index={0}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
-                    <Typography variant="h6">Rouxer Websites</Typography>
+                    <Typography variant="h6">Roux Wiki Pages</Typography>
+                    <ul>
+                    <li>
+                        Speedsolving Wiki Page:{" "}
+                        <Link href="https://www.speedsolving.com/wiki/index.php/Roux_method" target="_blank" rel="noopener">
+                        Roux page - speedsolving.com
+                        </Link>
+                    </li>
+                    <li>
+                        Ruwix Wiki Page:{" "}
+                        <Link href="https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/" target="_blank" rel="noopener">
+                        Roux page - ruwix.com
+                        </Link>
+                    </li>
+                    <li>
+                        Roux Wikicube Page:{" "}
+                        <Link href="https://rubiks.fandom.com/wiki/Roux_Method" target="_blank" rel="noopener">
+                        Roux page - rubiks.fandom.com
+                        </Link>
+                    </li>
+                    </ul>
+                    <Typography variant="h6">Roux Websites</Typography>
                     <ul>
                     <li>
                         Gilles Roux:{" "}
                         <Link href="http://grrroux.free.fr/method/Intro.html" target="_blank" rel="noopener">
-                        http://grrroux.free.fr/method/Intro.html
+                        grrroux.free.fr/method/Intro.html
                         </Link>
                     </li>
                     <li>
                         Kian Mansour:{" "}
                         <Link href="https://sites.google.com/view/kianroux/home" target="_blank" rel="noopener">
-                        https://sites.google.com/view/kianroux/home
+                        sites.google.com/view/kianroux/home
                         </Link>
                     </li>
                     <li>
                         Anto Kam:{" "}
                         <Link href="https://rouxl.es/" target="_blank" rel="noopener">
-                        https://rouxl.es/
+                        rouxl.es
                         </Link>
                     </li>
                     <li>
                         Athefre:{" "}
                         <Link href="https://sites.google.com/site/athefre/main" target="_blank" rel="noopener">
-                        https://sites.google.com/site/athefre/main
+                        sites.google.com/site/athefre/main
                         </Link>
                     </li>
                     <li>
                         Mark Fiend:{" "}
                         <Link href="http://www.markfiend.com/roux.html" target="_blank" rel="noopener">
-                        http://www.markfiend.com/roux.html
+                        markfiend.com/roux.html
                         </Link>
                     </li>
                     <li>
-                        Speedsolving Wiki Page:{" "}
-                        <Link href="https://www.speedsolving.com/wiki/index.php/Roux_method" target="_blank" rel="noopener">
-                        https://www.speedsolving.com/wiki/index.php/Roux_method
+                        CubingMethods:{" "}
+                        <Link href="https://www.cubingmethods.com/en/roux" target="_blank" rel="noopener">
+                        cubingmethods.com/en/roux
                         </Link>
                     </li>
                     </ul>
