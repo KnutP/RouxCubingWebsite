@@ -65,11 +65,11 @@ export default function Rouxtorials() {
                 </li>
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
-                <Typography variant="h6" gutterBottom>
-                    Coming soon!
+                <Typography gutterBottom>
+                    &nbsp;&nbsp;Coming soon!
                 </Typography>
                 <Typography>
-                    In the meantime, check out these written tutorials:
+                    &nbsp;&nbsp;In the meantime, check out these written tutorials:
                 </Typography>
                 <ul>
                     <li>
@@ -131,8 +131,8 @@ export default function Rouxtorials() {
                 </li>
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
-                <Typography variant="h6" gutterBottom>
-                    Coming soon!
+                <Typography gutterBottom>
+                    &nbsp;&nbsp;Coming soon!
                 </Typography>
 
                 {/* <Typography variant="h5" gutterBottom>

@@ -38,7 +38,7 @@ export default function Roadmap() {
 
           <Box sx={{ width: '100%', padding: 2 }}>
             <Typography variant="h4">Roux Techniques Table</Typography>
-            <Typography>&nbsp;&nbsp;(loosely organized by when you should learn them)</Typography>
+            <Typography>&nbsp;&nbsp;A loose guide for when you should learn different Roux techniques.</Typography>
 
             <TableContainer component={Paper}>
               <Table size="small" aria-label="simple table">
