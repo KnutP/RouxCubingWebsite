@@ -194,6 +194,12 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
+                        Bas's CMLL Cheatsheet:{" "}
+                        <Link href="https://basilio.dev/cubing/images/ALGS-CMLL.jpg" target="_blank" rel="noopener">
+                        CMLL cheatsheet - basilio.dev/cubing
+                        </Link>
+                    </li>
+                    <li>
                         CMLL Visualizer (shows EP and EO changes for each CMLL):{" "}
                         <Link href="https://badochov.github.io/cmll-visualiser/" target="_blank" rel="noopener">
                         https://badochov.github.io/cmll-visualiser/

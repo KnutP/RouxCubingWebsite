@@ -148,12 +148,28 @@ export default function LSETabs() {
             </Tabs>
             <TabPanel value={subTab} index={0}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">EO</Typography>
+                    <ul>
+                    <li>
+                        EO Flowchart:{" "}
+                        <Link href="https://rouxl.es/images/LSEEO.png" target="_blank" rel="noopener">
+                        Anto's EO flowchart - rouxl.es
+                        </Link>
+                    </li>
+                    </ul>
+                
                     <Typography variant="h6">EOLR</Typography>
                     <ul>
                     <li>
                         EOLR Tutorial:{" "}
                         <Link href="https://www.youtube.com/playlist?list=PLBHocHmPzgIiUBTa7Hs3-xcrBKavfD_zX" target="_blank" rel="noopener">
                         Kian's Full EOLR Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Bas's EOLR Cheatsheet:{" "}
+                        <Link href="https://basilio.dev/cubing/images/ALGS-EOLR.jpg" target="_blank" rel="noopener">
+                        EOLR cheatsheet - basilio.dev/cubing
                         </Link>
                     </li>
                     <li>
@@ -232,6 +248,12 @@ export default function LSETabs() {
                         BU and DFDB Tutorial:{" "}
                         <Link href="https://www.youtube.com/watch?v=AwTJ5-ZDaew" target="_blank" rel="noopener">
                         Kian's BU and DFDB - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Jihu's DFDB Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=pI0-9tUfWzg" target="_blank" rel="noopener">
+                        Jihu's DFDB Tutorial - YouTube
                         </Link>
                     </li>
                     <li>
