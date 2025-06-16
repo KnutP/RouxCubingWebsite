@@ -283,6 +283,12 @@ export default function LSETabs() {
                         Knut's 6-Flip Alg Cases - YouTube
                         </Link>
                     </li>
+                    <li>
+                        6-Flip Cycle Avoidance:{" "}
+                        <Link href="https://www.youtube.com/watch?v=p0oO6w2QlR4" target="_blank" rel="noopener">
+                        Dylan's 6-Flip Cycle Avoidance - YouTube
+                        </Link>
+                    </li>
                     </ul>
                 </Box>
             </TabPanel>
