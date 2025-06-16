@@ -22,7 +22,7 @@ export default function Layout() {
         <Link color="inherit" to="https://RouxCubing.com/">
           RouxCubing.com
         </Link>{' '}
-        {new Date().getFullYear()}.
+        {new Date().getFullYear()}
       </Typography>
       </Box>
     );

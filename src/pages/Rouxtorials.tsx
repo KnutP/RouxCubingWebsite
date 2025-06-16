@@ -65,9 +65,50 @@ export default function Rouxtorials() {
                 </li>
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
-                <Typography variant="h6" gutterBottom>
-                    Coming soon!
+                <Typography gutterBottom>
+                    &nbsp;&nbsp;Coming soon!
                 </Typography>
+                <Typography>
+                    &nbsp;&nbsp;In the meantime, check out these written tutorials:
+                </Typography>
+                <ul>
+                    <li>
+                        The Roux Reader (unfinished, but great content):{" "}
+                        <Link href="https://book.rouxers.com/" target="_blank" rel="noopener">
+                        Roux tutorial - book.rouxers.com
+                        </Link>
+                    </li>
+                    <li>
+                        CubingMethods Tutorial (in progress):{" "}
+                        <Link href="https://www.cubingmethods.com/en/roux/tutorial" target="_blank" rel="noopener">
+                        Roux tutorial - cubingmethods.com
+                        </Link>
+                    </li>
+                    <li>
+                        Gilles Roux's Tutorial:{" "}
+                        <Link href="http://grrroux.free.fr/method/Intro.html" target="_blank" rel="noopener">
+                        Roux tutorial - grrroux
+                        </Link>
+                    </li>
+                    <li>
+                        Mark Fiend's Tutorial:{" "}
+                        <Link href="http://www.markfiend.com/roux.html" target="_blank" rel="noopener">
+                        Roux tutorial - markfiend.com
+                        </Link>
+                    </li>
+                    <li>
+                        Ruwix tutorial:{" "}
+                        <Link href="https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/" target="_blank" rel="noopener">
+                        Roux tutorial - ruwix.com
+                        </Link>
+                    </li>
+                    <li>
+                        Roux Wikicube page:{" "}
+                        <Link href="https://rubiks.fandom.com/wiki/Roux_Method" target="_blank" rel="noopener">
+                        Roux tutorial - rubiks.fandom.com
+                        </Link>
+                    </li>
+                </ul>
 
                 {/* <ReactMarkdown rehypePlugins={[rehypeRaw]}>{beginnerMarkdown}</ReactMarkdown> */}
 
@@ -90,8 +131,8 @@ export default function Rouxtorials() {
                 </li>
                 </ul>
                 <Typography variant="h4">Text Tutorial</Typography>
-                <Typography variant="h6" gutterBottom>
-                    Coming soon!
+                <Typography gutterBottom>
+                    &nbsp;&nbsp;Coming soon!
                 </Typography>
 
                 {/* <Typography variant="h5" gutterBottom>
