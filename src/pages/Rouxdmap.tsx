@@ -132,7 +132,7 @@ export default function Roadmap() {
                     </TableCell>
                     <TableCell align="center" padding='none'>
                       <List dense>
-                        <ListItemButton onClick={() => window.open('http://localhost:3000/#/rouxsources?mainTab=2&subTab=0')}>
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=0')}>
                           <ListItemText primary="EO flowchart" />
                         </ListItemButton>
                       </List>
