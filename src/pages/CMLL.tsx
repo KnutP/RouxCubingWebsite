@@ -280,7 +280,7 @@ export default function CMLLTabs() {
             </TabPanel>
             <TabPanel value={subTab} index={4}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
-                    <Typography variant="h6">Pinkie Pie - IN PROGRESS</Typography>
+                    <Typography variant="h6">Pinkie Pie</Typography>
                     <ul>
                     <li>
                         Pinkie Pie Overview:{" "}
