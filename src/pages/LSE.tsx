@@ -162,6 +162,18 @@ export default function LSETabs() {
                     <ul>
                     <li>
                         EOLR Tutorial:{" "}
+                        <Link href="https://youtu.be/R5j_1Ym82_M?si=XbrbaHwqe1coYnv6" target="_blank" rel="noopener">
+                        MOG Cubing's Full EOLR Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        EOLR Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=KG0Jg71hzmE" target="_blank" rel="noopener">
+                        SpeedCubeReview's Full EOLR Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        EOLR Tutorial:{" "}
                         <Link href="https://www.youtube.com/playlist?list=PLBHocHmPzgIiUBTa7Hs3-xcrBKavfD_zX" target="_blank" rel="noopener">
                         Kian's Full EOLR Tutorial - YouTube
                         </Link>
