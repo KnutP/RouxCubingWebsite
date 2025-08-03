@@ -117,12 +117,27 @@ export default function MiscTabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Roux Acronyms and Definitions</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Example Solves</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
                         e.stopPropagation(); // Prevent tab switch on click
                         copyLink(4);
+                        }}
+                        sx={{ ml: 1 }} // Add left margin for spacing
+                    >
+                        <LinkIcon fontSize="small" />
+                    </IconButton>
+                    </Box>
+                }/>
+                <Tab component="span" label={
+                    <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Roux Acronyms and Definitions</Box>
+                    <IconButton 
+                        size="small"
+                        onClick={(e) => {
+                        e.stopPropagation(); // Prevent tab switch on click
+                        copyLink(5);
                         }}
                         sx={{ ml: 1 }} // Add left margin for spacing
                     >
@@ -198,11 +213,6 @@ export default function MiscTabs() {
             <TabPanel value={subTab} index={1}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Rouxer Youtube Channels</Typography>
-                    <ul>
-                    <li>
-                        TODO
-                    </li>
-                    </ul>
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
@@ -268,6 +278,71 @@ export default function MiscTabs() {
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={4}>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">Example Solves</Typography>
+                    <ul>
+                    <li>
+                        Kian's Example Solves:{" "}
+                        <Link href="https://www.youtube.com/playlist?list=PLBHocHmPzgIjAxbZuzs1cWGLqCxykhOyz" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Guroux's Example Solves:{" "}
+                        <Link href="https://youtube.com/playlist?list=PLXiPs1z2Pwm5QPrtqB5J5rJ2DH6tbBU8T&si=8LbiD3iBycB9pIGZ" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        CriticalCubing's Example Solves:{" "}
+                        <Link href="https://www.youtube.com/playlist?list=PLqatB_kou3Nb9afWaL7ZJyP_5PhiU0Bf7" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Anto's OH Example Solves:{" "}
+                        <Link href="https://www.youtube.com/watch?v=V6KIVvStcQY" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Kangaroux's Example Solves:{" "}
+                        <Link href="https://www.youtube.com/playlist?list=PL_rFXDH_hdudEspzR7g_DITZOzj47WFyO" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Onionhoney FB+dr Example Solves:{" "}
+                        <Link href="https://www.youtube.com/watch?v=PTGK37AL50E" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Example Solves Archive:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1XfbJ7zC_GRNjeLxmcUX_lyGmNhLqb-coG8Jl94UGOGA/edit?fbclid=IwAR1txVyIkGt4KhylUAwdURpkxUz7XJLxEm6oCXeTegtkKp1UIS32qvu1KJE&gid=0#gid=0" target="_blank" rel="noopener">
+                        Google Sheets
+                        </Link>
+                    </li>
+                    </ul>
+
+                    <Typography variant="h6">Reconstructions</Typography>
+                    <ul>
+                    <li>
+                        Roux Reconstruction Database:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/16OiJavT44OOGgxPjxk8sJ4NvTnfqM8oz2miVH0rB3bs/edit?gid=320848681#gid=320848681" target="_blank" rel="noopener">
+                        Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Anto's Reconstructions:{" "}
+                        <Link href="https://www.reddit.com/r/rouxles/" target="_blank" rel="noopener">
+                        Reddit
+                        </Link>
+                    </li>
+                    </ul>
+                </Box>
+            </TabPanel>
+            <TabPanel value={subTab} index={5}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Roux Acronyms and Definitions</Typography>
                     <ul>

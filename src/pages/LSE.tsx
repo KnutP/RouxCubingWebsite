@@ -217,6 +217,12 @@ export default function LSETabs() {
                         EOLRb Trainer - onionhoney
                         </Link>
                     </li>
+                    <li>
+                        EOLRb Trainer:{" "}
+                        <Link href="https://enbyne.tech/tools/EOLRb" target="_blank" rel="noopener">
+                        EOLRb Trainer - enbyne
+                        </Link>
+                    </li>
                     </ul>
                 </Box>
             </TabPanel>

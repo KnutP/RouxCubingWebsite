@@ -243,6 +243,12 @@ export default function F2BTabs() {
               CEOR Wiki Page
               </Link>
           </li>
+          <li>
+              Edde's CEOR trainer:{" "}
+              <Link href="https://edde.github.io/CEORtrainer/" target="_blank" rel="noopener">
+              CEOR trainer
+              </Link>
+          </li>
           </ul>
         </Box>
       </TabPanel>
