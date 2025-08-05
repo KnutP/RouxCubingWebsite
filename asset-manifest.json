@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c0c1ae41.css",
-    "main.js": "/static/js/main.1a769947.js",
-    "static/media/roux_worlds_2025.jpg": "/static/media/roux_worlds_2025.669c296381cc7afb5e1c.jpg",
+    "main.js": "/static/js/main.904cd479.js",
+    "static/media/roux_worlds_2025.jpg": "/static/media/roux_worlds_2025.f84cc6ef977615bbfa3e.jpg",
     "static/media/roux_worlds_2023.jpg": "/static/media/roux_worlds_2023.bc18ff851dc825d7c935.jpg",
     "static/media/roux_euros_2024.jpg": "/static/media/roux_euros_2024.6e35b8f022692c33ef5d.jpg",
     "static/media/roux_worlds_2019.jpg": "/static/media/roux_worlds_2019.a7cc5e7fd6de387befd1.jpg",
@@ -15,10 +15,10 @@
     "static/media/beginnerTutorial.md": "/static/media/beginnerTutorial.b7cee7235a35a8c70630.md",
     "index.html": "/index.html",
     "main.c0c1ae41.css.map": "/static/css/main.c0c1ae41.css.map",
-    "main.1a769947.js.map": "/static/js/main.1a769947.js.map"
+    "main.904cd479.js.map": "/static/js/main.904cd479.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c1ae41.css",
-    "static/js/main.1a769947.js"
+    "static/js/main.904cd479.js"
   ]
 }
