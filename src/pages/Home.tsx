@@ -14,7 +14,7 @@ import Slider from 'react-slick';
 export default function Home() {
 
     const carousel_slides = [
-    { src: require('../img/roux_worlds_2025.jpg'), caption: 'Worlds 2019 Roux Group Photo' },
+    { src: require('../img/roux_worlds_2025.jpg'), caption: 'Worlds 2025 Roux Group Photo' },
     { src: require('../img/roux_worlds_2023.jpg'), caption: 'Worlds 2023 Roux Group Photo' },
     { src: require('../img/roux_euros_2024.jpg'), caption: 'Euros 2024 Roux Group Photo' },
     { src: require('../img/roux_worlds_2019.jpg'), caption: 'Worlds 2019 Roux Group Photo' },

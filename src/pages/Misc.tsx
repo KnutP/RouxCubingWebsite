@@ -214,6 +214,218 @@ export default function MiscTabs() {
                 <Box sx={{ width: tabWidth, padding: 2 }}>
                     <Typography variant="h6">Rouxer Youtube Channels</Typography>
                 </Box>
+                <ul>
+                    <li>
+                        Abhijeet Ghodgaonkar:{" "}
+                        <Link href="https://www.youtube.com/@abhijeetghodgaonkar" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Akash Sreedharan:{" "}
+                        <Link href="https://www.youtube.com/@akashsreedharan" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Alexey Tsvetkov:{" "}
+                        <Link href="https://www.youtube.com/@alexeytsvetkov6526" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Anto Kam:{" "}
+                        <Link href="https://www.youtube.com/@Rouxles" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        CriticalCubing:{" "}
+                        <Link href="https://www.youtube.com/@criticalcubing" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Dwyane Ramos:{" "}
+                        <Link href="https://www.youtube.com/@dwyaneramos4208" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Dylan Govic:{" "}
+                        <Link href="https://www.youtube.com/@dylangovic" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Eden Robinson-Rechavi:{" "}
+                        <Link href="https://www.youtube.com/@EdenRobinson-Rechavi" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Eff:{" "}
+                        <Link href="https://www.youtube.com/@effperm" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Fahmi Aulia Rachman:{" "}
+                        <Link href="https://www.youtube.com/@Fommy-Cubing" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Fouzan Zayn:{" "}
+                        <Link href="https://youtube.com/@fouzanzayn" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Hamish Bassig:{" "}
+                        <Link href="https://www.youtube.com/@hamishbassig" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Iuri Grangeiro:{" "}
+                        <Link href="https://www.youtube.com/@iurigrang" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Jose Briggs (Shadowslice):{" "}
+                        <Link href="https://www.youtube.com/@Shadowslice" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Joshua Marais:{" "}
+                        <Link href="https://youtube.com/@joshuamaraisstuff" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Jihu Mun:{" "}
+                        <Link href="https://www.youtube.com/@jihu1011" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Kangaroux:{" "}
+                        <Link href="https://www.youtube.com/@TheBrutux168" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Kavin Tangtartharakul (Guroux):{" "}
+                        <Link href="https://www.youtube.com/@guroux" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Kian Mansour:{" "}
+                        <Link href="https://www.youtube.com/@Kian_Mansour" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Knut Peterson:{" "}
+                        <Link href="https://www.youtube.com/@KnutPeterson" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Kymo Hendriks:{" "}
+                        <Link href="https://www.youtube.com/@kyh148" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Louis de Mendonça (TDM):{" "}
+                        <Link href="https://www.youtube.com/@TDM028" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Magnus Lensch:{" "}
+                        <Link href="https://www.youtube.com/@magnuslensch" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        MOG Cubing:{" "}
+                        <Link href="https://www.youtube.com/@MOGCubing" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Nicholas Archer:{" "}
+                        <Link href="https://www.youtube.com/@nicholas4093" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Rayyan Ali:{" "}
+                        <Link href="https://youtube.com/@r0ubiks" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Richard Peng:{" "}
+                        <Link href="https://youtube.com/@notrichardpeng" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Ruel Franz :{" "}
+                        <Link href="https://www.youtube.com/@trianglescube" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Sean Patrick Villanueva:{" "}
+                        <Link href="https://www.youtube.com/@SeanVillCubing" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Shawn Boucké (SpeedCubeReview):{" "}
+                        <Link href="https://www.youtube.com/@SpeedCubeReview" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Takumi Kato:{" "}
+                        <Link href="https://www.youtube.com/@_wilwil" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Teri McAcy:{" "}
+                        <Link href="https://www.youtube.com/@teriww" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Tyler Gee:{" "}
+                        <Link href="https://youtube.com/@concavecuber3053" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Viljo Elo:{" "}
+                        <Link href="https://www.youtube.com/@ViljoElo" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Zhouheng Sun:{" "}
+                        <Link href="https://www.youtube.com/@onionhoney1" target="_blank" rel="noopener">
+                        YouTube
+                        </Link>
+                    </li>
+                    </ul>
             </TabPanel>
             <TabPanel value={subTab} index={2}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
