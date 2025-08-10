@@ -49,7 +49,7 @@ export default function Home() {
                                     What is Roux?
                                 </Typography>
                                 <Typography gutterBottom>
-                                    Roux is a Rubik's cube speedsolving method invented by Gilles Roux, and is based on Blockbuilding and Corners First methods. 
+                                    Roux is a Rubik's cube speedsolving method invented by Gilles Roux, and is based on blockbuilding and the Corners First method. 
                                     Some quick info about the method:
                                 </Typography>
                                 <Typography gutterBottom sx={{ml: '15px', mb: '0px' }}>
