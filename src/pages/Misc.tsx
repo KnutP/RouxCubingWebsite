@@ -299,7 +299,7 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
-                            José Briggs (Shadowslice):{" "}
+                            Joe Briggs (Shadowslice):{" "}
                             <Link href="https://www.youtube.com/@Shadowslice" target="_blank" rel="noopener">
                             YouTube
                             </Link>
