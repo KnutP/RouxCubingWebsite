@@ -269,6 +269,12 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
+                            Elijah La Porte:{" "}
+                            <Link href="https://www.youtube.com/@ElijahLaPorte347" target="_blank" rel="noopener">
+                            YouTube
+                            </Link>
+                        </li>
+                        <li>
                             Fahmi Aulia Rachman:{" "}
                             <Link href="https://www.youtube.com/@Fommy-Cubing" target="_blank" rel="noopener">
                             YouTube
@@ -293,7 +299,7 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
-                            Jose Briggs (Shadowslice):{" "}
+                            José Briggs (Shadowslice):{" "}
                             <Link href="https://www.youtube.com/@Shadowslice" target="_blank" rel="noopener">
                             YouTube
                             </Link>
@@ -377,7 +383,7 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
-                            Ruel Franz :{" "}
+                            Reuel Franz :{" "}
                             <Link href="https://www.youtube.com/@trianglescube" target="_blank" rel="noopener">
                             YouTube
                             </Link>
