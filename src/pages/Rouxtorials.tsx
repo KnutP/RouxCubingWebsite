@@ -108,6 +108,12 @@ export default function Rouxtorials() {
                         Roux tutorial - rubiks.fandom.com
                         </Link>
                     </li>
+                    <li>
+                        Trevor Scheopner's Tutorial:{" "}
+                        <Link href="https://www.scheopner.com/cube/index.php" target="_blank" rel="noopener">
+                        Roux tutorial - scheopner.com
+                        </Link>
+                    </li>
                 </ul>
 
                 {/* <ReactMarkdown rehypePlugins={[rehypeRaw]}>{beginnerMarkdown}</ReactMarkdown> */}

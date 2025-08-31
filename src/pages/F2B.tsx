@@ -232,6 +232,12 @@ export default function F2BTabs() {
               </Link>
           </li>
           <li>
+              CP Roux:{" "}
+              <Link href="https://docs.google.com/spreadsheets/d/1JTHl4hlsvxWD9bOW8EJQQwMKfhwuipw1IXYVtKcvhe8/edit?usp=sharing" target="_blank" rel="noopener">
+              Edde's CP Roux Sheet
+              </Link>
+          </li>
+          <li>
               CPFB:{" "}
               <Link href="https://devagio.github.io/YruRU/index.html" target="_blank" rel="noopener">
               YruRU CPFB

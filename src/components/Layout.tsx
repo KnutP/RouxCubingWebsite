@@ -24,6 +24,9 @@ export default function Layout() {
         </Link>{' '}
         {new Date().getFullYear()}
       </Typography>
+      <Typography variant="body2" color="text.secondary" align="center">
+        Feedback or suggestions? DM me on Discord! (@_knut_)
+      </Typography>
       </Box>
     );
   }
