@@ -245,6 +245,12 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
+                            Doyul Kim:{" "}
+                            <Link href="https://youtube.com/@doyulkim2491" target="_blank" rel="noopener">
+                            YouTube
+                            </Link>
+                        </li>
+                        <li>
                             Dwyane Ramos:{" "}
                             <Link href="https://www.youtube.com/@dwyaneramos4208" target="_blank" rel="noopener">
                             YouTube
@@ -295,6 +301,12 @@ export default function MiscTabs() {
                         <li>
                             Iuri Grangeiro:{" "}
                             <Link href="https://www.youtube.com/@iurigrang" target="_blank" rel="noopener">
+                            YouTube
+                            </Link>
+                        </li>
+                        <li>
+                            Jasper Murray:{" "}
+                            <Link href="https://www.youtube.com/@jmurraynz" target="_blank" rel="noopener">
                             YouTube
                             </Link>
                         </li>
