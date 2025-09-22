@@ -1,9 +1,9 @@
-## Weekly Competition #549 
+## Weekly Competition #550 
  
  This weekly competition is proudly sponsored by SpeedCubeShop.com 
  One competitor will be selected at random to receive a $5 SCS gift card! 
  
- Congrats to last week's winner by a random draw: **Dylan Govic**. DM me for the prize. 
+ Congrats to last week's winner by a random draw: **Josher**. DM me for the prize. 
  
  Check whether or not you participated this week yet at [https://bit.ly/RMSWeeklyCompSummary](https://bit.ly/RMSWeeklyCompSummary)  
  
@@ -17,29 +17,31 @@
  7. The comp runs until Sunday 5pm Eastern time (more or less). Enter your times using the forms links below. 
  
 ### 3x3: [Submission Form](https://forms.gle/H5xoCWvGKnZ92fQt8) 
- 1. D2 R2 D' B2 U R2 F2 L2 U2 R2 D' L2 R F U' B2 R2 U2 R F2 U 
- 2. U R2 F2 L' R2 F2 U2 R' F2 D2 L B2 R2 B D' F L' F L' R' F' 
- 3. L' D R' U' B L U' D' L2 F U2 R2 F L2 U2 B U2 B2 L2 F' R 
- 4. R U F2 D2 U2 R2 B' D2 U2 L2 F R2 F R' U F' D2 F L F2 D' 
- 5. L2 R2 U F2 U' L2 D2 B2 D' B2 R2 D2 L B D L' R' U' L2 D' L 
+ 1. L R2 U' L2 D F2 U' B2 L2 B2 F2 R' B' U F' R2 D2 B2 F' U 
+ 2. U L' B D' L' B2 U R2 D2 F2 R2 D2 B2 R U2 F2 L2 
+ 3. D' F R2 B2 D2 R2 B' L2 U2 L2 D2 B D' F2 R U' L R F L2 
+ 4. R' D' B' R2 F2 D' L' B' U' B2 R' F2 L2 F2 D2 L U2 L U2 B2 
+ 5. R D2 L2 D2 F' L2 B U2 R2 B L2 F D B' L' D U F D' B' 
  
 ### OH: [Submission Form](https://forms.gle/UgRLW3K1d5KkMGfM9) 
- 1. U F2 R2 F' D2 B F2 L2 R2 U2 B' U2 L D F2 R' D B R 
- 2. L2 U' F2 R2 D' F2 D' R2 D L R U' B F' D2 U2 L' D' 
- 3. B' D2 U2 F L2 B' D2 R2 F2 U2 B' L D' F L R U R D2 B' L2 
- 4. L' B L2 U2 R2 U2 B2 U2 F' D2 L2 B R2 L' D L' U' B L2 U2 B2 
- 5. U F2 R D R2 U2 F2 R2 U F2 R2 F2 U2 B L' D' F R2 B2 L' 
+ 1. L' U2 R U2 L' U2 F2 L' D2 U2 L' B2 U' B L' B' D R' B F' 
+ 2. D2 B D2 F U2 R2 B R2 D2 F2 R' B' D R' U' L B2 R D' F2 
+ 3. R2 B U2 B L2 B R2 B' R2 F L2 B2 D B U' R U F' L' F2 U 
+ 4. F2 B2 U2 R2 B' R F U F2 B2 R2 B2 L' U2 R' U2 F2 L2 B2 L2 B' 
+ 5. B2 U' D' F' B' D' F' B2 L R2 F' U2 L2 F' D2 F R2 B L2 D2 F2 
  
 ### FMC: [Submission Form](https://forms.gle/1P9VUgZmA1pibwvL9) 
- 1. R' U' F U2 F2 U2 L' D2 R2 F2 L2 F2 U2 R' D' L' B D U2 R' U2 R2 F' R' U' F 
+ 1. R' U' F U' L2 F2 L' F R2 D R L2 D2 B L2 D2 F' B' U2 F R2 U R' U' F 
  
 ### 4x4: [Submission Form](https://forms.gle/bHNjncvEcPvFWBP2A) 
- 1. D' L' F' D L' U' L' U' R2 B2 L2 U' F2 D L2 B2 D2 F' D Uw2 L' F' Rw2 Fw2 R2 B L F U2 R2 Fw2 R' Uw L2 Uw' F' B2 Uw' Fw' Rw' U F' R' L2 D2 
- 2. L2 F2 D2 B2 U2 L2 F2 B R2 L2 F' U L2 D R' L B D2 L' U' B2 Fw2 R' B2 R Rw2 Uw2 L2 B L Rw2 Uw' R' B Fw2 L2 F2 D' Rw' U Fw L2 Rw2 B 
- 3. B' R2 F' R2 B L2 F R2 F L2 F' D L F' B2 L B R2 D' L Uw2 B R2 Uw2 Fw2 R U2 Fw2 R2 B Rw2 B' Uw Fw2 U Rw2 F Fw' Uw' R Fw' Rw' Uw' L2 
- 4. L' D2 F' D' R F2 B2 D' R' B' R2 D' B2 L2 D2 B2 L2 D F2 L2 Fw2 Rw2 F2 D Fw2 D' R F2 L' Uw2 L Rw2 D2 F U2 F2 L' Rw' Fw2 Uw R Fw' R D2 
- 5. R U2 R' D2 R F2 U2 L B2 R2 U2 F L2 U' R' L B' U' L D2 B Fw2 U R' Rw2 U F2 R Uw2 L' U' Uw2 L F' Fw' L D' L2 F2 B' Rw' Fw' L2 Fw Uw L' Fw2 
+ 1. D2 F' B2 U' L' B U' L U2 L' F2 B2 L B2 U2 R2 D2 L2 U L2 Fw2 R U' Uw2 Rw2 B2 D2 L' D2 Rw2 B2 L Fw R F' Fw2 U' Rw' Fw D2 R2 U' Fw2 U' 
+ 2. R2 F2 R F2 R2 U2 L U2 F2 B2 R' F B L' B' L' F U R Uw2 Fw2 L' F' R U2 L2 Fw2 R U2 R' B' D F Uw Fw2 D Rw' F' Uw' B' L2 Fw L' F' 
+ 3. L2 D R2 B2 D B2 R2 U' F2 L2 U L F R U R' F2 B L Rw2 D' L Uw2 B2 L' F2 U2 B2 U' Fw D2 B2 R D Rw' Fw' D B U F2 R2 Rw' 
+ 4. F' U2 L' B2 L U2 R' D2 R U2 L2 F2 B2 D B' L2 B' U' R' B U2 Uw2 F2 B Fw2 Uw2 R' F' L' Rw2 B R2 F' Uw' L D Uw R2 F2 Fw' R2 U' Rw2 Uw Fw U' 
+ 5. L2 U' F2 U' B2 U' R2 D' R2 U' L B' U L B2 U2 R L' Rw2 U' F Uw2 B2 D2 Rw2 F2 D F D' Rw' D' Rw2 U2 F2 D2 Uw' L Rw U2 L Uw' F' 
  
 ### Winning FMC solutions from last week: 
- 1. chang, 34 moves: [SOLUTION](https://bit.ly/46DN4IE)
+ 1. chang, 29 moves: [SOLUTION](https://bit.ly/47NVU7M) 
+ 2. coraleap, 33 moves: [SOLUTION](https://bit.ly/46dYzXc) 
+ 3. Dylan Govic, 41 moves: [SOLUTION](https://bit.ly/46xOnry) 
  
