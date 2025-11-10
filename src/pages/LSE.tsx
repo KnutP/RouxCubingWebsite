@@ -287,6 +287,12 @@ export default function LSETabs() {
                         </Link>
                     </li>
                     <li>
+                        DFDB Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?app=desktop&v=bHJ3KqDIQs8" target="_blank" rel="noopener">
+                        John Mark Grimes' DFDB Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
                         BU Guide:{" "}
                         <Link href="https://www.reddit.com/r/Cubers/comments/69rubn/made_a_roux_4c_cycle_bu_recog_guide/" target="_blank" rel="noopener">
                         Alex's BU Guide - Reddit
@@ -295,13 +301,13 @@ export default function LSETabs() {
                     <li>
                         EZ4c Tutorial:{" "}
                         <Link href="https://www.youtube.com/watch?v=pWCTCA9ZM-A" target="_blank" rel="noopener">
-                        GodCubing's EZ4c Tutorial - YouTube
+                        John Mark Grimes' EZ4c Tutorial (old)- YouTube
                         </Link>
                     </li>
                     <li>
                         BU Diagram:{" "}
                         <Link href="https://drive.google.com/file/d/1Z_oF4Sv1A9YvTzHFD78wp_kGHGmO4Hrm/view" target="_blank" rel="noopener">
-                        GodCubing's EZ4c Diagram- Google Drive
+                        John Mark Grimes' EZ4c Diagram- Google Drive
                         </Link>
                     </li>
                     </ul>

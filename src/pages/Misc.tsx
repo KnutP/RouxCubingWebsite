@@ -239,6 +239,12 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
+                            Cordelia:{" "}
+                            <Link href="https://www.youtube.com/@coraleap" target="_blank" rel="noopener">
+                            YouTube
+                            </Link>
+                        </li>
+                        <li>
                             CriticalCubing:{" "}
                             <Link href="https://www.youtube.com/@criticalcubing" target="_blank" rel="noopener">
                             YouTube

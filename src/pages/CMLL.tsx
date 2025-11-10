@@ -321,8 +321,14 @@ export default function CMLLTabs() {
                     </li>
                     <li>
                         ACMLL Algs:{" "}
-                        <Link href="https://docs.google.com/spreadsheets/d/1z3GGqY9_J4124mWYgYjH_QuwaqMiGVB1WHxL8IemVeU/edit#gid=933355716" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/spreadsheets/d/1z3GGqY9_J4124mWYgYjH_QuwaqMiGVB1WHxL8IemVeU" target="_blank" rel="noopener">
                         ACMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        TCMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1ucLxYATDLN82UuJuEaDLFuKhaVHlKUaqicId2_LNISA" target="_blank" rel="noopener">
+                        franz + cordelia + tyler + alavaro's TCMLL Algs - Google Docs
                         </Link>
                     </li>
                     <li>
