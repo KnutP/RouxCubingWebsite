@@ -1,9 +1,9 @@
-## Weekly Competition #554 
+## Weekly Competition #557 
  
  This weekly competition is proudly sponsored by SpeedCubeShop.com 
  One competitor will be selected at random to receive a $5 SCS gift card! 
  
- Congrats to last week's winner by a random draw: **Jeremy Loh Kai Choong**. DM me for the prize. 
+ Congrats to last week's winner by a random draw: **akash **. DM me for the prize. 
  
  Check whether or not you participated this week yet at [https://bit.ly/RMSWeeklyCompSummary](https://bit.ly/RMSWeeklyCompSummary)  
  
@@ -17,31 +17,31 @@
  7. The comp runs until Sunday 5pm Eastern time (more or less). Enter your times using the forms links below. 
  
 ### 3x3: [Submission Form](https://forms.gle/H5xoCWvGKnZ92fQt8) 
- 1. U' L' F R2 U2 D' R F R2 U2 D2 B' D2 F D2 B2 L2 F U' F2 
- 2. R D2 R D2 L' B2 U2 R B2 R D B' F2 R D2 U F R' B' R 
- 3. D2 R' F L2 U2 L2 D2 R2 F U2 B' D2 B' R U' L' R B2 F' U' B2 
- 4. F U' F2 D' R2 D U2 R2 D2 R2 U' B2 U2 F' D2 L' U R B D' 
- 5. F R' F L U B' R L2 D2 F2 D2 F' R2 U2 F R2 F' U2 F2 
+ 1. R B R F' R2 L' B2 U R2 F U2 L2 U2 L2 F D2 F L2 D2 F 
+ 2. B2 U R2 B2 F2 R2 B2 U R' U2 R' B2 F L' B U F U2 
+ 3. F' U L2 U' B2 U R' U L2 F B U2 F L2 F' B2 R2 L2 U2 F2 
+ 4. F L F L' B U' D B2 R2 U2 R2 D2 B2 R F2 U2 R2 D' R2 
+ 5. D2 R2 B' D2 L2 U L' D2 L2 D2 F' U2 B D2 F2 U2 F' U' F 
  
 ### OH: [Submission Form](https://forms.gle/UgRLW3K1d5KkMGfM9) 
- 1. R2 B2 D2 F2 D' F2 L2 D' U' B2 U2 F' L U2 R' D R2 F2 D' F2 L' 
- 2. R U2 B2 D' B2 F2 D B2 F2 R2 U2 L R' B' L' B D2 B' R2 U2 
- 3. F' B' R U' F' L B R' L2 F' U' R2 F2 D2 R2 D R2 F2 D' B2 D' 
- 4. B D2 L2 F2 R2 F' R2 B L2 F2 U F' R' F2 U B' U' R2 U' 
- 5. U' R U R2 D2 F' D B R2 B2 U2 B' L2 D2 F' L2 D2 F R' B 
+ 1. B' L2 B2 L2 U' R2 B2 F2 D F2 U L U F2 R2 U' B2 F' 
+ 2. D' F L F B U2 R2 F U' D2 R2 B2 R' D2 R' F2 R D2 L2 B2 
+ 3. L B' R2 D' F L' D L' U L2 U L2 U L2 U R2 L2 F2 D2 R 
+ 4. R F L F' L' U' L' U2 F' D2 R2 F' R2 U2 B' R2 B2 L B 
+ 5. F2 R L2 D B2 D' B2 F2 U2 L2 U' F2 U B U2 B L' F' D2 B' U 
  
 ### FMC: [Submission Form](https://forms.gle/1P9VUgZmA1pibwvL9) 
- 1. R' U' F B D' B2 L' F2 L2 D' L' U2 F2 U2 B' D2 L2 F' U2 L2 F U2 B' U' R' U' F 
+ 1. R' U' F B' D L2 B2 U' B2 F2 D U2 F2 D' R2 L U' B2 U' R' B' D' F' R' U' F 
  
 ### 4x4: [Submission Form](https://forms.gle/bHNjncvEcPvFWBP2A) 
- 1. U' L2 B' U2 B' L2 F' U2 F2 L2 U2 F2 R' F' B2 R2 D B' R' D2 Uw2 Rw2 D' Rw2 Fw2 D Uw2 R U' Rw2 F D2 Fw' D2 R Uw B2 U' L Uw2 Rw' D2 R 
- 2. B' L' D' L U B' U2 B2 L U2 L2 B' L2 F D2 F' U2 B' U2 B Uw2 Fw2 D Uw2 B' D2 B2 L2 Fw2 D' F Fw2 Rw' D R' Rw2 F2 Uw' R2 Uw Rw' F2 Fw D 
- 3. F' L F2 D B' U' R2 B' R L' B2 R D2 R U2 L' D2 F2 U2 L' B Fw2 D2 R' Rw2 Fw2 Rw2 B Uw2 R' B D2 R' F Uw B Rw2 B' L D' Fw' Rw' B2 Rw2 F2 Fw 
- 4. F' U R2 D2 R2 D2 F U2 F2 R2 B L2 F' L2 U' B D B2 R' L' U2 Uw2 Rw2 F2 R Uw2 F R' Rw2 B' R2 F L Uw' F' U F2 L Uw2 Rw B' Uw' Rw' Uw2 L Rw2 
- 5. D F2 B' R2 D2 R' F2 U2 L D2 R' U' D2 L' D F B' D R' U' Rw2 U' R2 L' Rw2 U Uw2 R' U2 L2 U Rw2 Fw R2 Uw2 F' U' Uw2 Rw' B' Uw' B2 L Uw2 
+ 1. F' L2 B2 L' U2 R U2 D2 F2 R' D2 L2 U' D2 B U F' R' B2 U D2 Rw2 B D2 L' B' Uw2 Fw2 R' U2 Uw2 R2 F' R Uw R L2 U' Uw2 B2 Rw' Fw Rw' U L Rw2 
+ 2. U2 R B2 L U2 L U2 L2 D2 F2 D' F' D' B' U' D' R' F' L Rw2 F' Uw2 R2 L2 F L' F Rw2 D2 B Fw2 R Uw B' Fw2 L' D Rw' Fw' R Uw2 Rw2 Fw' Uw' 
+ 3. L2 F2 U2 F' R2 D2 F D2 F2 U2 D' F2 R D' F2 D B2 L B2 Rw2 F2 Uw2 L D2 F2 U Fw2 D F2 Fw2 L' Fw' D2 Fw2 R2 F2 Fw' Uw' R' Fw' Uw B' R' D 
+ 4. U' R F2 D2 R2 F2 R2 U2 F R2 U2 F2 U2 B2 R' F' L' D R B2 U' Rw2 B' U' F D' R2 Rw2 F' U' Uw2 B2 U2 Rw' D L' B U Rw Uw' F' D' Fw' R Fw' R' 
+ 5. U R2 L' F R2 F' D2 B2 R2 B R2 F U2 B2 R' F' B2 R L2 U' R2 Rw2 Fw2 U' R F2 L' Fw2 L' B2 D B2 R2 Fw' Rw2 U D2 F' Fw Rw' U' F Uw' Rw U2 Fw 
  
 ### Winning FMC solutions from last week: 
- 1. chang, 32 moves: [SOLUTION](http://bit.ly/478hzXA) 
- 2. gerard, 33 moves: [SOLUTION](http://bit.ly/3L6xD3y) 
- 3. Asif A., 39 moves: [SOLUTION](http://bit.ly/4o7sJ4G) 
+ 1. notsevilz, 27 moves: [SOLUTION](https://bit.ly/3JOQ4cx)
+ 2. akash , 29 moves: [SOLUTION](https://bit.ly/4nMI0Hh)
+ 3. chang, 32 moves: [SOLUTION](https://bit.ly/4oX97QP)
  
