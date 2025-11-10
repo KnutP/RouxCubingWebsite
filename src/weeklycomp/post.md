@@ -3,7 +3,7 @@
  This weekly competition is proudly sponsored by SpeedCubeShop.com 
  One competitor will be selected at random to receive a $5 SCS gift card! 
  
- Congrats to last week's winner by a random draw: **akash **. DM me for the prize. 
+ Congrats to last week's winner by a random draw: **akash**. DM me for the prize. 
  
  Check whether or not you participated this week yet at [https://bit.ly/RMSWeeklyCompSummary](https://bit.ly/RMSWeeklyCompSummary)  
  
@@ -42,6 +42,6 @@
  
 ### Winning FMC solutions from last week: 
  1. notsevilz, 27 moves: [SOLUTION](https://bit.ly/3JOQ4cx)
- 2. akash , 29 moves: [SOLUTION](https://bit.ly/4nMI0Hh)
+ 2. akash, 29 moves: [SOLUTION](https://bit.ly/4nMI0Hh)
  3. chang, 32 moves: [SOLUTION](https://bit.ly/4oX97QP)
  
