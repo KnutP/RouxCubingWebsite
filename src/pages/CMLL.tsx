@@ -328,13 +328,19 @@ export default function CMLLTabs() {
                     <li>
                         TCMLL:{" "}
                         <Link href="https://docs.google.com/spreadsheets/d/1ucLxYATDLN82UuJuEaDLFuKhaVHlKUaqicId2_LNISA" target="_blank" rel="noopener">
-                        franz + cordelia + tyler + alavaro's TCMLL Algs - Google Docs
+                        franz + cordelia + tyler + alavaro's TCMLL Algs - Google Sheets
                         </Link>
                     </li>
                     <li>
                         TCMLL:{" "}
                         <Link href="https://docs.google.com/document/d/10wenyuYdJhJd70lka0m01SdCK1OK2OgHGuaPCFMCQc4/edit?tab=t.0" target="_blank" rel="noopener">
                         Montu's TCMLL Algs - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        TCMLL:{" "}
+                        <Link href="https://www.dropbox.com/scl/fi/q9rx51ex5p8so2mrn7xxx/tcmll-1a-compilation-full.mp4?rlkey=ce2rok823r3hwmbu8e8l0afz1&e=1&st=jp38qn6q&dl=0" target="_blank" rel="noopener">
+                        Cordelia's TCMLL 1a Execution - Dropbox
                         </Link>
                     </li>
                     <li>

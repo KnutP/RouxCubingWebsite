@@ -54,7 +54,7 @@ export default function Rouxtorials() {
                 <Typography variant="h4">Video Tutorials</Typography>
                 <ul>
                 <li>
-                    <Link href="" target="_blank" rel="noopener">
+                    <Link href="https://www.youtube.com/playlist?list=PLBHocHmPzgIjnAbNLHDycgaCP5IqiwnU9" target="_blank" rel="noopener">
                     Kian's Beginner Roux Tutorial - YouTube
                     </Link>
                 </li>
