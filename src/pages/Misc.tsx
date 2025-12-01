@@ -239,7 +239,7 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
-                            Cordelia:{" "}
+                            Cordelia Hu:{" "}
                             <Link href="https://www.youtube.com/@coraleap" target="_blank" rel="noopener">
                             YouTube
                             </Link>
