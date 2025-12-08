@@ -1,4 +1,4 @@
-## Weekly Competition #560 
+## Weekly Competition #561
  
  This weekly competition is proudly sponsored by SpeedCubeShop.com 
  One competitor will be selected at random to receive a $5 SCS gift card! 
