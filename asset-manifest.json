@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.c0c1ae41.css",
-    "main.js": "/static/js/main.7ded86fc.js",
+    "main.js": "/static/js/main.9bc93aed.js",
     "static/media/roux_worlds_2025.jpg": "/static/media/roux_worlds_2025.f84cc6ef977615bbfa3e.jpg",
     "static/media/roux_worlds_2023.jpg": "/static/media/roux_worlds_2023.bc18ff851dc825d7c935.jpg",
     "static/media/roux_euros_2024.jpg": "/static/media/roux_euros_2024.6e35b8f022692c33ef5d.jpg",
     "static/media/roux_worlds_2019.jpg": "/static/media/roux_worlds_2019.a7cc5e7fd6de387befd1.jpg",
-    "static/media/results.png": "/static/media/results.456b35e8726c89badc6d.png",
+    "static/media/results.png": "/static/media/results.f9503efabf5a127f6690.png",
     "static/media/beginnerTutorial.md": "/static/media/beginnerTutorial.f58b936e9321d5104273.md",
-    "static/media/post.md": "/static/media/post.7082a2cb3477318ec833.md",
+    "static/media/post.md": "/static/media/post.bada8edc4dfd4b78baeb.md",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c0c1ae41.css.map": "/static/css/main.c0c1ae41.css.map",
-    "main.7ded86fc.js.map": "/static/js/main.7ded86fc.js.map"
+    "main.9bc93aed.js.map": "/static/js/main.9bc93aed.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c1ae41.css",
-    "static/js/main.7ded86fc.js"
+    "static/js/main.9bc93aed.js"
   ]
 }
