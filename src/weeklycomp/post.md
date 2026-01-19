@@ -1,9 +1,9 @@
-## Weekly Competition #566 
+## Weekly Competition #567 
  
 This weekly competition is proudly sponsored by SpeedCubeShop.com 
 One competitor will be selected at random to receive a $5 SCS gift card! 
  
-Congrats to last week's winner by a random draw: **Noblion**. DM me for the prize. 
+Congrats to last week's winner by a random draw: **nathan**. DM me for the prize. 
  
 Check whether or not you participated this week yet at [https://bit.ly/RMSWeeklyCompSummary](https://bit.ly/RMSWeeklyCompSummary)  
  
@@ -17,31 +17,28 @@ Check whether or not you participated this week yet at [https://bit.ly/RMSWeekly
  7. The comp runs until Sunday 5pm Eastern time (more or less). Enter your times using the forms links below. 
  
 ### 3x3: [Submission Form](https://forms.gle/H5xoCWvGKnZ92fQt8) 
- 1. F' D R2 U' B2 R2 D L2 U R2 D F2 R B2 U B D2 L2 U' F 
- 2. L U2 B' F2 R2 D F2 L2 D' B2 R2 D U R' F L' D' R2 U' B 
- 3. U2 B2 D2 L' F2 R' U2 R' D2 L F D' F2 L B2 D2 B R' F' U' 
- 4. R' U' F2 L2 U' R2 U' B2 U' B2 U' F2 R2 B' R U R' D' R B L' 
- 5. U2 B' D2 L2 U2 B' D2 F2 U2 R2 B' U' L B F2 R2 U F' R B 
+ 1. L2 R' D2 L' D2 B2 L' D2 B2 F2 U' B' R F2 L F' U B' L2 
+ 2. L U2 F2 D L2 R2 F2 L2 U R2 D B2 R2 B U2 F' L2 R U2 B2 D 
+ 3. F' U L' F B' U' D R B D2 B2 R L B2 U2 L' B2 R' U2 R 
+ 4. R2 D F2 L' B' R2 U2 D' L F L2 U2 B D2 F' B' U2 L2 F R2 
+ 5. B2 D R' B R' F' D' R2 F' R2 U2 D2 B D2 R2 F2 R2 B' D2 L B' 
  
 ### OH: [Submission Form](https://forms.gle/UgRLW3K1d5KkMGfM9) 
- 1. F2 U2 B2 U' B2 D B D R U2 L2 U2 F' R2 F' U2 B' U2 F L2 
- 2. B2 U' L2 D' B2 R2 B2 L2 U R2 F2 D R' U B D R D F2 U2 
- 3. R F' D' L' B U2 F D' L U2 F2 B2 U L2 U2 D' R2 D2 F2 R2 
- 4. F' L' U' R D R B' U' R F2 D2 R L F2 D2 R F2 B2 D2 
- 5. R2 D2 U' B2 U L2 U R2 U' B2 F2 R2 B L' F2 U B' F2 R' D' 
+ 1. B U2 F R' F2 L2 D F2 R2 D2 F L2 F2 U2 F U2 F R2 F' L' 
+ 2. L' R2 D2 F' D2 U2 F D2 U2 R2 F' U2 D' B2 L F' U2 R F D2 
+ 3. F2 U2 F' L2 B L2 R2 F2 L2 F' U2 D F L U' L' F2 L' R' B' R2 
+ 4. D2 B2 D' L2 R2 D2 R2 U' F2 L2 B L2 F2 D L R2 D2 U L' R2 
+ 5. B2 L' B L D' R' F U2 L' D2 F2 L2 F2 R2 D R2 U B2 D' F2 B2 
  
 ### FMC: [Submission Form](https://forms.gle/1P9VUgZmA1pibwvL9) 
- 1. R' U' F B F R2 D2 R2 B R2 U2 F D2 F R' D' F L F R B2 D R2 B2 R' U' F 
+ 1. R' U' F R' F2 D2 R D2 L R2 U2 B2 R' D L' B' D' F L D B F' R' U' F 
  
 ### 4x4: [Submission Form](https://forms.gle/bHNjncvEcPvFWBP2A) 
- 1. B' D' F L' U2 L2 D2 B2 L2 B2 U2 B' D B R' L U D2 Uw2 Rw2 F U2 F' Rw2 F' R' U2 Fw2 L' Rw2 U' Uw B D' F' U Uw2 Fw Rw U2 D Fw' Rw2 Uw2 
- 2. B2 R2 U2 B2 R2 U R2 U L2 D' B2 D' B' R2 L F U2 D F' U2 R Uw2 Fw2 R F' R2 F2 Uw2 F' R' L' F R2 Uw' Fw2 Uw R2 U L Rw' F Uw Rw2 B D' B2 
- 3. L2 D2 R' D2 R' B2 L B2 R' U2 F2 R2 U F' R F2 R' L2 F B' U' Fw2 R' F R2 L' Rw2 Fw2 R Uw2 Rw2 F' D B' Uw' R2 U R' Rw U Fw Uw' L Uw2 B 
- 4. L F' U' D' R' F L D B' L2 B D2 B R2 F2 R2 U2 F D2 L U' Uw2 R' Rw2 Fw2 Uw2 F' B' D2 R D2 F' Uw2 L U Uw' B2 Rw' B2 Rw' U L2 Uw' Fw L2 
- 5. D' R2 U' B2 U2 F2 L2 B2 D R2 D' L' B' U F U' F L2 D' L Fw2 D L Uw2 F2 D2 R U L' Rw2 Fw' Rw2 Fw' L2 B U B' R Rw' Uw F' Fw2 Rw' 
+ 1. L2 U F D2 B2 R' U2 F2 D2 L2 U2 B2 R L2 U' R2 D2 F2 B' R' L Uw2 L U Rw2 D2 Fw2 D L Rw2 B2 U' Fw2 R2 Fw' Rw2 F2 B D' L2 Rw' D2 Fw' Uw' L2 U R' 
+ 2. F' L' D2 B2 U2 D2 R F2 U2 R2 D2 R2 L2 F' R' F B' R F D' Uw2 Rw2 Uw2 L' D' L D2 L U2 Rw2 Fw2 R' D' Fw L2 B2 Uw' L Fw U Fw Uw B U2 
+ 3. D' R B L F U F' L2 F2 U D R2 D L2 F2 U B U Fw2 Uw2 B Uw2 F' Uw2 R' U2 B R2 B2 L D2 Uw Fw2 U F2 D2 B2 Rw' Uw2 Fw' D' Rw2 B Rw 
+ 4. F2 R2 B' U2 F2 D2 R2 U2 L2 F R' L2 F' L' F' D2 B2 U' B D B2 Rw2 B Fw2 D R2 B2 D2 Uw2 Rw2 D' B Rw2 D L Rw' B' R L2 U Rw' Uw' Fw' U Rw' Uw L2 
+ 5. D2 F' B2 D2 L B2 R' U2 L' D2 R2 L' F2 L2 D' L D R2 L2 F D' Rw2 F' D' B2 D2 Rw2 D' Fw2 U2 Fw2 L2 B' Rw' F2 Uw2 B2 Fw D' F' Uw' Fw D F2 
  
 ### Winning FMC solutions from last week: 
- 1. Jonzl, 29 moves: [SOLUTION](https://bit.ly/4b01BRL) 
- 1. Knut, 29 moves: [SOLUTION](https://bit.ly/45Ptvw6) 
- 3. Alex Maass, 35 moves: [SOLUTION](https://bit.ly/3LFOP0g) 
- 
+ 1. Knut, 36 moves: [SOLUTION](https://bit.ly/49E3vF7)
