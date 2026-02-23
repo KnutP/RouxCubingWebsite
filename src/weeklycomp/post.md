@@ -40,6 +40,6 @@ Check whether or not you participated this week yet at [https://bit.ly/RMSWeekly
  5. F2 U F2 L' U' B2 R2 L F' U2 B2 R' L2 U2 L B2 R B2 Fw2 R Uw2 B' Rw2 B2 L' Uw2 B' R2 F' B' Uw' F' R2 D' Rw2 Fw' D L2 Uw Rw' Uw2 Fw 
  
 ### Winning FMC solutions from last week: 
- 1. Louis, 32 moves: [SOLUTION](SOLUTION LINK) 
- 2. Teri McAcy, 32 moves: [SOLUTION](SOLUTION LINK)
+ 1. Louis, 32 moves: [SOLUTION](https://bit.ly/4s7bdiN) 
+ 2. Teri McAcy, 32 moves: [SOLUTION](https://bit.ly/40nkXcG)
  
