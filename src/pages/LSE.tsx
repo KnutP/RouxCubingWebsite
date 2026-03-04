@@ -179,6 +179,12 @@ export default function LSETabs() {
                         </Link>
                     </li>
                     <li>
+                        EOLR Tutorial:{" "}
+                        <Link href="https://youtube.com/playlist?list=PLn0ZYJiGQcT-MMtDB67YGoV8T6JQNbhgh&si=mLr7HNmAqQa6IrdS" target="_blank" rel="noopener">
+                        John Mark's Full EOLR Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
                         Bas's EOLR Cheatsheet:{" "}
                         <Link href="https://basilio.dev/cubing/images/ALGS-EOLR.jpg" target="_blank" rel="noopener">
                         EOLR cheatsheet - basilio.dev/cubing

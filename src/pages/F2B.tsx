@@ -128,6 +128,12 @@ export default function F2BTabs() {
               </Link>
           </li>
           <li>
+              Shadowslice's Block Frameworks:{" "}
+              <Link href="https://docs.google.com/document/d/1JPLt7uJmPr6sn__4jJxvWsiVTiaexGm1vt95mRtN-6I" target="_blank" rel="noopener">
+              Frameworks: a structured approach to blocks - Google Docs
+              </Link>
+          </li>
+          <li>
               Blockbuilding:{" "}
               <Link href="https://www.youtube.com/watch?v=b9rNvrVUsv0" target="_blank" rel="noopener">
               Critical Cubing's First Block Tips - YouTube
@@ -192,6 +198,12 @@ export default function F2BTabs() {
               Second Block Last Slot Algs:{" "}
               <Link href="https://speedcubedb.com/a/3x3/SBLS" target="_blank" rel="noopener">
               SCDB SB Last Slot Algs - SCDB
+              </Link>
+          </li>
+          <li>
+              Azusa's OH SBLP Guide:{" "}
+              <Link href="https://drive.google.com/file/d/1MeXeYMFU0OQKWMfHJk1Joa3R4qOFK4c4/view" target="_blank" rel="noopener">
+              OH SBLP Guide - Google Drive PDF
               </Link>
           </li>
           <li>

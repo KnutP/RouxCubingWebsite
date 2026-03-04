@@ -171,24 +171,30 @@ export default function CMLLTabs() {
                     <ul>
                     <li>
                         eff's 2H CMLL (embedded above):{" "}
-                        <Link href="https://docs.google.com/spreadsheets/d/1uMmjhGZzPCxPPODiU-N7juNagW6QYh2HKSFpF7XB42A/edit#gid=1409661599" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/spreadsheets/d/1uMmjhGZzPCxPPODiU-N7juNagW6QYh2HKSFpF7XB42A" target="_blank" rel="noopener">
                         eff's 2H CMLL List - Google Sheets
                         </Link>
                     </li>
                     <li>
                         Anto's 2H CMLL:{" "}
-                        <Link href="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI/edit#gid=1409661599" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/spreadsheets/d/1uc5V3G-kRH3qV5b6Lq1yzTjnqSMS3D3dZcsCIOiJqcI" target="_blank" rel="noopener">
                         Anto's 2H CMLL List - Google Sheets
                         </Link>
                     </li>
                     <li>
                         Teri's 2H CMLL:{" "}
-                        <Link href="https://docs.google.com/spreadsheets/d/1sGeA4uf-f_hB4Ox7gCybm40SFy_e86_C7vP5LuD7WlE/edit#gid=1288079263" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/spreadsheets/d/1sGeA4uf-f_hB4Ox7gCybm40SFy_e86_C7vP5LuD7WlE" target="_blank" rel="noopener">
                         Teri's 2H CMLL - Google Sheets
                         </Link>
                     </li>
                     <li>
-                        Flamepelt's 2H CMLLs:{" "}
+                        John Mark's 2H CMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1T94xPQU6-bIXUpT0GbdVNFLbpryEgXEmeJcI77SejEk" target="_blank" rel="noopener">
+                        John Mark's 2H CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Flamepelt's 2H CMLL Video:{" "}
                         <Link href="https://www.youtube.com/watch?v=xHvPxLlfbzQ" target="_blank" rel="noopener">
                         Roux Method: The Best CMLL Algorithms and Fingertricks - YouTube
                         </Link>
@@ -222,9 +228,9 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
-                        Sevilz OH CMLL:{" "}
+                        Sevilz' OH CMLL:{" "}
                         <Link href="https://docs.google.com/spreadsheets/d/13B4247VUgoPhPsoEKktQVHsxiPFGuzAOmAXTxc-IsiY/edit" target="_blank" rel="noopener">
-                        Sevilz OH CMLL - Google Sheets
+                        Sevilz' OH CMLL - Google Sheets
                         </Link>
                     </li>
                     <li>
@@ -240,6 +246,23 @@ export default function CMLLTabs() {
                 <Box sx={{ width: tabWidth }}>
                     <ResponsiveIframe src="https://docs.google.com/spreadsheets/d/1pful9u4oOiB2mzqICBZYJyHWF2VzTaRoha9fq8R8oTw/edit?usp=sharing?widget=true&amp;rm=minimal&amp;headers=false" />    
                 </Box>
+                <Box sx={{ width: tabWidth, padding: 2 }}>
+                    <Typography variant="h6">2-Look CMLL Sheets</Typography>
+                    <ul>
+                    <li>
+                        OH CMLL (embedded above):{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1pful9u4oOiB2mzqICBZYJyHWF2VzTaRoha9fq8R8oTw" target="_blank" rel="noopener">
+                        OH CMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        Derin's 1.5-Look CMLL:{" "}
+                        <Link href="https://docs.google.com/document/d/1YLIB3U-1UKNpTn-XiN-8VXmC8lQgeYgLyEpELgVCc1w" target="_blank" rel="noopener">
+                        1.5-Look CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    </ul>
+                </Box>
             </TabPanel>
             <TabPanel value={subTab} index={3}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
@@ -252,13 +275,19 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
-                        Multi-Angle CMLL Recognition:{" "}
+                        James Macdiarmid's Multi-Angle CMLL Recognition:{" "}
                         <Link href="https://www.youtube.com/watch?v=vwBR-N29t3k" target="_blank" rel="noopener">
                         James Macdiarmid's Better CP Recog - YouTube
                         </Link>
                     </li>
                     <li>
-                        Multi-Angle CMLL Recognition:{" "}
+                        John Mark's Multi-Angle CMLL Recognition:{" "}
+                        <Link href="https://youtube.com/playlist?list=PLn0ZYJiGQcT8qAf8-7g5WHqaA-Zke9ij0&si=epV0W--ZDoeOVFvw" target="_blank" rel="noopener">
+                        John Mark's Multi-Angle CMLL Recog - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Kian's Multi-Angle CMLL Recognition:{" "}
                         <Link href="https://www.youtube.com/watch?v=MKZ7JX-hW4g" target="_blank" rel="noopener">
                         Kian's Multi-Angle CMLL Recog - YouTube
                         </Link>
