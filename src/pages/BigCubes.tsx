@@ -137,6 +137,18 @@ export default function BigCubesTabs() {
                     <Typography variant="h6">M-Slice Edge Pairing</Typography>
                     <ul>
                     <li>
+                        M-Slice Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=glgDBb8sT4k" target="_blank" rel="noopener">
+                        3DegreeK's 5x5 M-slice tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Example Solves:{" "}
+                        <Link href="https://www.youtube.com/watch?v=PvScTZIxuBo" target="_blank" rel="noopener">
+                        3DegreeK's 5x5 M-slice example solve - YouTube
+                        </Link>
+                    </li>
+                    <li>
                         Example Solves:{" "}
                         <Link href="https://www.youtube.com/watch?v=UtxCyOa4-6A" target="_blank" rel="noopener">
                         Michal's 5x5 M-slice example solve - YouTube

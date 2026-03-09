@@ -192,19 +192,19 @@ export default function LSETabs() {
                     </li>
                     <li>
                         EOLR Doc:{" "}
-                        <Link href="https://docs.google.com/document/d/1dvGERLfN-0rVwN914HH1zRPHLfdM6d5rPfe0HxOMK08/edit#heading=h.phjfa966vtn)" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/document/d/1dvGERLfN-0rVwN914HH1zRPHLfdM6d5rPfe0HxOMK08" target="_blank" rel="noopener">
                         EOLR - Google Docs
                         </Link>
                     </li>
                     <li>
                         EOLR Algs(righty M):{" "}
-                        <Link href="https://docs.google.com/document/d/1CV3DEwIZYn0g4bnXDN6-2bxNpc7I0woFL1tnslhYQr4/edit" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/document/d/1CV3DEwIZYn0g4bnXDN6-2bxNpc7I0woFL1tnslhYQr4" target="_blank" rel="noopener">
                         TDM's full 2H EOLR (RH M moves) - Google Docs
                         </Link>
                     </li>
                     <li>
                         EOLR Algs(lefty M):{" "}
-                        <Link href="https://docs.google.com/document/d/15At5K7N1Yg1Qfh0_KZyUJZhBqLJVmXdPvLN1hmrRYoc/edit" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/document/d/15At5K7N1Yg1Qfh0_KZyUJZhBqLJVmXdPvLN1hmrRYoc" target="_blank" rel="noopener">
                         TDM's full 2H EOLR (LH M moves) - Google Docs
                         </Link>
                     </li>
@@ -213,8 +213,14 @@ export default function LSETabs() {
                     <ul>
                     <li>
                         EOLRb doc:{" "}
-                        <Link href="https://docs.google.com/document/d/1OQ7hcB06bYbr8eH9SLTW2W5tozk9_nJ5MzqNgxHOnUk/edit?tab=t.0" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/document/d/1OQ7hcB06bYbr8eH9SLTW2W5tozk9_nJ5MzqNgxHOnUk" target="_blank" rel="noopener">
                         EOLR & EOLRb - Google Docs
+                        </Link>
+                    </li>
+                    <li>
+                        PiKeeper's EOLRb doc:{" "}
+                        <Link href="https://docs.google.com/document/d/1svAgKNnvBMtAfZ_K_RL-7XcK1WlrgP3cP8ph907Zaq4" target="_blank" rel="noopener">
+                        EOLRb - Google Docs
                         </Link>
                     </li>
                     <li>
@@ -296,6 +302,12 @@ export default function LSETabs() {
                         DFDB Tutorial:{" "}
                         <Link href="https://www.youtube.com/watch?app=desktop&v=bHJ3KqDIQs8" target="_blank" rel="noopener">
                         John Mark Grimes' DFDB Tutorial - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        DFDB Tutorial:{" "}
+                        <Link href="https://www.youtube.com/watch?v=0j5E2frUGVw" target="_blank" rel="noopener">
+                        Richard Peng's DFDB Tutorial - YouTube
                         </Link>
                     </li>
                     <li>

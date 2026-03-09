@@ -73,6 +73,12 @@ export default function Rouxtorials() {
                 </Typography>
                 <ul>
                     <li>
+                        Noblion's Beginner Reference Sheet:{" "}
+                        <Link href="https://docs.google.com/document/d/12AC3GM32M9U1IGUvFjkTOH6pq2GDPtT-v_NJgz9a4zs/" target="_blank" rel="noopener">
+                        Beginner Reference Sheet - Google Docs
+                        </Link>
+                    </li>
+                    <li>
                         The Roux Reader (unfinished, but great content):{" "}
                         <Link href="https://book.rouxers.com/" target="_blank" rel="noopener">
                         Roux tutorial - book.rouxers.com

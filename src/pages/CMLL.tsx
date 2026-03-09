@@ -188,6 +188,12 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
+                        Sevilz's 2H CMLL:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1MCWLpopbQbQ5IW_g3m90keChY-q1jdx9w9yzSpQaGzY" target="_blank" rel="noopener">
+                        Sevilz's 2H CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
                         John Mark's 2H CMLL:{" "}
                         <Link href="https://docs.google.com/spreadsheets/d/1T94xPQU6-bIXUpT0GbdVNFLbpryEgXEmeJcI77SejEk" target="_blank" rel="noopener">
                         John Mark's 2H CMLL - Google Sheets
@@ -315,6 +321,12 @@ export default function CMLLTabs() {
                         Pinkie Pie Overview:{" "}
                         <Link href="https://www.youtube.com/watch?v=TPpZ-wzsZe4" target="_blank" rel="noopener">
                         Kian's Pinkie Pie Explanation - YouTube
+                        </Link>
+                    </li>
+                    <li>
+                        Sevilz's OLLCP Algs:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1jRng_UP6y8zqwbC1ptVqOlqk7FKq0AU_E6CJGLUUJmY" target="_blank" rel="noopener">
+                        OLLCP - Google Sheets
                         </Link>
                     </li>
                     <li>

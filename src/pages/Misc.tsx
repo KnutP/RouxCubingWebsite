@@ -413,6 +413,12 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
+                            Sevilz:{" "}
+                            <Link href="https://www.youtube.com/@sevilzww" target="_blank" rel="noopener">
+                            YouTube
+                            </Link>
+                        </li>
+                        <li>
                             Shawn Boucké (SpeedCubeReview):{" "}
                             <Link href="https://www.youtube.com/@SpeedCubeReview" target="_blank" rel="noopener">
                             YouTube
