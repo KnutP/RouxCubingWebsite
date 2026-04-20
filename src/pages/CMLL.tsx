@@ -200,6 +200,12 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
+                        Atlas' Roux Algorithms:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1Lbuks-O0WCwJmqdrkWzmBAmfUpNyvPu75rGlGnKyw6s" target="_blank" rel="noopener">
+                        Atlas' CMLL - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
                         Flamepelt's 2H CMLL Video:{" "}
                         <Link href="https://www.youtube.com/watch?v=xHvPxLlfbzQ" target="_blank" rel="noopener">
                         Roux Method: The Best CMLL Algorithms and Fingertricks - YouTube
@@ -311,6 +317,17 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     </ul>
+                    <Typography variant="h6">EO Prediction during CMLL</Typography>
+                    <ul>
+                        <li>
+                        Zhouheng's LSE EO Prediction:{" "}
+                        <Link href="https://www.youtube.com/watch?v=rlqXLsMgAvo" target="_blank" rel="noopener">
+                        A New Framework For Predicting LSE EO From CMLL - YouTube
+                        </Link>
+                    </li>
+                    </ul>
+
+                    
                 </Box>
             </TabPanel>
             <TabPanel value={subTab} index={4}>
@@ -388,6 +405,20 @@ export default function CMLLTabs() {
                         TCMLL +  Tyrannical Caterpillar Explanation:{" "}
                         <Link href="https://www.youtube.com/watch?v=nJhj1uhtRvw" target="_blank" rel="noopener">
                         Kian's TCMLL Explanation - YouTube
+                        </Link>
+                    </li>
+                    L5C: https://docs.google.com/spreadsheets/d/1ZL1U8cAuzgVXe9xDMtpfXk5PLvG0PpcKULKiPHIDLG0
+                    : 
+                    <li>
+                        L5C and SL5C:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1ZL1U8cAuzgVXe9xDMtpfXk5PLvG0PpcKULKiPHIDLG0" target="_blank" rel="noopener">
+                        L5C and SL5C Algs - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        CxLL:{" "}
+                        <Link href="https://www.speedsolving.com/wiki/index.php?title=Conjugated_CxLL" target="_blank" rel="noopener">
+                        CxLL - Speedsolving Wiki
                         </Link>
                     </li>
                     </ul>

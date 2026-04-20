@@ -148,18 +148,14 @@ export default function Roadmap() {
                         <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=0')}>
                           <ListItemText primary="Inspect FB+DR" />
                         </ListItemButton>
-                        <Divider variant="middle" component="li" />
-                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=2')}>
-                          <ListItemText primary="Nonlinear blockbuilding" />
-                        </ListItemButton>
-                        <Divider variant="middle" component="li" />
-                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=2')}>
-                          <ListItemText primary="Nonmatching centers" />
-                        </ListItemButton>
                       </List>
                     </TableCell>
                     <TableCell align="center" padding='none'>
                       <List dense>
+                        <ListItemButton onClick={() => window.open('')}>
+                          <ListItemText primary="SBLP" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
                         <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=1')}>
                           <ListItemText primary="Multi-inserts" />
                         </ListItemButton>
@@ -195,12 +191,66 @@ export default function Roadmap() {
 
                   <TableRow>
                     <TableCell component="th" scope="row">
-                      <Typography variant="h6" color="textSecondary" padding='none'>Advanced/Niche</Typography>
+                      <Typography variant="h6" color="textSecondary" padding='none'>Advanced</Typography>
                     </TableCell>
                     <TableCell align="center" padding='none'>
                       <List dense>
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=0')}>
+                          <ListItemText primary="Inspect FB+SS" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=2')}>
+                          <ListItemText primary="Nonlinear blockbuilding" />
+                        </ListItemButton>
+                      </List>
+                    </TableCell>
+                    <TableCell align="center" padding='none'>
+                      <List dense>
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=1')}>
+                          <ListItemText primary="SS Blockbuilding" />
+                        </ListItemButton>
+                      </List>
+                    </TableCell>
+                    <TableCell align="center" padding='none'>
+                      <List dense>
+                        <ListItemButton dense onClick={() => window.open('http://localhost:3000/#/rouxsources?mainTab=1&subTab=3')}>
+                          <ListItemText primary="CMLLEO" />
+                        </ListItemButton>
+                      </List>
+                    </TableCell>
+                    <TableCell align="center" padding='none'>
+                      <List dense>
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=0')}>
+                          <ListItemText primary="EOLRb" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=5')}>
+                          <ListItemText primary="4c Influencing" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=2')}>
+                          <ListItemText primary="ULUR/UFUB Neutrality" />
+                        </ListItemButton>
+                      </List>
+                    </TableCell>
+                  </TableRow>
+
+                  <TableRow>
+                    <TableCell component="th" scope="row">
+                      <Typography variant="h6" color="textSecondary" padding='none'>Niche</Typography>
+                    </TableCell>
+                    <TableCell align="center" padding='none'>
+                      <List dense>
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=0')}>
+                          <ListItemText primary="Inspect F2B" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
                         <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=2')}>
                           <ListItemText primary="CPFB" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=2')}>
+                          <ListItemText primary="Nonmatching centers" />
                         </ListItemButton>
                       </List>
                     </TableCell>
@@ -208,6 +258,10 @@ export default function Roadmap() {
                       <List dense>
                         <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=0&subTab=2')}>
                           <ListItemText primary="Non-matching blocks" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
+                        <ListItemButton onClick={() => window.open('')}>
+                          <ListItemText primary="SBLP+CO (after CPFB)" />
                         </ListItemButton>
                       </List>
                     </TableCell>
@@ -218,14 +272,18 @@ export default function Roadmap() {
                         </ListItemButton>
                         <Divider variant="middle" component="li" />
                         <ListItemButton dense onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=1&subTab=5')}>
-                          <ListItemText primary="ACMLL/NMCMLL/TCMLL" />
+                          <ListItemText primary="NMCMLL/42" />
+                        </ListItemButton>
+                        <Divider variant="middle" component="li" />
+                        <ListItemButton dense onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=1&subTab=5')}>
+                          <ListItemText primary="ACMLL/TCMLL/SCOR/SBC" />
                         </ListItemButton>
                       </List>
                     </TableCell>
                     <TableCell align="center" padding='none'>
                       <List dense>
-                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=0')}>
-                          <ListItemText primary="EOLRb" />
+                        <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=5')}>
+                          <ListItemText primary="Nautilus L5E" />
                         </ListItemButton>
                       </List>
                     </TableCell>

@@ -169,6 +169,12 @@ export default function F2BTabs() {
               Zhouheng's FB+DR Guide - Github
               </Link>
           </li>
+          <li>
+              Fahmi and Neo's SB Pair Inspection:{" "}
+              <Link href="https://docs.google.com/spreadsheets/d/16Ow0vWEFsGoPAGWD8LSUPrQ_L4BGskEa4gXBAnuGlvk" target="_blank" rel="noopener">
+              SB Pair Inspection - Google Sheets
+              </Link>
+          </li>
           </ul>
         </Box>
       </TabPanel>

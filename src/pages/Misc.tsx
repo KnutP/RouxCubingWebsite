@@ -233,7 +233,13 @@ export default function MiscTabs() {
                             </Link>
                         </li>
                         <li>
-                            Anto Kam:{" "}
+                            Alex (CubingWithAlex):{" "}
+                            <Link href="https://www.youtube.com/@CubingWithAlex" target="_blank" rel="noopener">
+                            YouTube
+                            </Link>
+                        </li>
+                        <li>
+                            Anto Kam (Rouxles):{" "}
                             <Link href="https://www.youtube.com/@Rouxles" target="_blank" rel="noopener">
                             YouTube
                             </Link>
@@ -579,6 +585,12 @@ export default function MiscTabs() {
                         Anto's Reconstructions:{" "}
                         <Link href="https://www.reddit.com/r/rouxles/" target="_blank" rel="noopener">
                         Reddit
+                        </Link>
+                    </li>
+                    <li>
+                        Eff's Smart Cube Ao100:{" "}
+                        <Link href="https://app.cubeast.com/public/share/oQfw8VwiRSwAU7MXcyYaj4" target="_blank" rel="noopener">
+                        Cubeast
                         </Link>
                     </li>
                     </ul>

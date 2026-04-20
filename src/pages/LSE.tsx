@@ -132,7 +132,7 @@ export default function LSETabs() {
                 }/>
                 <Tab component="span" label={
                     <Box sx={{ display: "flex", alignItems: "center", width: "100%" }}>
-                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Misc 4c</Box>
+                    <Box sx={{ flexGrow: 1, textAlign: "center" }}>Misc LSE</Box>
                     <IconButton 
                         size="small"
                         onClick={(e) => {
@@ -211,6 +211,13 @@ export default function LSETabs() {
                     </ul>
                     <Typography variant="h6">EOLRb</Typography>
                     <ul>
+                        
+                    <li>
+                        Viljo's EOLRb:{" "}
+                        <Link href="https://www.youtube.com/watch?v=sHcGR938EPE" target="_blank" rel="noopener">
+                        EOLRb Tutorial - YouTube
+                        </Link>
+                    </li>
                     <li>
                         EOLRb doc:{" "}
                         <Link href="https://docs.google.com/document/d/1OQ7hcB06bYbr8eH9SLTW2W5tozk9_nJ5MzqNgxHOnUk" target="_blank" rel="noopener">
@@ -358,7 +365,8 @@ export default function LSETabs() {
             </TabPanel>
             <TabPanel value={subTab} index={5}>
                 <Box sx={{ width: tabWidth, padding: 2 }}>
-                <Typography variant="h6">Misc 4c</Typography>
+                <Typography variant="h6">Other LSE</Typography>
+                    <Typography variant="h6">4c Influencing</Typography>
                     <ul>
                     <li>
                         LRb Backtracking:{" "}
@@ -370,6 +378,15 @@ export default function LSETabs() {
                         4c^3:{" "}
                         <Link href="https://www.youtube.com/watch?v=BpkkDfBrD9A" target="_blank" rel="noopener">
                         Dylan's 4c^3 - YouTube
+                        </Link>
+                    </li>
+                    </ul>
+                    <Typography variant="h6">Nautilus L5E</Typography>
+                    <ul>
+                    <li>
+                        L5e:{" "}
+                        <Link href="https://sites.google.com/view/nautilus-method/l5e?authuser=0" target="_blank" rel="noopener">
+                        Nautilus Method L5e - Google Sites
                         </Link>
                     </li>
                     </ul>
