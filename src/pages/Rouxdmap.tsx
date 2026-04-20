@@ -183,7 +183,7 @@ export default function Roadmap() {
                         </ListItemButton>
                         <Divider variant="middle" component="li" />
                         <ListItemButton onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=2&subTab=2')}>
-                          <ListItemText primary="Dots skipping/UFUB" />
+                          <ListItemText primary="Dots skipping" />
                         </ListItemButton>
                       </List>
                     </TableCell>
@@ -276,7 +276,7 @@ export default function Roadmap() {
                         </ListItemButton>
                         <Divider variant="middle" component="li" />
                         <ListItemButton dense onClick={() => window.open('https://rouxcubing.com/#/rouxsources?mainTab=1&subTab=5')}>
-                          <ListItemText primary="ACMLL/TCMLL/SCOR/SBC" />
+                          <ListItemText primary="ACMLL/TCMLL" />
                         </ListItemButton>
                       </List>
                     </TableCell>
