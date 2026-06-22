@@ -43,5 +43,5 @@ Check whether or not you participated this week yet at [https://bit.ly/RMSWeekly
  
 ### Winning FMC solutions from last week: 
  1. Fred, 36 moves: [SOLUTION](https://bit.ly/4eAjEOh) 
- 2. Gustavo P. Leite, 36 moves: [SOLUTION](https://bit.ly/4fZI9XK)
+ 1. Gustavo P. Leite, 36 moves: [SOLUTION](https://bit.ly/4fZI9XK)
  
