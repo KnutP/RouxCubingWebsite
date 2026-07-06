@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c0c1ae41.css",
-    "main.js": "/static/js/main.032d4fea.js",
+    "main.js": "/static/js/main.7013c5e3.js",
     "static/media/roux_worlds_2025.jpg": "/static/media/roux_worlds_2025.f84cc6ef977615bbfa3e.jpg",
-    "static/media/roux_nac_2026.jpg": "/static/media/roux_nac_2026.aac6b9d50eb4cb2a7edf.jpg",
     "static/media/roux_worlds_2023.jpg": "/static/media/roux_worlds_2023.bc18ff851dc825d7c935.jpg",
     "static/media/roux_euros_2024.jpg": "/static/media/roux_euros_2024.6e35b8f022692c33ef5d.jpg",
+    "static/media/roux_nac_2026.jpg": "/static/media/roux_nac_2026.ac32f4a8f7af167a2cda.jpg",
     "static/media/roux_worlds_2019.jpg": "/static/media/roux_worlds_2019.a7cc5e7fd6de387befd1.jpg",
     "static/media/results.png": "/static/media/results.1e4dbfd1833c1af728a3.png",
     "static/media/beginnerTutorial.md": "/static/media/beginnerTutorial.f58b936e9321d5104273.md",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c0c1ae41.css.map": "/static/css/main.c0c1ae41.css.map",
-    "main.032d4fea.js.map": "/static/js/main.032d4fea.js.map"
+    "main.7013c5e3.js.map": "/static/js/main.7013c5e3.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c1ae41.css",
-    "static/js/main.032d4fea.js"
+    "static/js/main.7013c5e3.js"
   ]
 }
