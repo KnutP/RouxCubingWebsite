@@ -548,6 +548,12 @@ export default function MiscTabs() {
                         </Link>
                     </li>
                     <li>
+                        Eff's Example Solves:{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1WvcXC7tXIxxnzPmsMBbV43SuVs33oaUW3LSDFzVAriQ/edit" target="_blank" rel="noopener">
+                        Google Sheets
+                        </Link>
+                    </li>
+                    <li>
                         Anto's OH Example Solves:{" "}
                         <Link href="https://www.youtube.com/watch?v=V6KIVvStcQY" target="_blank" rel="noopener">
                         YouTube
@@ -575,9 +581,15 @@ export default function MiscTabs() {
 
                     <Typography variant="h6">Reconstructions</Typography>
                     <ul>
+                        <li>
+                        Roux Reconstructions:{" "}
+                        <Link href="https://reco.nz/?sort=id_desc&Roux=on" target="_blank" rel="noopener">
+                        reco.nz
+                        </Link>
+                    </li>
                     <li>
                         Roux Reconstruction Database:{" "}
-                        <Link href="https://docs.google.com/spreadsheets/d/16OiJavT44OOGgxPjxk8sJ4NvTnfqM8oz2miVH0rB3bs/edit?gid=320848681#gid=320848681" target="_blank" rel="noopener">
+                        <Link href="https://docs.google.com/spreadsheets/d/16OiJavT44OOGgxPjxk8sJ4NvTnfqM8oz2miVH0rB3bs/edit" target="_blank" rel="noopener">
                         Google Sheets
                         </Link>
                     </li>

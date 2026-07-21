@@ -234,8 +234,14 @@ export default function CMLLTabs() {
                     <Typography variant="h6">OH CMLL Sheets</Typography>
                     <ul>
                     <li>
-                        OH CMLL (embedded above):{" "}
-                        <Link href="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit#gid=1409661599" target="_blank" rel="noopener">
+                        Anto's OH CMLL (embedded above):{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1WHnksK4yyv63sv3Es-PuKfnFRtZGafqp6rEuEfOx-cg/edit" target="_blank" rel="noopener">
+                        OH CMLL List - Google Sheets
+                        </Link>
+                    </li>
+                    <li>
+                        刘埃尔's Right-Handed OH CMLL (embedded above):{" "}
+                        <Link href="https://docs.google.com/spreadsheets/d/1n0RW9g889rg7Lk4xh1WpQlzwM-QtTgnz5O1Oj-WEXBs/edit" target="_blank" rel="noopener">
                         OH CMLL List - Google Sheets
                         </Link>
                     </li>
@@ -407,8 +413,6 @@ export default function CMLLTabs() {
                         Kian's TCMLL Explanation - YouTube
                         </Link>
                     </li>
-                    L5C: https://docs.google.com/spreadsheets/d/1ZL1U8cAuzgVXe9xDMtpfXk5PLvG0PpcKULKiPHIDLG0
-                    : 
                     <li>
                         L5C and SL5C:{" "}
                         <Link href="https://docs.google.com/spreadsheets/d/1ZL1U8cAuzgVXe9xDMtpfXk5PLvG0PpcKULKiPHIDLG0" target="_blank" rel="noopener">
