@@ -240,7 +240,7 @@ export default function CMLLTabs() {
                         </Link>
                     </li>
                     <li>
-                        刘埃尔's Right-Handed OH CMLL (embedded above):{" "}
+                        刘埃尔's Right-Handed OH CMLL:{" "}
                         <Link href="https://docs.google.com/spreadsheets/d/1n0RW9g889rg7Lk4xh1WpQlzwM-QtTgnz5O1Oj-WEXBs/edit" target="_blank" rel="noopener">
                         OH CMLL List - Google Sheets
                         </Link>
