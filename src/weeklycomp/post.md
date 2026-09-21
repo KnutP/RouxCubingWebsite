@@ -1,4 +1,4 @@
-## Weekly Competition #601 
+## Weekly Competition #602 
  
 Sponsored by SpeedCubeShop
 Shop here: [speedcubeshop.com/rouxcomp](https://speedcubeshop.com/rouxcomp)
