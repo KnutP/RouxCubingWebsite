@@ -1,10 +1,10 @@
-## Weekly Competition #603 
+## Weekly Competition #604 
  
 Sponsored by SpeedCubeShop
 Shop here: [speedcubeshop.com/rouxcomp](https://speedcubeshop.com/rouxcomp)
 Use code ROUX for 5% off
 
-One competitor will be selected at random to receive a $5 SCS gift card! Congrats to last week's winner by a random draw: **Maya**. DM me for the prize. 
+One competitor will be selected at random to receive a $5 SCS gift card! Congrats to last week's winner by a random draw: **Rauan B**. DM me for the prize. 
  
 Check whether or not you participated this week yet at [https://bit.ly/RMSWeeklyCompSummary](https://bit.ly/RMSWeeklyCompSummary)  
  
@@ -18,30 +18,30 @@ Check whether or not you participated this week yet at [https://bit.ly/RMSWeekly
  7. The comp runs until Sunday 5pm Eastern time (more or less). Enter your times using the forms links below. 
  
 ### 3x3: [Submission Form](https://forms.gle/H5xoCWvGKnZ92fQt8) 
- 1. L2 F2 U R2 U L2 B2 D L2 D2 F2 U' L U' F' R2 B D2 U2 R' D2 
- 2. F2 U' L2 U2 R2 D L2 U R2 D L2 R D U' L' U2 B' D' U2 L 
- 3. R' F' R U D' F B' U2 B' F2 L2 U2 R' F2 R B2 U2 R U2 R B2 
- 4. B U R2 U2 F2 R2 F2 D' B2 F2 R2 U2 B' L2 B D' U2 L' D' R2 
- 5. F' L2 D2 U2 B' L2 U2 B F' R2 F D B' L' R' D' L F' D2 B2 
+ 1. U2 L' U2 R2 D' B' L F' U2 D2 R U2 F2 B2 R B2 L2 D2 B2 R D 
+ 2. R2 B' L2 B' D2 B L2 D2 F D2 B R' D' B' U F2 R' U' B' L' F' 
+ 3. L2 D2 F2 D2 F2 U2 B' D2 F' L2 D' L U R' F U L' B2 U2 R2 
+ 4. L' F' D2 B U2 L2 F D2 F2 R2 U2 B' D' L2 F' L R U B F L 
+ 5. D2 B' D2 L2 F R2 B' F U2 F' D2 U' B2 R' B D2 F R' D F2 
  
 ### OH: [Submission Form](https://forms.gle/UgRLW3K1d5KkMGfM9) 
- 1. R D' R2 B2 F2 D' L2 D2 L2 B2 U' L2 R2 B' D' B F' D B2 F' R 
- 2. D2 F U' D2 B2 R U' F2 U2 F' L2 F2 B R2 U2 B D2 L2 D' L2 
- 3. F2 U2 L2 U' F2 U L2 B2 U' R2 B2 R' B F2 R U' L B' L D R' 
- 4. L2 U2 L2 D2 R U2 F2 R B2 F2 L2 D' R F2 U B2 F R' B U2 R 
- 5. U F' B' L' F2 U' R' U B2 L2 F' R2 L2 U2 L2 F' U2 F2 R 
+ 1. B D' L' D L' F2 L2 F' L' F2 R2 D R2 L2 F2 U F2 D' B2 U 
+ 2. U R D2 U2 R' B2 R' D2 U2 F2 R U2 L2 F L2 F' L D' B R2 U' 
+ 3. B2 U2 F2 L2 R' F2 U2 L D2 L' F R F2 D2 R' U F' D' 
+ 4. L' B' U' R U F2 D B' U D2 F2 R2 D L2 U2 B2 D L2 B 
+ 5. F2 R2 B2 L2 D' B2 D L2 U' R2 U2 R2 L' F D2 U2 B D' B F2 U2 
  
 ### FMC: [Submission Form](https://forms.gle/1P9VUgZmA1pibwvL9) 
- 1. R' U' F B U2 B2 U' F2 U2 F2 D2 U' F2 R2 F2 R' U2 B' L' D2 U L2 F' D' R' U' F 
+ 1. R' U' F R' U2 L' B2 L' F2 D2 U2 R B2 U B L F D B2 F D2 L R' U' F 
  
 ### 4x4: [Submission Form](https://forms.gle/bHNjncvEcPvFWBP2A) 
- 1. D F D' R U' R2 B R2 L2 F2 U L2 U' B2 U L2 F2 U' L' D2 Uw2 Rw2 U2 R' F B U2 R Fw2 D2 Uw2 F' Rw2 Uw F2 D2 L2 B' U Fw' Rw2 Uw Fw U' D' Rw' Uw2 
- 2. L2 B U2 R2 F2 R' L2 U2 R' F2 B2 U2 D L' D' B' U' D2 B' L' Uw2 Rw2 D R B2 L2 Uw2 R2 B2 U L' Fw D2 F' B Uw2 F' Rw Uw2 Rw2 Fw' R' U' Rw 
- 3. R F2 D2 F L2 F D2 F R2 U2 F U D2 F' U' L D' R' U' D2 Uw2 Rw2 B2 L2 Rw2 F2 U R' Rw2 F2 U B' U' Fw D' L Uw' B' R D Uw2 L F 
- 4. R2 U2 R' B2 R D2 B2 R U2 L' U2 L' F' U' F R2 U2 R' D L' F Uw2 R' Rw2 D' B2 Fw2 U' R2 F2 L U2 F2 B2 Fw' Rw2 D' B' R U2 Fw2 Rw' D2 F' R2 
- 5. R F' L D B2 D F2 U2 B2 D R2 D L2 F2 B L' D' B' R2 U' F' Rw2 U Rw2 B' Rw2 B2 Rw2 U2 F' Rw2 B' Rw D F Rw2 U L Fw' D Uw2 F' Fw' Rw F' 
+ 1. B2 R' F U2 F' R2 F D2 B U2 L2 F2 L' F' R' U' B' L U' R2 Uw2 F L' Fw2 Rw2 F2 R F2 Uw2 B L2 U2 B D' L2 Uw' R' Rw B' D' Rw2 Uw F L' Rw2 
+ 2. L2 F' L2 D2 F L2 F B R2 U2 B' U F D F D L D R' U2 B' Rw2 F2 D' Rw2 B Rw2 B2 U2 F2 U' Uw2 B Rw Uw2 R2 F L2 B2 R' Rw Uw' B2 Uw Rw D2 Fw 
+ 3. F' U2 R2 F D2 F' R2 F' D2 F2 R' U D2 L2 F B2 R U2 B2 Fw2 D Rw2 B' D2 B2 Rw2 U2 F' B2 R2 L2 F' Rw D2 L' Rw2 B2 Fw' R2 Uw' Rw' U2 Uw Fw 
+ 4. F2 U2 B2 L U2 L D2 F2 D2 R' U' D2 B2 L' B2 U D' B' R2 U Rw2 B' D2 R Uw2 R' Fw2 L Rw2 Uw2 F2 D2 R' Uw' B' U D R' F2 Rw Fw' R L Uw2 L 
+ 5. L D2 L U2 R U2 D' F U2 B' R2 U2 D2 B' L2 B' U2 F' L2 U' R Uw2 B Fw2 Rw2 F U' Fw2 U R2 Fw2 D2 L2 Rw' Fw2 R2 B' L2 Rw' U Fw' R' F2 B' D' Rw 
  
 ### Winning FMC solutions from last week: 
- 1. James T, 33 moves: [SOLUTION](https://bit.ly/47lniZb) 
- 2. Peter, 56 moves: [SOLUTION](https://bit.ly/4hsFEwd)
+ 1. kaiserreich1848, 28 moves: [SOLUTION](https://bit.ly/4ebWVss) 
+ 2. James T, 33 moves: [SOLUTION](https://bit.ly/4hCkVpD)
  
